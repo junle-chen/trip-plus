@@ -1,2 +1,2 @@
 # trip+
-coming soon!
+coming soon!()
