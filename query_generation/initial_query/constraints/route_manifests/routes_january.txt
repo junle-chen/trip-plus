@@ -1,0 +1,75 @@
+# January representative week: 2027-01-12 to 2027-01-18
+# Goal: stress-test winter comfort alignment.
+# Focus: severe cold north, dry cold northwest, cold + altitude, and warm escape destination.
+
+# Extreme cold / snow / short daylight
+2027-01-13 Beijing->Harbin
+2027-01-16 Harbin->Beijing
+2027-01-14 Beijing->Harbin
+2027-01-17 Harbin->Beijing
+
+# Dry cold northwest winter
+2027-01-13 Shanghai->Urumqi
+2027-01-16 Urumqi->Shanghai
+2027-01-14 Shanghai->Urumqi
+2027-01-17 Urumqi->Shanghai
+
+# Cold + altitude, should force lower-intensity first-day planning
+2027-01-14 Beijing->Lhasa
+2027-01-17 Lhasa->Beijing
+2027-01-15 Beijing->Lhasa
+2027-01-18 Lhasa->Beijing
+
+# Winter warm destination, should reward comfort-seeking planning
+2027-01-14 Nanjing->Sanya
+2027-01-17 Sanya->Nanjing
+2027-01-15 Nanjing->Sanya
+2027-01-18 Sanya->Nanjing
+
+# Warm south versus cold north contrast
+2027-01-13 Beijing->Shenzhen
+2027-01-16 Shenzhen->Beijing
+2027-01-15 Beijing->Shenzhen
+2027-01-18 Shenzhen->Beijing
+
+# Coastal winter comfort / humidity contrast
+2027-01-13 Shanghai->Hong Kong
+2027-01-16 Hong Kong->Shanghai
+2027-01-15 Shanghai->Hong Kong
+2027-01-18 Hong Kong->Shanghai
+
+# Winter escape to warm south from inland city
+2027-01-13 Nanning->Chongqing
+2027-01-16 Chongqing->Nanning
+2027-01-14 Nanning->Chongqing
+2027-01-17 Chongqing->Nanning
+
+# Winter move from humid south to cooler highland
+2027-01-13 Shenzhen->Xining
+2027-01-16 Xining->Shenzhen
+2027-01-14 Shenzhen->Xining
+2027-01-17 Xining->Shenzhen
+
+# Northeastern cold but slightly less extreme than Harbin
+2027-01-13 Nanjing->Shenyang
+2027-01-16 Shenyang->Nanjing
+2027-01-14 Nanjing->Shenyang
+2027-01-17 Shenyang->Nanjing
+
+# Winter regional contrast: east coast to inland northwest
+2027-01-14 Shanghai->Zhuhai
+2027-01-17 Zhuhai->Shanghai
+2027-01-15 Shanghai->Zhuhai
+2027-01-18 Zhuhai->Shanghai
+
+# Feasible multi-city loop in current flight graph
+# Current route inventory only supports one real 3-city closed flight loop.
+# In winter this loop is less extreme than Harbin/Sanya/Lhasa-style combinations,
+# but it still tests whether the model adapts to inland-vs-coastal comfort changes.
+2027-01-13 Nanchang->Chongqing
+2027-01-15 Chongqing->Xiamen
+2027-01-18 Xiamen->Nanchang
+
+2027-01-14 Nanchang->Xiamen
+2027-01-16 Xiamen->Chongqing
+2027-01-18 Chongqing->Nanchang

@@ -1,0 +1,73 @@
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Python bytecode and tool caches
+__pycache__/
+*.py[cod]
+*$py.class
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Local agent/editor metadata
+.agents/
+.codex/
+.vscode/
+.idea/
+.DS_Store
+.ipynb_checkpoints/
+
+# Runtime logs and generated outputs
+log/
+logs/
+result/
+results/
+output/
+outputs/
+tmp/
+temp/
+*.log
+
+# Generated reports and heavy local artifacts
+*.pdf
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+
+# Full local benchmark database. The repository keeps database_mini/ instead.
+database/
+
+# Human-readable query exports
+query/query_en/multiturn/query_570_turns.txt
+
+# Optional multi-turn split/group views; keep only query.json and query_raw.json
+query/query_en/multiturn/_index.json
+query/query_en/multiturn/items/
+query/query_en/multiturn/environment_driven_replanning/
+query/query_en/multiturn/long_horizon_alignment/
+query/query_en/multiturn/request_resolution/
+query/query_en/multiturn/user_state_evolution/
+
+# Optional single-turn benchmark data (not needed for multi-turn-only release)
+query/query_en/single/
+
+# User-simulation run artifacts
+simulation/**/manifest.json
+simulation/**/user_simulation_summary.json
+simulation/**/reports/
+simulation/**/results/
+simulation/**/logs/
+simulation/**/tmp/

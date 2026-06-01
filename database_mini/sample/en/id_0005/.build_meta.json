@@ -1,0 +1,13 @@
+{
+  "sample_id": "single_0005",
+  "language": "en",
+  "sample_signature": {
+    "org": "Beijing",
+    "dest": [
+      "Shenzhen"
+    ],
+    "depart_date": "2026-07-14",
+    "return_date": "2026-07-17",
+    "days": 4
+  }
+}

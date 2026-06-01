@@ -1,0 +1,50 @@
+[gMASK]<sop>
+{%- if tools -%}
+<|system|>
+# Available tools
+{% for tool in tools %}
+{%- set function = tool.function if tool.get("function") else tool %}
+
+## {{ function.name }}
+
+{{ function | tojson(indent=4) }}
+When calling the function above, represent the arguments as JSON.
+{%- endfor %}
+{%- endif -%}
+
+{%- for msg in messages %}
+{%- if msg.role == 'system' %}
+<|system|>
+{{ msg.content }}
+{%- endif %}
+{%- endfor %}
+
+{%- for message in messages if message.role != 'system' %}
+{%- set role = message['role'] %}
+{%- set content = message['content'] %}
+{%- set meta = message.get("metadata", "") %}
+
+{%- if role == 'user' %}
+<|user|>
+{{ content }}
+{%- elif role == 'assistant' and message.get('tool_calls') %}
+{%- for tool_call in message.tool_calls %}
+<|assistant|>{{ tool_call.function.name }}
+{%- set arguments = tool_call.function.arguments %}
+{{ arguments if arguments is string else arguments | tojson }}
+{%- endfor %}
+{%- elif role == 'assistant' and not meta %}
+<|assistant|>
+{{ content }}
+{%- elif role == 'assistant' and meta %}
+<|assistant|>{{ meta }}
+{{ content }}
+{%- elif role == 'tool' %}
+<|observation|>
+{{ content }}
+{%- elif role == 'observation' %}
+<|observation|>
+{{ content }}
+{%- endif %}
+{%- endfor %}
+{% if add_generation_prompt %}<|assistant|>{% endif %}

@@ -1,0 +1,1108 @@
+[
+  {
+    "persona_id": "P01",
+    "name": "Young Backpacker",
+    "weight": 12,
+    "observable_template": {
+      "party_composition": {
+        "adults": [
+          1,
+          2
+        ],
+        "children": [],
+        "elders": []
+      },
+      "budget_range": [
+        [
+          1500,
+          3500
+        ],
+        [
+          2000,
+          4000
+        ]
+      ],
+      "accommodation_style": [
+        "budget",
+        "comfort"
+      ],
+      "mobility_constraints": [
+        [],
+        [
+          "heat_sensitive"
+        ],
+        [
+          "cold_sensitive"
+        ]
+      ],
+      "physical_rules": [
+        [
+          "standard_walking"
+        ],
+        [
+          "long_walk_ok"
+        ]
+      ],
+      "schedule_rules": [
+        [
+          "moderate"
+        ],
+        [
+          "dense"
+        ]
+      ],
+      "interest_tags": [
+        [
+          "food",
+          "nature"
+        ],
+        [
+          "nature",
+          "park"
+        ],
+        [
+          "shopping",
+          "landmark"
+        ]
+      ],
+      "hate_tags": [
+        [
+          "overpacked_schedule",
+          "red_eye_transport"
+        ],
+        [
+          "expensive_meal"
+        ],
+        [
+          "long_local_transfer"
+        ]
+      ],
+      "transport_preferences": [
+        [
+          "prefer_direct"
+        ],
+        [
+          "avoid_red_eye",
+          "prefer_train"
+        ],
+        [
+          "prefer_flight",
+          "avoid_transfer"
+        ]
+      ],
+      "rest_preferences": [
+        [],
+        [
+          "late_start"
+        ]
+      ]
+    }
+  },
+  {
+    "persona_id": "P02",
+    "name": "Honeymoon Couple",
+    "weight": 8,
+    "observable_template": {
+      "party_composition": {
+        "adults": [
+          2
+        ],
+        "children": [],
+        "elders": []
+      },
+      "budget_range": [
+        [
+          4000,
+          8000
+        ],
+        [
+          5000,
+          10000
+        ]
+      ],
+      "accommodation_style": [
+        "comfort",
+        "luxury"
+      ],
+      "mobility_constraints": [
+        [],
+        [
+          "cold_sensitive"
+        ]
+      ],
+      "physical_rules": [
+        [
+          "standard_walking"
+        ]
+      ],
+      "schedule_rules": [
+        [
+          "relaxed"
+        ],
+        [
+          "moderate"
+        ]
+      ],
+      "interest_tags": [
+        [
+          "food",
+          "landmark"
+        ],
+        [
+          "nature",
+          "park"
+        ],
+        [
+          "shopping",
+          "art"
+        ]
+      ],
+      "hate_tags": [
+        [
+          "overpacked_schedule"
+        ],
+        [
+          "long_local_transfer"
+        ],
+        [
+          "red_eye_transport"
+        ]
+      ],
+      "transport_preferences": [
+        [
+          "prefer_direct",
+          "avoid_red_eye"
+        ],
+        [
+          "prefer_flight"
+        ],
+        [
+          "avoid_early_departure"
+        ]
+      ],
+      "rest_preferences": [
+        [
+          "late_start"
+        ],
+        [
+          "midday_rest"
+        ],
+        []
+      ]
+    }
+  },
+  {
+    "persona_id": "P03",
+    "name": "Three-Generation Family",
+    "weight": 13,
+    "observable_template": {
+      "party_composition": {
+        "adults": [
+          2,
+          3
+        ],
+        "children": [
+          {
+            "age": [
+              4,
+              8
+            ],
+            "note": [
+              "Gets tired easily",
+              "Gets sleepy in the afternoon"
+            ]
+          }
+        ],
+        "elders": [
+          {
+            "age": [
+              68,
+              78
+            ],
+            "mobility_note": [
+              "Bad knees and sensitive to cold",
+              "Legs get sore after walking for a long time"
+            ]
+          }
+        ]
+      },
+      "budget_range": [
+        [
+          4000,
+          9000
+        ],
+        [
+          5000,
+          11000
+        ]
+      ],
+      "accommodation_style": [
+        "comfort",
+        "luxury"
+      ],
+      "mobility_constraints": [
+        [
+          "knee_issue",
+          "cold_sensitive"
+        ],
+        [
+          "stroller"
+        ],
+        [
+          "knee_issue",
+          "heat_sensitive"
+        ]
+      ],
+      "physical_rules": [
+        [
+          "avoid_long_walk"
+        ]
+      ],
+      "schedule_rules": [
+        [
+          "relaxed"
+        ]
+      ],
+      "interest_tags": [
+        [
+          "history",
+          "food"
+        ],
+        [
+          "nature",
+          "park"
+        ],
+        [
+          "history",
+          "museum"
+        ]
+      ],
+      "hate_tags": [
+        [
+          "overpacked_schedule",
+          "long_local_transfer"
+        ],
+        [
+          "extreme_weather"
+        ],
+        [
+          "red_eye_transport"
+        ]
+      ],
+      "transport_preferences": [
+        [
+          "prefer_direct",
+          "avoid_red_eye"
+        ],
+        [
+          "prefer_train",
+          "avoid_transfer"
+        ],
+        [
+          "avoid_late_arrival"
+        ]
+      ],
+      "rest_preferences": [
+        [
+          "midday_rest",
+          "afternoon_low_intensity"
+        ],
+        [
+          "late_start"
+        ]
+      ]
+    }
+  },
+  {
+    "persona_id": "P04",
+    "name": "Family with Child",
+    "weight": 17,
+    "observable_template": {
+      "party_composition": {
+        "adults": [
+          2
+        ],
+        "children": [
+          {
+            "age": [
+              3,
+              10
+            ],
+            "note": [
+              "Needs a midday rest",
+              "Gets fussy after walking too long"
+            ]
+          }
+        ],
+        "elders": []
+      },
+      "budget_range": [
+        [
+          3000,
+          7000
+        ],
+        [
+          4000,
+          8500
+        ]
+      ],
+      "accommodation_style": [
+        "comfort"
+      ],
+      "mobility_constraints": [
+        [
+          "stroller"
+        ],
+        [
+          "heat_sensitive"
+        ],
+        []
+      ],
+      "physical_rules": [
+        [
+          "standard_walking"
+        ],
+        [
+          "avoid_long_walk"
+        ]
+      ],
+      "schedule_rules": [
+        [
+          "relaxed"
+        ],
+        [
+          "moderate"
+        ]
+      ],
+      "interest_tags": [
+        [
+          "nature",
+          "food"
+        ],
+        [
+          "history",
+          "shopping"
+        ],
+        [
+          "food",
+          "park"
+        ]
+      ],
+      "hate_tags": [
+        [
+          "long_local_transfer",
+          "overpacked_schedule"
+        ],
+        [
+          "extreme_weather"
+        ],
+        [
+          "expensive_meal"
+        ]
+      ],
+      "transport_preferences": [
+        [
+          "prefer_direct",
+          "avoid_red_eye"
+        ],
+        [
+          "prefer_train"
+        ],
+        [
+          "avoid_late_arrival"
+        ]
+      ],
+      "rest_preferences": [
+        [
+          "midday_rest",
+          "afternoon_low_intensity"
+        ],
+        [
+          "late_start"
+        ]
+      ]
+    }
+  },
+  {
+    "persona_id": "P05",
+    "name": "Slow-Paced Senior Traveler",
+    "weight": 9,
+    "observable_template": {
+      "party_composition": {
+        "adults": [
+          0,
+          1
+        ],
+        "children": [],
+        "elders": [
+          {
+            "age": [
+              60,
+              75
+            ],
+            "mobility_note": [
+              "Sensitive to cold",
+              "Does not want to feel rushed",
+              "Average mobility"
+            ]
+          }
+        ]
+      },
+      "budget_range": [
+        [
+          3000,
+          6500
+        ],
+        [
+          4000,
+          7500
+        ]
+      ],
+      "accommodation_style": [
+        "comfort",
+        "luxury"
+      ],
+      "mobility_constraints": [
+        [
+          "cold_sensitive"
+        ],
+        [
+          "knee_issue"
+        ],
+        [
+          "heat_sensitive"
+        ]
+      ],
+      "physical_rules": [
+        [
+          "avoid_long_walk"
+        ],
+        [
+          "standard_walking"
+        ]
+      ],
+      "schedule_rules": [
+        [
+          "relaxed"
+        ]
+      ],
+      "interest_tags": [
+        [
+          "history",
+          "food"
+        ],
+        [
+          "nature",
+          "park"
+        ],
+        [
+          "history",
+          "nature"
+        ],
+        [
+          "museum",
+          "nature"
+        ]
+      ],
+      "hate_tags": [
+        [
+          "overpacked_schedule",
+          "extreme_weather"
+        ],
+        [
+          "long_local_transfer"
+        ],
+        [
+          "red_eye_transport"
+        ]
+      ],
+      "transport_preferences": [
+        [
+          "prefer_direct",
+          "avoid_transfer"
+        ],
+        [
+          "avoid_early_departure",
+          "avoid_red_eye"
+        ],
+        [
+          "prefer_train"
+        ]
+      ],
+      "rest_preferences": [
+        [
+          "late_start"
+        ],
+        [
+          "midday_rest"
+        ],
+        [
+          "afternoon_low_intensity"
+        ]
+      ]
+    }
+  },
+  {
+    "persona_id": "P06",
+    "name": "Cultural Explorer",
+    "weight": 9,
+    "observable_template": {
+      "party_composition": {
+        "adults": [
+          1,
+          2
+        ],
+        "children": [],
+        "elders": []
+      },
+      "budget_range": [
+        [
+          2500,
+          6000
+        ],
+        [
+          3500,
+          7000
+        ]
+      ],
+      "accommodation_style": [
+        "comfort"
+      ],
+      "mobility_constraints": [
+        [],
+        [
+          "cold_sensitive"
+        ]
+      ],
+      "physical_rules": [
+        [
+          "standard_walking"
+        ],
+        [
+          "long_walk_ok"
+        ]
+      ],
+      "schedule_rules": [
+        [
+          "moderate"
+        ]
+      ],
+      "interest_tags": [
+        [
+          "history",
+          "food"
+        ],
+        [
+          "history",
+          "museum"
+        ],
+        [
+          "history",
+          "shopping"
+        ]
+      ],
+      "hate_tags": [
+        [
+          "long_local_transfer"
+        ],
+        [
+          "expensive_meal"
+        ],
+        [
+          "overpacked_schedule"
+        ]
+      ],
+      "transport_preferences": [
+        [
+          "prefer_direct"
+        ],
+        [
+          "avoid_red_eye"
+        ],
+        [
+          "prefer_train"
+        ]
+      ],
+      "rest_preferences": [
+        [],
+        [
+          "late_start"
+        ]
+      ]
+    }
+  },
+  {
+    "persona_id": "P07",
+    "name": "Budget Student Traveler",
+    "weight": 10,
+    "observable_template": {
+      "party_composition": {
+        "adults": [
+          1,
+          2,
+          3
+        ],
+        "children": [],
+        "elders": []
+      },
+      "budget_range": [
+        [
+          1000,
+          2500
+        ],
+        [
+          1500,
+          3000
+        ]
+      ],
+      "accommodation_style": [
+        "budget"
+      ],
+      "mobility_constraints": [
+        [],
+        [
+          "heat_sensitive"
+        ]
+      ],
+      "physical_rules": [
+        [
+          "standard_walking"
+        ],
+        [
+          "long_walk_ok"
+        ]
+      ],
+      "schedule_rules": [
+        [
+          "moderate"
+        ],
+        [
+          "dense"
+        ]
+      ],
+      "interest_tags": [
+        [
+          "food",
+          "shopping"
+        ],
+        [
+          "nature",
+          "park"
+        ],
+        [
+          "history",
+          "food"
+        ]
+      ],
+      "hate_tags": [
+        [
+          "expensive_meal"
+        ],
+        [
+          "long_local_transfer"
+        ],
+        [
+          "overpacked_schedule"
+        ]
+      ],
+      "transport_preferences": [
+        [
+          "prefer_train",
+          "avoid_transfer"
+        ],
+        [
+          "prefer_flight"
+        ],
+        [
+          "avoid_red_eye"
+        ]
+      ],
+      "rest_preferences": [
+        [],
+        [
+          "late_start"
+        ]
+      ]
+    }
+  },
+  {
+    "persona_id": "P08",
+    "name": "Business Traveler Extending the Trip",
+    "weight": 5,
+    "observable_template": {
+      "party_composition": {
+        "adults": [
+          1,
+          2
+        ],
+        "children": [],
+        "elders": []
+      },
+      "budget_range": [
+        [
+          4000,
+          9000
+        ],
+        [
+          5000,
+          11000
+        ]
+      ],
+      "accommodation_style": [
+        "comfort",
+        "luxury"
+      ],
+      "mobility_constraints": [
+        [],
+        [
+          "heat_sensitive"
+        ]
+      ],
+      "physical_rules": [
+        [
+          "standard_walking"
+        ]
+      ],
+      "schedule_rules": [
+        [
+          "relaxed"
+        ],
+        [
+          "moderate"
+        ]
+      ],
+      "interest_tags": [
+        [
+          "food",
+          "shopping"
+        ],
+        [
+          "history",
+          "food"
+        ],
+        [
+          "landmark",
+          "shopping"
+        ]
+      ],
+      "hate_tags": [
+        [
+          "long_local_transfer"
+        ],
+        [
+          "red_eye_transport"
+        ],
+        [
+          "overpacked_schedule"
+        ]
+      ],
+      "transport_preferences": [
+        [
+          "prefer_direct",
+          "avoid_red_eye"
+        ],
+        [
+          "prefer_flight",
+          "avoid_late_arrival"
+        ],
+        [
+          "prefer_direct",
+          "avoid_transfer"
+        ]
+      ],
+      "rest_preferences": [
+        [
+          "late_start"
+        ],
+        [],
+        [
+          "midday_rest"
+        ]
+      ]
+    }
+  },
+  {
+    "persona_id": "P09",
+    "name": "Food-First Traveler",
+    "weight": 5,
+    "observable_template": {
+      "party_composition": {
+        "adults": [
+          2,
+          3,
+          4
+        ],
+        "children": [],
+        "elders": []
+      },
+      "budget_range": [
+        [
+          2500,
+          5500
+        ],
+        [
+          3500,
+          7000
+        ]
+      ],
+      "accommodation_style": [
+        "budget",
+        "comfort"
+      ],
+      "mobility_constraints": [
+        [],
+        [
+          "heat_sensitive"
+        ]
+      ],
+      "physical_rules": [
+        [
+          "standard_walking"
+        ]
+      ],
+      "schedule_rules": [
+        [
+          "moderate"
+        ],
+        [
+          "relaxed"
+        ]
+      ],
+      "interest_tags": [
+        [
+          "food",
+          "shopping"
+        ],
+        [
+          "food",
+          "history"
+        ],
+        [
+          "food",
+          "park"
+        ]
+      ],
+      "hate_tags": [
+        [
+          "expensive_meal"
+        ],
+        [
+          "long_local_transfer"
+        ],
+        [
+          "overpacked_schedule"
+        ]
+      ],
+      "transport_preferences": [
+        [
+          "prefer_direct"
+        ],
+        [
+          "avoid_red_eye"
+        ],
+        [
+          "avoid_late_arrival"
+        ]
+      ],
+      "rest_preferences": [
+        [],
+        [
+          "midday_rest"
+        ],
+        [
+          "late_start"
+        ]
+      ]
+    }
+  },
+  {
+    "persona_id": "P10",
+    "name": "Nature Scenery Lover",
+    "weight": 6,
+    "observable_template": {
+      "party_composition": {
+        "adults": [
+          1,
+          2
+        ],
+        "children": [],
+        "elders": []
+      },
+      "budget_range": [
+        [
+          2500,
+          6000
+        ],
+        [
+          3500,
+          8000
+        ]
+      ],
+      "accommodation_style": [
+        "budget",
+        "comfort"
+      ],
+      "mobility_constraints": [
+        [],
+        [
+          "cold_sensitive"
+        ],
+        [
+          "heat_sensitive"
+        ]
+      ],
+      "physical_rules": [
+        [
+          "standard_walking"
+        ],
+        [
+          "long_walk_ok"
+        ]
+      ],
+      "schedule_rules": [
+        [
+          "moderate"
+        ],
+        [
+          "dense"
+        ]
+      ],
+      "interest_tags": [
+        [
+          "nature",
+          "park"
+        ],
+        [
+          "nature",
+          "history"
+        ],
+        [
+          "nature",
+          "food"
+        ]
+      ],
+      "hate_tags": [
+        [
+          "extreme_weather"
+        ],
+        [
+          "overpacked_schedule"
+        ],
+        [
+          "long_local_transfer"
+        ]
+      ],
+      "transport_preferences": [
+        [
+          "prefer_direct"
+        ],
+        [
+          "avoid_red_eye"
+        ],
+        [
+          "avoid_transfer"
+        ]
+      ],
+      "rest_preferences": [
+        [],
+        [
+          "late_start"
+        ]
+      ]
+    }
+  },
+  {
+    "persona_id": "P11",
+    "name": "Friend Group",
+    "weight": 6,
+    "observable_template": {
+      "party_composition": {
+        "adults": [
+          3,
+          4,
+          5
+        ],
+        "children": [],
+        "elders": []
+      },
+      "budget_range": [
+        [
+          2500,
+          6000
+        ],
+        [
+          3500,
+          8000
+        ]
+      ],
+      "accommodation_style": [
+        "budget",
+        "comfort"
+      ],
+      "mobility_constraints": [
+        [],
+        [
+          "heat_sensitive"
+        ]
+      ],
+      "physical_rules": [
+        [
+          "standard_walking"
+        ],
+        [
+          "long_walk_ok"
+        ]
+      ],
+      "schedule_rules": [
+        [
+          "moderate"
+        ],
+        [
+          "dense"
+        ]
+      ],
+      "interest_tags": [
+        [
+          "food",
+          "shopping"
+        ],
+        [
+          "shopping",
+          "amusement"
+        ],
+        [
+          "nature",
+          "park"
+        ]
+      ],
+      "hate_tags": [
+        [
+          "long_local_transfer"
+        ],
+        [
+          "overpacked_schedule"
+        ],
+        [
+          "expensive_meal"
+        ]
+      ],
+      "transport_preferences": [
+        [
+          "prefer_direct"
+        ],
+        [
+          "avoid_transfer"
+        ],
+        [
+          "avoid_late_arrival"
+        ]
+      ],
+      "rest_preferences": [
+        [],
+        [
+          "late_start"
+        ]
+      ]
+    }
+  }
+]

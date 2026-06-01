@@ -1,0 +1,276 @@
+{
+  "models": {
+    "qwen-plus": {
+      "model_name": "qwen-plus",
+      "model_type": "openai",
+      "base_url": "${QWEN_LLM_BASE_URL}",
+      "api_key_env": "QWEN_LLM_API_KEY",
+      "temperature": 0.0
+    },
+    "qwen3.5-plus": {
+      "model_name": "qwen3.5-plus",
+      "model_type": "openai",
+      "base_url": "${QWEN_LLM_BASE_URL}",
+      "api_key_env": "QWEN_LLM_API_KEY",
+      "temperature": 0.0
+    },
+    "kimi-k2.6": {
+      "model_name": "kimi-k2.6",
+      "model_type": "openai",
+      "base_url": "${KIMI_LLM_BASE_URL}",
+      "api_key_env": "KIMI_LLM_API_KEY",
+      "temperature": 0.0
+    },
+    "deepseek-v3.2": {
+      "model_name": "deepseek-v3.2",
+      "model_type": "openai",
+      "base_url": "${DEEPSEEK_LLM_BASE_URL}",
+      "api_key_env": "DEEPSEEK_LLM_API_KEY",
+      "temperature": 0.0
+    },
+    "deepseek-v4-pro": {
+      "model_name": "deepseek-v4-pro",
+      "model_type": "openai",
+      "base_url": "${DEEPSEEK_LLM_BASE_URL}",
+      "api_key_env": "DEEPSEEK_LLM_API_KEY",
+      "temperature": 0.0,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        }
+      }
+    },
+    "doubao-seed-2.0-pro": {
+      "model_name": "doubao-seed-2.0-pro",
+      "model_type": "openai",
+      "base_url": "${SEED_LLM_BASE_URL}",
+      "api_key_env": "SEED_LLM_API_KEY",
+      "temperature": 0.0
+    },
+    "minimax-m2.7": {
+      "model_name": "minimax-m2.7",
+      "model_type": "openai",
+      "base_url": "${MINIMAX_LLM_BASE_URL}",
+      "api_key_env": "MINIMAX_LLM_API_KEY",
+      "temperature": 0.0
+    },
+    "gemini-3-flash-preview": {
+      "model_name": "gemini-3-flash-preview",
+      "model_type": "openai",
+      "base_url": "${GEMINI_LLM_BASE_URL}",
+      "api_key_env": "GEMINI_LLM_API_KEY",
+      "temperature": 0.0
+    },
+    "gemini-3.1-pro-preview": {
+      "model_name": "gemini-3.1-pro-preview",
+      "model_type": "openai",
+      "base_url": "${GEMINI_LLM_BASE_URL}",
+      "api_key_env": "GEMINI_LLM_API_KEY",
+      "temperature": 0.0
+    },
+    "gemini-3.1-flash-lite": {
+      "model_name": "gemini-3.1-flash-lite",
+      "model_type": "openai",
+      "base_url": "${GEMINI_LLM_BASE_URL}",
+      "api_key_env": "GEMINI_LLM_API_KEY",
+      "temperature": 0.0
+    },
+    "gpt-5.4": {
+      "model_name": "gpt-5.4",
+      "model_type": "openai",
+      "base_url": "${GPT_LLM_BASE_URL}",
+      "api_key_env": "GPT_LLM_API_KEY",
+      "temperature": 0.0
+    },
+    "gpt-5.4-mini": {
+      "model_name": "gpt-5.4-mini",
+      "model_type": "openai",
+      "base_url": "${GPT_LLM_BASE_URL}",
+      "api_key_env": "GPT_LLM_API_KEY",
+      "temperature": 0.0
+    },
+    "gpt-5.4-nano": {
+      "model_name": "gpt-5.4-nano",
+      "model_type": "openai",
+      "base_url": "${GPT_LLM_BASE_URL}",
+      "api_key_env": "GPT_LLM_API_KEY",
+      "temperature": 0.0
+    },
+    "glm-5.1": {
+      "model_name": "glm-5.1",
+      "model_type": "openai",
+      "base_url": "${GLM_LLM_BASE_URL}",
+      "api_key_env": "GLM_LLM_API_KEY",
+      "temperature": 0.0
+    },
+    "hy3-preview": {
+      "model_name": "hy3-preview",
+      "model_type": "openai",
+      "base_url": "${HUNYUAN_LLM_BASE_URL}",
+      "api_key_env": "HUNYUAN_LLM_API_KEY",
+      "temperature": 0.0
+    },
+    "claude-sonnet-4-6": {
+      "model_name": "claude-sonnet-4-6",
+      "model_type": "openai",
+      "base_url": "${CLAUDE_LLM_BASE_URL}",
+      "api_key_env": "CLAUDE_LLM_API_KEY",
+      "temperature": 0.0
+    },
+    "claude-haiku-4-5-20251001": {
+      "model_name": "claude-haiku-4-5-20251001",
+      "model_type": "openai",
+      "base_url": "${CLAUDE_LLM_BASE_URL}",
+      "api_key_env": "CLAUDE_LLM_API_KEY",
+      "temperature": 0.0
+    },
+    "qwen3.6-27b-vllm": {
+      "model_name": "Qwen/Qwen3.6-27B",
+      "model_type": "openai",
+      "base_url": "http://127.0.0.1:8000/v1",
+      "api_key_env": "VLLM_API_KEY",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "seed": 42,
+      "timeout": 1200.0,
+      "max_retries": 4,
+      "backoff": 0.8,
+      "backoff_max": 4.0,
+      "extra_body": {
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        }
+      }
+    },
+    "qwen3.6-27b-vllm-8010": {
+      "model_name": "Qwen/Qwen3.6-27B",
+      "model_type": "openai",
+      "base_url": "http://127.0.0.1:8010/v1",
+      "api_key_env": "VLLM_API_KEY",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "seed": 42,
+      "timeout": 1200.0,
+      "max_retries": 4,
+      "backoff": 0.8,
+      "backoff_max": 4.0,
+      "extra_body": {
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        }
+      }
+    },
+    "qwen3.6-35b-a3b-vllm": {
+      "model_name": "Qwen/Qwen3.6-35B-A3B",
+      "model_type": "openai",
+      "base_url": "http://127.0.0.1:8007/v1",
+      "api_key_env": "VLLM_API_KEY",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "seed": 42,
+      "timeout": 1200.0,
+      "max_retries": 4,
+      "backoff": 0.8,
+      "backoff_max": 4.0,
+      "extra_body": {
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        }
+      }
+    },
+    "qwen3.5-27b-vllm": {
+      "model_name": "Qwen/Qwen3.5-27B",
+      "model_type": "openai",
+      "base_url": "http://127.0.0.1:8006/v1",
+      "api_key_env": "VLLM_API_KEY",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "seed": 42,
+      "timeout": 1200.0,
+      "max_retries": 4,
+      "backoff": 0.8,
+      "backoff_max": 4.0,
+      "extra_body": {
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        }
+      }
+    },
+    "qwen3.5-9b-vllm": {
+      "model_name": "Qwen/Qwen3.5-9B",
+      "model_type": "openai",
+      "base_url": "http://127.0.0.1:8004/v1",
+      "api_key_env": "VLLM_API_KEY",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "seed": 42,
+      "timeout": 1200.0,
+      "max_retries": 4,
+      "backoff": 0.8,
+      "backoff_max": 4.0,
+      "extra_body": {
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        }
+      }
+    },
+    "qwen3.5-122b-a10b-fp8-vllm": {
+      "model_name": "Qwen/Qwen3.5-122B-A10B-FP8",
+      "model_type": "openai",
+      "base_url": "http://127.0.0.1:8003/v1",
+      "api_key_env": "VLLM_API_KEY",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "seed": 42,
+      "timeout": 1200.0,
+      "max_retries": 4,
+      "backoff": 0.8,
+      "backoff_max": 4.0,
+      "extra_body": {
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        }
+      }
+    },
+    "gemma-4-31b-vllm": {
+      "model_name": "google/gemma-4-31B-it",
+      "model_type": "openai",
+      "base_url": "http://127.0.0.1:8001/v1",
+      "api_key_env": "VLLM_API_KEY",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "seed": 42,
+      "timeout": 1200.0,
+      "max_retries": 4,
+      "backoff": 0.8,
+      "backoff_max": 4.0
+    },
+    "gemma-4-26b-a4b-vllm": {
+      "model_name": "google/gemma-4-26B-A4B-it",
+      "model_type": "openai",
+      "base_url": "http://127.0.0.1:8008/v1",
+      "api_key_env": "VLLM_API_KEY",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "seed": 42,
+      "timeout": 1200.0,
+      "max_retries": 4,
+      "backoff": 0.8,
+      "backoff_max": 4.0
+    },
+    "glm-4-32b-0414-vllm": {
+      "model_name": "zai-org/GLM-4-32B-0414",
+      "model_type": "openai",
+      "base_url": "http://127.0.0.1:8002/v1",
+      "api_key_env": "VLLM_API_KEY",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "seed": 42,
+      "max_tokens": 4096,
+      "timeout": 1200.0,
+      "max_retries": 4,
+      "backoff": 0.8,
+      "backoff_max": 4.0
+    }
+  }
+}

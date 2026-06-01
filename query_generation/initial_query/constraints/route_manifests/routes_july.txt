@@ -1,0 +1,74 @@
+# July representative week: 2026-07-13 to 2026-07-19
+# Goal: stress-test summer comfort alignment.
+# Focus: hot-humid south, furnace-style inland heat, rain risk, and cool-altitude escape.
+
+# Hot + humid south megacity
+2026-07-14 Beijing->Shenzhen
+2026-07-17 Shenzhen->Beijing
+2026-07-15 Beijing->Shenzhen
+2026-07-18 Shenzhen->Beijing
+
+# Hot + humid coastal city, likely rain / long outdoor walking discomfort
+2026-07-14 Shanghai->Hong Kong
+2026-07-17 Hong Kong->Shanghai
+2026-07-15 Shanghai->Hong Kong
+2026-07-18 Hong Kong->Shanghai
+
+# Inland summer heat, should expose midday scheduling issues
+2026-07-15 Nanning->Chongqing
+2026-07-18 Chongqing->Nanning
+2026-07-16 Nanning->Chongqing
+2026-07-19 Chongqing->Nanning
+
+# Summer cool escape destination, tests whether model leverages climate advantage
+2026-07-15 Shenzhen->Xining
+2026-07-18 Xining->Shenzhen
+2026-07-16 Shenzhen->Xining
+2026-07-19 Xining->Shenzhen
+
+# Strong contrast: humid east coast to dry northwest
+2026-07-14 Shanghai->Urumqi
+2026-07-17 Urumqi->Shanghai
+2026-07-15 Shanghai->Urumqi
+2026-07-18 Urumqi->Shanghai
+
+# Heat avoidance by heading to higher latitude / cooler northeast
+2026-07-14 Beijing->Harbin
+2026-07-17 Harbin->Beijing
+2026-07-15 Beijing->Harbin
+2026-07-18 Harbin->Beijing
+
+# Summer resort / coastal relaxation
+2026-07-14 Nanjing->Sanya
+2026-07-17 Sanya->Nanjing
+2026-07-16 Nanjing->Sanya
+2026-07-19 Sanya->Nanjing
+
+# Summer altitude + UV + physical load tradeoff
+2026-07-14 Beijing->Lhasa
+2026-07-17 Lhasa->Beijing
+2026-07-15 Beijing->Lhasa
+2026-07-18 Lhasa->Beijing
+
+# Warm-humid south to central China, useful for comparing heat styles
+2026-07-14 Guangzhou->Changsha
+2026-07-17 Changsha->Guangzhou
+2026-07-15 Guangzhou->Changsha
+2026-07-18 Changsha->Guangzhou
+
+# East China to inland southwest heat / humidity mix
+2026-07-14 Jinan->Chongqing
+2026-07-17 Chongqing->Jinan
+2026-07-15 Jinan->Chongqing
+2026-07-18 Chongqing->Jinan
+
+# Feasible multi-city loop in current flight graph
+# This is the strongest closed-loop candidate available now:
+# humid inland city -> hot coastal city -> furnace-style inland city -> back.
+2026-07-14 Nanchang->Xiamen
+2026-07-16 Xiamen->Chongqing
+2026-07-19 Chongqing->Nanchang
+
+2026-07-15 Nanchang->Chongqing
+2026-07-17 Chongqing->Xiamen
+2026-07-19 Xiamen->Nanchang

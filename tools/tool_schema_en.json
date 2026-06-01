@@ -1,0 +1,376 @@
+[
+    {
+        "type": "function",
+        "function": {
+            "name": "query_train_info",
+            "description": "Query train ticket information by origin, destination, date, and related conditions. Returns matching train information including train number, departure/arrival time, station information, duration, seat class, complete route-level price, etc. Supports direct and transfer routes. Direct routes show only the first segment of the complete route, while transfer routes show each segment of the real transfer chain and do not emit duplicated pseudo-segments. The returned `price` is the complete per-person reference price for the candidate route, not a segment price. In travel planning, all train-related information must strictly come from this tool's results and must not be fabricated; station names and train names must exactly match the query results. When calling this tool, origin and destination must be city names only, not railway-station names, airport names, province names, district names, or attraction names. If the user mentions aliases such as `Xi'an North Railway Station`, convert them back to the corresponding city name first. Use directOnly=true for direct-train requests. Use sortBy=price for cheapest, sortBy=duration for shortest duration, sortBy=latest_arrival for latest-arrival return trains, and sortBy=departure_time or arrival_time for time-order requests.",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "origin": {
+                        "type": "string",
+                        "description": "Origin city name only. Do not pass a railway-station name, airport name, province name, district name, or attraction name"
+                    },
+                    "destination": {
+                        "type": "string",
+                        "description": "Destination city name only. Do not pass a railway-station name, airport name, province name, district name, or attraction name"
+                    },
+                    "depDate": {
+                        "type": "string",
+                        "description": "Departure date, format: YYYY-MM-DD"
+                    },
+                    "seatClassName": {
+                        "type": "string",
+                        "description": "Train seat class: First Class Seat, Second Class Seat,Business Seat"
+                    },
+                    "trainType": {
+                        "type": "string",
+                        "description": "Optional train type or marketing transport name, such as G, D, C, K, T, or Z; use when the user requests the cheapest train within a specific train type"
+                    },
+                    "directOnly": {
+                        "type": "boolean",
+                        "description": "Whether to return only direct trains; set to true when the user requests direct trains"
+                    },
+                    "sortBy": {
+                        "type": "string",
+                        "enum": [
+                            "price",
+                            "departure_time",
+                            "arrival_time",
+                            "latest_arrival",
+                            "duration"
+                        ],
+                        "description": "Result sort order; use price for cheapest, departure_time for earliest departure, arrival_time for earliest arrival, latest_arrival for latest arrival, and duration for shortest train duration"
+                    },
+                    "depTimeStart": {
+                        "type": "string",
+                        "description": "Optional departure-time window start in HH:MM when the user specifies a departure period"
+                    },
+                    "depTimeEnd": {
+                        "type": "string",
+                        "description": "Optional departure-time window end in HH:MM when the user specifies a departure period"
+                    },
+                    "arrTimeStart": {
+                        "type": "string",
+                        "description": "Optional arrival-time window start in HH:MM when the user specifies an arrival period"
+                    },
+                    "arrTimeEnd": {
+                        "type": "string",
+                        "description": "Optional arrival-time window end in HH:MM when the user specifies an arrival period"
+                    }
+                },
+                "required": [
+                    "origin",
+                    "destination",
+                    "depDate"
+                ]
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "query_flight_info",
+            "description": "Query flight information by origin, destination, date, and related conditions. Returns matching flight information including flight number, departure/arrival time, airport information, duration, seat class, complete route-level price, aircraft type, etc. Supports direct and connecting flights. Direct flights show only the first segment of the complete route, while connecting flights show each segment of the real connection chain and do not emit duplicated pseudo-segments. The returned `price` is the complete per-person reference price for the candidate route, not a segment price. In travel planning, all flight-related information must strictly come from this tool's results and must not be fabricated; airport names and flight numbers must exactly match the query results. When calling this tool, origin and destination must be city names only, not airport names, railway-station names, province names, district names, or attraction names. If the user mentions aliases such as `Shanghai City` or `Shanghai Pudong International Airport`, convert them back to the corresponding city name first.",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "origin": {
+                        "type": "string",
+                        "description": "Origin city name only. Do not pass an airport name, railway-station name, province name, district name, or attraction name"
+                    },
+                    "destination": {
+                        "type": "string",
+                        "description": "Destination city name only. Do not pass an airport name, railway-station name, province name, district name, or attraction name"
+                    },
+                    "depDate": {
+                        "type": "string",
+                        "description": "Departure date, format: YYYY-MM-DD"
+                    },
+        "depTimeStart": {
+          "type": "string",
+          "description": "Optional departure-time window start in HH:MM when the user specifies a departure period"
+        },
+        "depTimeEnd": {
+          "type": "string",
+          "description": "Optional departure-time window end in HH:MM when the user specifies a departure period"
+        },
+        "arrTimeStart": {
+          "type": "string",
+          "description": "Optional arrival-time window start in HH:MM when the user specifies an arrival period"
+        },
+        "arrTimeEnd": {
+          "type": "string",
+          "description": "Optional arrival-time window end in HH:MM when the user specifies an arrival period"
+        },
+        "seatClassName": {
+          "type": "string",
+          "description": "Flight seat class: Economy Class, Business Class, First Class"
+        },
+        "directOnly": {
+          "type": "boolean",
+          "description": "Whether to return only direct flights; set to true when the user requests direct flights"
+        },
+        "sortBy": {
+          "type": "string",
+          "enum": [
+            "price",
+            "departure_time",
+            "arrival_time",
+            "latest_arrival",
+            "duration"
+          ],
+          "description": "Result sort order; use price for cheapest, departure_time for earliest departure, arrival_time for earliest arrival, latest_arrival for latest arrival or arrival-window checks, and duration for shortest flight duration"
+        }
+      },
+                "required": [
+                    "origin",
+                    "destination",
+                    "depDate"
+                ]
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "query_hotel_info",
+            "description": "Query hotel information by destination, hotel star rating, hotel name, hotel brand, service, price range, and ranking preference. In travel planning, all hotel-related information must strictly come from the results returned by this tool and must not be fabricated; hotel names must be exactly the same as the query results. Use sortBy=price for cheapest hotel requests, sortBy=rating for highest-rated requests, and sortBy=decoration for newest-decoration requests. Use requiredService when the user requires a specific hotel service such as robot room service, gym, free parking, or SPA service.",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "destination": {
+                        "type": "string",
+                        "description": "Destination (country, province, city, district/county name)"
+                    },
+                    "hotelStar": {
+                        "type": "string",
+                        "description": "Hotel star rating: 1~5; single value"
+                    },
+        "hotelName": {
+          "type": "string",
+          "description": "Exact hotel name. Use this when the user specifies a concrete hotel, apartment, or homestay name, e.g. Hong Kong Aegean Sea Theme Apartment"
+        },
+        "hotelBrands": {
+          "type": "string",
+          "description": "Hotel brand, only supports single value query. Optional brands: Ji Hotel, Atour Hotel, Marriott, Hilton, Home Inn, Jinjiang Inn, Hanting Hotel, Orange Hotel"
+        },
+        "minPrice": {
+          "type": "number",
+          "description": "Minimum nightly price; use when the user gives a hotel price range"
+        },
+        "maxPrice": {
+          "type": "number",
+          "description": "Maximum nightly price; use when the user gives a hotel price range or accommodation budget cap"
+        },
+        "requiredService": {
+          "type": "string",
+          "description": "Required hotel service, e.g. Robot room service, Gym, Free parking, SPA service, Washer and dryer, or TV screen casting"
+        },
+        "sortBy": {
+          "type": "string",
+          "enum": [
+            "price",
+            "rating",
+            "decoration"
+          ],
+          "description": "Result sort order; use price for cheapest, rating for highest-rated, and decoration for newest-decoration hotel requests"
+        }
+      },
+                "required": [
+                    "destination"
+                ]
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "query_attraction_details",
+            "description": "Query attraction detailed information. Based on the attraction name, returns useful information including attraction name, city, rating, opening hours, recommended visit duration, ticket price, attraction type, and crowd/queue notes.",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "attraction_name": {
+                        "type": "string",
+                        "description": "Attraction name"
+                    }
+                },
+                "required": [
+                    "attraction_name"
+                ]
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "recommend_attractions",
+            "description": "Search and return popular attraction information for a city based on city keyword. Each item exposes an explicit `Attraction Name` field plus description and type. During travel plan generation, all attraction information must strictly come from the results returned by this tool, and attraction names must be copied exactly from `Attraction Name` without abbreviation or renaming.",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "city": {
+                        "type": "string",
+                        "description": "City name or keyword"
+                    },
+                    "attraction_type": {
+                        "type": "string",
+                        "description": "Attraction type filter (enum), options: 'Historical and Cultural', 'Natural Scenery', 'Art Exhibition', 'City Landmark', 'Theme Park', 'Leisure Experience'."
+                    }
+                },
+                "required": [
+                    "city"
+                ]
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "search_location",
+            "description": "Query the latitude and longitude coordinates corresponding to a place name. For example, inputting 'Beijing South Railway Station' returns its coordinates, with values retained to six decimal places. In travel plans, all involved place names must strictly come from the results returned by other tools and must be exactly the same.",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "place_name": {
+                        "type": "string",
+                        "description": "The place name to query, for example: 'Lao She Teahouse'"
+                    }
+                },
+                "required": [
+                    "place_name"
+                ]
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "query_road_route_info",
+            "description": "Coordinate-level fallback only. Calculate and return road/walking/taxi route details between two exact coordinates, including distance, estimated duration, and estimated cost. This tool does not resolve place names and does not query metro/subway lines or stations. For named places or any metro/subway, fewer-transfer, less-walking, budget-first, or time-first preference, use query_city_transport_plan instead. Use this tool only when exact tool-derived coordinates are already available and subway/line planning is not needed. Cost is per trip/vehicle by default.",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "origin": {
+                        "type": "string",
+                        "description": "Origin coordinates (format: latitude,longitude), precision retained to 6 decimal places"
+                    },
+                    "destination": {
+                        "type": "string",
+                        "description": "Destination coordinates (format: latitude,longitude), precision retained to 6 decimal places"
+                    }
+                },
+                "required": [
+                    "origin",
+                    "destination"
+                ]
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "recommend_restaurants",
+            "description": "Recommend restaurant information near a named attraction/place by nearby_attraction_name from the restaurant database. The returned list contains restaurant name, price per person, rating, business hours, cuisine, tags, nearby place, and distance_meters when coordinates are available. Use sort_by=distance for closest/nearest requests, sort_by=price for cheap/cheapest/budget dining, and sort_by=rating for highest-rated requests.",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "nearby_attraction_name": {
+                        "type": "string",
+                        "description": "Named nearby attraction/place from the user request or tool result. Keep the name as exact as possible, e.g., China Art Window Ltd."
+                    },
+                    "sort_by": {
+                        "type": "string",
+                        "enum": [
+                            "auto",
+                            "distance",
+                            "price",
+                            "rating"
+                        ],
+                        "description": "Optional ranking mode. Use distance for closest/nearest, price for cheap/cheapest/budget, rating for highest-rated, and auto when no comparative preference is specified."
+                    }
+                },
+                "required": [
+                    "nearby_attraction_name"
+                ]
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "query_restaurant_details",
+            "description": "Query detailed information about a restaurant. Based on the restaurant name, returns restaurant name, price per person, cuisine, opening time, closing time, nearby place, rating, tags, and related details. If restaurant coordinates are needed, call search_location with the restaurant name.",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "restaurant_name": {
+                        "type": "string",
+                        "description": "Restaurant name"
+                    }
+                },
+                "required": [
+                    "restaurant_name"
+                ]
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "query_city_transport_plan",
+            "description": "Query an intra-city transportation recommendation between two places. The tool looks up coordinates only by exact place names or aliases explicitly registered in database location_aliases.csv, then combines direct distance, traveler preference, and the city metro graph to recommend walking, taxi, or metro. If metro is selected, it returns the nearest stations, station path, estimated walking distance, duration, and fare.",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "city": {
+                        "type": "string",
+                        "description": "City name for the current intra-city trip, for example: Beijing"
+                    },
+                    "origin_place": {
+                        "type": "string",
+                        "description": "Origin place name. Must exactly match tool-returned place names"
+                    },
+                    "destination_place": {
+                        "type": "string",
+                        "description": "Destination place name. Must exactly match tool-returned place names"
+                    },
+                    "traveler_preference": {
+                        "type": "string",
+                        "description": "Optional. Travel preference: balanced, budget_first, min_walking, time_first"
+                    }
+                },
+                "required": [
+                    "city",
+                    "origin_place",
+                    "destination_place"
+                ]
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "query_city_weather",
+            "description": "Query daily weather information for a city and date, including condition summary, temperature range, precipitation, and travel-planning advice. Use this tool before scheduling intercity transport, outdoor attractions, or long walking segments.",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "city": {
+                        "type": "string",
+                        "description": "City name"
+                    },
+                    "date": {
+                        "type": "string",
+                        "description": "Date in YYYY-MM-DD format"
+                    }
+                },
+                "required": [
+                    "city",
+                    "date"
+                ]
+            }
+        }
+    }
+]

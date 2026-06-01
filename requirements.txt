@@ -1,0 +1,14 @@
+# LLM API clients
+openai>=1.0.0                    # OpenAI SDK (supports OpenAI, DashScope, and compatible APIs)
+httpx>=0.24.0                    # Explicit HTTP client used for local endpoint isolation
+
+# Data processing
+pandas>=1.5.0                    # CSV database loading and querying
+
+# Optional local vLLM parser helper dependency
+regex>=2024.0.0                  # Used by scripts/functiongemma_safe_tool_parser.py
+
+# Local model serving
+# vLLM is intentionally not pinned here because installation is CUDA/PyTorch
+# environment-specific. Install it separately in the model-serving environment
+# before running scripts/vllm.sh.
