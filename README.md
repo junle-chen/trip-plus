@@ -17,7 +17,7 @@ Edit `.env` with the API keys and endpoints used by `models_config.json`.
 
 This anonymous release includes the full query file at
 `query/query_en/multiturn/query.json`. The complete database is too large to
-commit directly to GitHub, so this repository tracks only two smoke-test sample
+commit, so this repository tracks only two smoke-test sample
 databases under `database/sample/en/` plus the city-level Beijing database
 under `database/en/beijing/` for reviewers to inspect the source data format.
 Due to repository size limits, Beijing is included as one representative city
