@@ -1,0 +1,336 @@
+city,attraction_name,description,attraction_type,address,latitude,longitude,rating,opening_time,closing_time,closing_dates,min_visit_hours,max_visit_hours,ticket_price,popularity_tags,crowd_risk,queue_risk,peak_crowd_windows
+Beijing,Universal Beijing Resort,,Amusement Park/Sports & Entertainment,,39.86099,116.68782,,09:00,21:00,,2.0,3.0,503.0,viral;photo_spot;family_hotspot;classic_hotspot,high,high,weekend;holiday;summer;school_holiday
+Beijing,The Palace Museum,,Historical Sites,,39.924091,116.403414,,08:30,17:00,,0.5,1.0,0.0,classic_hotspot;culture_hotspot;photo_spot;family_hotspot,high,high,weekend;holiday;school_holiday
+Beijing,Badaling Great Wall,,Historical Sites,,40.362639,116.024067,,06:30,16:30,,1.0,2.5,40.0,classic_hotspot;culture_hotspot;photo_spot;nature_hotspot,high,high,weekend;holiday;summer;school_holiday
+Beijing,National Museum of China,,Museum/Memorial Hall,,39.911449,116.408018,,09:00,17:00,,3.0,3.5,0.0,classic_hotspot;culture_hotspot;family_hotspot,high,high,weekend;holiday;school_holiday
+Beijing,Summer Palace,,Cultural Tourism Zone,,40.008817,116.280234,,06:00,20:00,,0.5,1.0,30.0,classic_hotspot;culture_hotspot;photo_spot;nature_hotspot,high,medium,weekend;holiday;summer
+Beijing,Prince Gong's Mansion,,Historical Sites,,39.943381,116.392599,,08:30,17:00,,1.0,2.0,40.0,classic_hotspot;culture_hotspot;photo_spot,high,medium,weekend;holiday;school_holiday
+Beijing,Temple of Heaven,,Historical Sites,,39.889918,116.419289,,06:00,22:00,,2.5,4.0,34.0,classic_hotspot;culture_hotspot;photo_spot;family_hotspot,high,medium,weekend;holiday;school_holiday
+Beijing,Old Summer Palace,,Historical Sites,,40.016191,116.309736,,07:00,19:00,,0.5,2.0,0.0,classic_hotspot;culture_hotspot;photo_spot;nature_hotspot,medium,low,weekend;holiday;school_holiday
+Beijing,Mutianyu Great Wall,,Historical Sites,,40.440146,116.575896,,07:30,18:00,,0.5,1.5,45.0,classic_hotspot;culture_hotspot;photo_spot;nature_hotspot,high,medium,weekend;holiday;summer
+Beijing,Beijing Zoo,,Park,,39.947726,116.342331,,07:30,19:00,,1.0,2.0,15.0,family_hotspot,medium,medium,weekend;holiday;school_holiday
+Beijing,Beijing Wildlife Park,,Amusement Park/Sports & Entertainment,,39.502139,116.340954,,08:30,17:30,,1.0,2.5,145.0,family_hotspot,medium,medium,weekend;holiday;school_holiday
+Beijing,China Science and Technology Museum,,Museum/Memorial Hall,,40.012333,116.404938,,09:30,17:00,,2.0,2.5,0.0,family_hotspot,medium,medium,weekend;holiday;school_holiday
+Beijing,Olympic Park,,Amusement Park/Sports & Entertainment,,39.999245,116.399206,,06:30,22:00,,2.5,4.0,0.0,classic_hotspot;photo_spot;nature_hotspot,medium,low,weekend;holiday;summer
+Beijing,Tiananmen Square,,Cultural Landscape,,39.910095,116.404091,,00:00,22:00,,0.5,1.0,0.0,classic_hotspot;culture_hotspot;photo_spot,high,high,holiday;weekend;festival_period
+Beijing,Yonghe Temple,,Cultural Tourism Zone,,39.953314,116.423776,,09:00,17:00,,1.0,2.5,0.0,classic_hotspot;culture_hotspot;photo_spot,high,medium,weekend;holiday;festival_period
+Beijing,Bird's Nest (National Stadium),,Amusement Park/Sports & Entertainment,,39.999285,116.402845,,10:00,22:00,,2.5,4.0,96.0,classic_hotspot;photo_spot;night_hotspot,high,medium,weekend;holiday;evening;festival_period
+Beijing,Ming Tombs,,Historical Sites,,40.263544,116.231846,,08:30,18:00,,1.5,3.0,30.0,classic_hotspot;culture_hotspot;nature_hotspot,medium,medium,weekend;holiday
+Beijing,Shichahai,,Cultural Landscape,,39.948373,116.391243,,00:00,24:00,,1.5,3.0,0.0,classic_hotspot;night_hotspot;photo_spot;culture_hotspot,high,medium,weekend;holiday;evening
+Beijing,National Natural History Museum,,Museum/Memorial Hall,,39.889596,116.406249,,00:00,24:00,,1.0,2.5,0.0,classic_hotspot;family_hotspot;culture_hotspot,medium,medium,weekend;holiday;school_holiday
+Beijing,Jingshan Park,,Park,,39.932136,116.402966,,06:00,21:00,,2.0,3.0,0.0,classic_hotspot;photo_spot;culture_hotspot,high,medium,weekend;holiday;evening
+Beijing,Military Museum of the Chinese People's Revolution,,Museum/Memorial Hall,,39.914968,116.33021,,09:00,17:00,,2.0,2.5,0.0,classic_hotspot;family_hotspot;culture_hotspot,medium,medium,weekend;holiday;school_holiday
+Beijing,Geological Museum of China,,Museum/Memorial Hall,,39.929388,116.378741,,09:00,16:30,,1.5,3.0,15.0,,,,
+Beijing,Gubei Water Town,,Cultural Tourism Zone,,40.661046,117.284632,,09:00,22:30,,2.0,2.5,140.0,viral;photo_spot;night_hotspot;family_hotspot,high,medium,weekend;holiday;evening;winter
+Beijing,Beijing Happy Valley,,Amusement Park/Sports & Entertainment,,39.873868,116.501309,,09:30,22:00,,1.0,2.5,299.0,family_hotspot;nature_hotspot,medium,low,weekend;holiday;summer;school_holiday
+Beijing,Beijing Aquarium,,Amusement Park/Sports & Entertainment,,39.950257,116.347445,,09:00,17:30,,0.5,1.0,0.0,family_hotspot;nature_hotspot,medium,medium,weekend;holiday;summer;school_holiday
+Beijing,Beijing Planetarium,,Museum/Memorial Hall,,39.943008,116.34338,,09:00,16:30,,0.5,1.0,0.0,classic_hotspot,medium,medium,weekend;holiday
+Beijing,National Centre for the Performing Arts,,Cultural Landscape,,39.91123,116.396261,,09:00,17:00,,1.0,2.0,27.0,culture_hotspot,medium,medium,weekend;holiday
+Beijing,Xiangshan Park,,Park,,39.995693,116.194051,,06:00,19:30,,3.0,4.0,10.0,classic_hotspot;photo_spot;nature_hotspot,medium,low,weekend;holiday;summer
+Beijing,Beihai Park,,Park,,39.934167,116.395006,,06:00,21:00,,2.5,4.0,0.0,classic_hotspot;culture_hotspot;nature_hotspot;family_hotspot,medium,low,weekend;holiday;summer
+Beijing,Nanluoguxiang,,Commercial District,,39.943166,116.4095,,00:00,24:00,,1.0,2.5,0.0,viral;photo_spot;shopping_hotspot;culture_hotspot,high,medium,weekend;holiday;evening
+Beijing,Juyongguan Great Wall,,Historical Sites,,40.297394,116.078214,,06:30,18:00,,1.0,2.0,40.0,classic_hotspot,high,medium,weekend;holiday
+Beijing,Chaoyang Park,,Park,,39.950002,116.489114,,06:00,22:00,,2.5,4.0,0.0,classic_hotspot;photo_spot;nature_hotspot,medium,low,weekend;holiday;summer
+Beijing,POP MART City Land,,Amusement Park/Sports & Entertainment,,39.948516,116.481208,,10:00,20:00,,0.5,1.0,148.0,viral;family_hotspot,medium,medium,weekend;holiday;school_holiday
+Beijing,Water Cube (National Aquatics Center),,Amusement Park/Sports & Entertainment,,39.999266,116.396829,,10:30,22:30,,2.0,3.0,29.0,night_hotspot,low,medium,weekend;holiday;evening
+Beijing,Beijing Grand View Garden,,Cultural Landscape,,39.877081,116.362822,,07:30,18:00,,3.0,4.0,40.0,classic_hotspot,medium,medium,weekend;holiday
+Beijing,Beijing Auto Museum,,Museum/Memorial Hall,,39.835043,116.308108,,09:00,17:00,,1.0,1.5,30.0,,,,
+Beijing,World Park,,Amusement Park/Sports & Entertainment,,39.81671,116.293772,,09:00,17:00,,1.0,2.5,95.0,photo_spot;family_hotspot;nature_hotspot,medium,low,weekend;holiday;summer;school_holiday
+Beijing,Qianmen Street,,Commercial District,,39.899651,116.40452,,00:00,24:00,,2.5,4.0,0.0,photo_spot;shopping_hotspot,medium,low,weekend;holiday
+Beijing,Wangfujing,,Commercial District,,39.91979,116.418038,,00:00,24:00,,3.0,3.5,0.0,shopping_hotspot;classic_hotspot;night_hotspot;photo_spot,high,low,weekend;holiday;evening
+Beijing,Tiananmen Tower,,Historical Sites,,39.915407,116.403865,,08:30,15:30,,1.0,1.5,0.0,classic_hotspot,high,,weekend;holiday
+Beijing,Lao She Teahouse,,Cultural Landscape,,39.906052,116.399659,,10:00,22:00,,3.0,4.0,180.0,,,,
+Beijing,Madame Tussauds Beijing,,Museum/Memorial Hall,,39.903663,116.404671,,10:00,21:00,,2.0,3.5,129.0,,,,
+Beijing,Temple of Confucius and the Imperial Academy Museum,,Museum/Memorial Hall,,39.953111,116.420343,,09:00,17:00,,1.0,1.5,0.0,classic_hotspot;family_hotspot;culture_hotspot,medium,medium,weekend;holiday;school_holiday
+Beijing,Badaling Wildlife World,,Amusement Park/Sports & Entertainment,,40.359586,116.001343,,08:00,17:00,,1.0,2.5,85.0,,,,
+Beijing,Treasure Gallery of the Forbidden City,,Museum/Memorial Hall,,39.925979,116.406346,,08:30,17:00,,2.0,3.0,0.0,,,,
+Beijing,Hall of Supreme Harmony,,Historical Sites,,39.923657,116.403432,,08:30,17:00,,2.0,3.5,0.0,,,,
+Beijing,Mao Zedong Memorial Hall,,Museum/Memorial Hall,,39.908876,116.404145,,08:00,12:00,,2.5,4.0,0.0,,,,
+Beijing,Meridian Gate,,Historical Sites,,39.920105,116.403705,,08:30,17:00,,1.5,2.0,0.0,,,,
+Beijing,Pacific Underwater World,,Amusement Park/Sports & Entertainment,,39.924905,116.312596,,08:30,17:30,,0.5,1.0,90.0,,,,
+Beijing,798 Art District,,Art Museum/Gallery,,39.991061,116.501104,,00:00,24:00,,2.5,4.0,0.0,viral;photo_spot;culture_hotspot,high,low,weekend;holiday;evening
+Beijing,Tsinghua University Art Museum,,Art Museum/Gallery,,40.007638,116.342234,,09:00,17:00,,0.5,1.0,0.0,,,,
+Beijing,Central Radio & TV Tower,,Cultural Landscape,,39.925494,116.313595,,08:30,18:00,,2.0,2.5,90.0,,,,
+Beijing,Deyun Society Theater,,Cultural Landscape,,39.890323,116.404395,,19:15,22:00,,1.5,3.0,698.0,,,,
+Beijing,Mutianyu Great Wall Cable Car and Toboggan,,Amusement Park/Sports & Entertainment,,40.437922,116.570303,,08:00,17:00,,1.5,2.0,0.0,,,,
+Beijing,Yanqi Lake,,Park,,40.403587,116.690837,,08:30,17:30,,3.0,4.0,42.0,photo_spot;nature_hotspot,medium,low,weekend;holiday;summer
+Beijing,Former Residence of Soong Ching Ling in Beijing,,Red Tourism Sites,,39.951737,116.389564,,09:00,17:00,,3.0,3.5,20.0,,,,
+Beijing,Water Cube Water Park,,Amusement Park/Sports & Entertainment,,39.998775,116.39662,,10:00,18:00,,1.5,3.0,136.99,,,,
+Beijing,Tanzhe Temple,,Historical Sites,,39.91122,116.03762,,08:30,16:30,,1.0,2.0,50.0,culture_hotspot;nature_hotspot,low,medium,weekend;holiday;summer
+Beijing,Huanghuacheng Water Great Wall,,Historical Sites,,40.419287,116.307167,,08:30,17:00,,3.0,3.5,58.0,,,,
+Beijing,Dashilan,,Commercial District,,39.901535,116.397634,,00:00,24:00,,0.5,1.0,0.0,classic_hotspot,medium,medium,weekend;holiday
+Beijing,Bell and Drum Towers,,Historical Sites,,39.948732,116.40236,,09:30,17:30,,1.0,2.0,10.0,,,,
+Beijing,Drum Tower,,Historical Sites,,39.946841,116.40237,,09:30,17:30,,0.5,2.0,0.0,,,,
+Beijing,Beijing Olympic Tower,,Amusement Park/Sports & Entertainment,,40.014691,116.40065,,09:00,22:00,,2.5,3.0,118.0,,,,
+Beijing,Hongluo Temple,,Cultural Tourism Zone,,40.389488,116.634124,,00:00,24:00,,0.5,1.5,54.0,,,,
+Beijing,Badachu Park,,Park,,39.968352,116.189212,,06:00,18:00,,2.5,3.0,10.0,,,,
+Beijing,Imperial Academy,,Historical Sites,,39.953116,116.419591,,09:00,17:00,,0.5,1.0,0.0,classic_hotspot,medium,medium,weekend;holiday
+Beijing,Museum of the Chinese People's Revolution,,Museum/Memorial Hall,,39.989186,116.397793,,08:30,18:00,,2.0,3.0,45.0,,,,
+Beijing,Sanlitun,,Commercial District,,39.940602,116.458347,,09:00,23:00,,1.0,1.5,0.0,viral;night_hotspot;shopping_hotspot,high,medium,weekend;holiday;evening
+Beijing,Giant Panda Pavilion,,Amusement Park/Sports & Entertainment,,39.945481,116.34581,,08:00,18:00,,1.0,2.0,0.0,,,,
+Beijing,Fuguo Underwater World,,Amusement Park/Sports & Entertainment,,39.933996,116.453669,,09:00,17:30,,1.0,1.5,91.0,,,,
+Beijing,Longqing Gorge,,Natural Scenery,,40.557851,116.009343,,08:30,17:00,,1.0,2.5,40.0,,,,
+Beijing,Dingling Tomb,,Historical Sites,,40.30048,116.232421,,08:30,18:00,,1.5,2.0,60.0,,,,
+Beijing,LEGOLAND Discovery Centre Beijing,,Amusement Park/Sports & Entertainment,,39.930684,116.602649,,10:30,18:30,,1.0,1.5,180.0,,,,
+Beijing,Simatai Great Wall,,Historical Sites,,40.663649,117.292856,,09:00,16:10,,1.5,2.0,40.0,,,,
+Beijing,Shijingshan Amusement Park,,Amusement Park/Sports & Entertainment,,39.91784,116.215231,,09:00,17:30,,2.0,3.0,10.0,,,,
+Beijing,Capital Museum,,Museum/Memorial Hall,,39.912283,116.349192,,09:00,17:00,,1.5,2.0,0.0,classic_hotspot;family_hotspot;culture_hotspot,medium,medium,weekend;holiday;school_holiday
+Beijing,Beijing Liu Laogen Grand Stage,,Amusement Park/Sports & Entertainment,,39.899788,116.406961,,20:00,22:15,,0.5,1.5,580.0,,,,
+Beijing,Hall of Prayer for Good Harvests,,Historical Sites,,39.889922,116.419288,,08:00,18:00,,2.0,3.5,0.0,classic_hotspot,high,,weekend;holiday
+Beijing,Houhai,,Park,,39.948183,116.394776,,00:00,24:00,,2.5,3.0,0.0,,,,
+Beijing,Former Residence of Ji Xiaolan,,Historical Sites,,39.896319,116.393561,,09:00,18:00,,2.0,3.0,10.0,,,,
+Beijing,Guanfu Museum,,Museum/Memorial Hall,,40.013243,116.540404,,09:00,16:00,,2.0,3.0,88.0,,,,
+Beijing,National Library of China,,Museum/Memorial Hall,,39.949689,116.329894,,09:00,21:00,,1.0,2.0,0.0,,,,
+Beijing,National Art Museum of China,,Art Museum/Gallery,,39.931462,116.415454,,09:00,17:00,,2.0,2.5,0.0,photo_spot;culture_hotspot,medium,medium,weekend;holiday
+Beijing,Ditan Park,,Historical Sites,,39.959692,116.419984,,06:00,21:30,,1.0,2.0,0.0,classic_hotspot;photo_spot;nature_hotspot,medium,low,weekend;holiday;summer
+Beijing,China Rosewood Museum,,Museum/Memorial Hall,,39.916834,116.532527,,09:00,17:00,,2.5,4.0,50.0,,,,
+Beijing,Beijing Labagou Primeval Forest Park,,Natural Scenery,,40.965737,116.495711,,07:30,17:30,,1.0,2.0,38.0,,,,
+Beijing,Panjiayuan Antique Market,,Commercial District,,39.881199,116.465329,,09:00,21:00,,3.0,3.5,0.0,,,,
+Beijing,Great Hall of the People,,Cultural Landscape,,39.911394,116.400238,,09:00,15:00,,0.5,1.0,0.0,,,,
+Beijing,Beijing Expo Park,,Park,,40.450315,115.957449,,09:00,17:00,,3.0,4.0,60.0,,,,
+Beijing,Jiugukou Nature Reserve,,Natural Scenery,,40.450379,116.668525,,08:30,17:00,,1.5,2.0,0.0,,,,
+Beijing,World Flower Park,,Park,,39.841376,116.359803,,00:00,24:00,,2.0,3.0,50.0,,,,
+Beijing,Suspended Glass Art Museum,,Art Museum/Gallery,,39.922161,116.418481,,10:00,20:00,,3.0,3.5,39.9,,,,
+Beijing,Lugou Bridge,,Historical Sites,,39.856421,116.228721,,07:30,19:00,,2.0,3.5,20.0,,,,
+Beijing,Badaling Ancient Great Wall (Ruined Great Wall),,Historical Sites,,40.356556,115.979423,,09:00,16:30,,2.0,3.0,54.0,,,,
+Beijing,China Arts and Crafts Museum / China Intangible Cultural Heritage Museum,,Museum/Memorial Hall,,40.009944,116.404125,,09:00,17:00,,0.5,1.0,0.0,,,,
+Beijing,teamLab Borderless,,Art Museum/Gallery,,39.930772,116.524819,,10:30,19:00,,1.0,2.0,193.0,,,,
+Beijing,Red Brick Art Museum,,Art Museum/Gallery,,40.048543,116.506291,,10:00,18:00,,0.5,1.0,150.0,photo_spot;culture_hotspot,medium,medium,weekend;holiday
+Beijing,National Speed Skating Oval,,Amusement Park/Sports & Entertainment,,40.023485,116.384188,,12:00,18:00,,1.0,1.5,40.0,,,,
+Beijing,Echo Wall,,Historical Sites,,39.884433,116.41951,,08:00,18:00,,1.0,2.0,0.0,classic_hotspot,high,,weekend;holiday
+Beijing,Beijing Maya Beach Water Park,,Amusement Park/Sports & Entertainment,,39.873927,116.500997,,00:00,24:00,,0.5,2.0,0.0,,,,
+Beijing,Liangma River International Waterfront,,Park,,39.955013,116.485426,,15:00,18:30,,1.0,1.5,0.0,,,,
+Beijing,Wendu Water City · Water Dream Wonderland,,Amusement Park/Sports & Entertainment,,40.110253,116.377085,,10:00,18:00,,3.0,4.0,118.0,,,,
+Beijing,Yuyuantan Park,,Park,,39.92195,116.329057,,06:00,21:30,,2.5,3.0,0.0,classic_hotspot;photo_spot;nature_hotspot,medium,low,weekend;holiday;summer
+Beijing,China Film Museum,,Museum/Memorial Hall,,40.0028,116.526921,,09:00,17:00,,2.5,4.0,0.0,,,,
+Beijing,CITIC Tower,,Commercial District,,39.922006,116.458637,,10:00,22:00,,3.0,4.0,0.0,,,,
+Beijing,Baiyun Temple,,Historical Sites,,39.906539,116.350119,,08:30,16:30,,2.5,4.0,0.0,,,,
+Beijing,"Clock Gallery, Palace Museum",,Museum/Memorial Hall,,39.925225,116.405192,,08:30,17:00,,1.0,2.5,0.0,,,,
+Beijing,Monument to the People's Heroes,,Red Tourism Sites,,39.910966,116.404165,,00:00,24:00,,0.5,2.0,0.0,classic_hotspot,high,medium,weekend;holiday
+Beijing,Grand Canal Museum,,Museum/Memorial Hall,,39.887286,116.723345,,10:00,20:00,,0.5,1.0,0.0,,,,
+Beijing,Beijing Municipal Archives,,Museum/Memorial Hall,,39.890999,116.477648,,09:00,17:00,,2.5,3.0,0.0,,,,
+Beijing,National Botanical Garden (Former Beijing Botanical Garden),,Park,,40.008872,116.216152,,06:00,21:00,,1.0,1.5,0.0,family_hotspot;nature_hotspot,medium,low,weekend;holiday;summer;school_holiday
+Beijing,Future Water World,,Amusement Park/Sports & Entertainment,,39.863532,116.692107,4.7,09:00,20:00,,0.5,1.0,473,,,,
+Beijing,Changling Tomb,,Historical Sites,,40.306283,116.255634,,08:30,18:00,,3.0,4.0,45.0,,,,
+Beijing,China Aviation Museum,,Museum/Memorial Hall,,40.192095,116.372885,,09:00,17:00,,1.0,1.5,0.0,classic_hotspot;family_hotspot;culture_hotspot,medium,medium,weekend;holiday;school_holiday
+Beijing,Xidan Commercial Street,,Commercial District,,39.917372,116.380941,,00:00,24:00,,0.5,1.0,0.0,,,,
+Beijing,Kunming Lake,,Park,,39.999894,116.278314,,06:30,18:00,,1.5,3.0,0.0,,,,
+Beijing,Pofengling,,Natural Scenery,,39.709779,115.84427,,08:00,17:00,,2.5,3.0,30.0,,,,
+Beijing,Baita Temple,,Historical Sites,,39.930757,116.369903,,09:00,17:00,,1.0,2.0,0.0,,,,
+Beijing,Longtan Zhonghu Park,,Park,,39.882817,116.439721,,06:00,22:00,,1.0,2.5,0.0,,,,
+Beijing,Shuiguan Great Wall,,Historical Sites,,40.343181,116.044886,,09:00,16:30,,0.5,2.0,35.0,,,,
+Beijing,Wudaoying Hutong,,Commercial District,,39.954871,116.415418,,00:00,24:00,,2.0,2.5,0.0,classic_hotspot,medium,medium,weekend;holiday
+Beijing,Taoranting Park,,Park,,39.88066,116.388442,,06:00,22:00,,1.0,2.0,0.0,,,,
+Beijing,Beijing Qushui Lanting Spa,,Amusement Park/Sports & Entertainment,,39.911218,116.51187,,00:00,24:00,,1.0,2.0,1208.9,,,,
+Beijing,National Zoological Museum,,Museum/Memorial Hall,,40.011196,116.392992,,09:00,17:00,,2.0,3.5,0.0,,,,
+Beijing,Dongjiaominxiang,,Historical Sites,,39.90893,116.417056,,00:00,24:00,,2.0,3.0,0.0,,,,
+Beijing,Phoenix Center,,Cultural Landscape,,39.940342,116.480337,,10:00,17:00,,1.5,3.0,0.0,,,,
+Beijing,Beijing Working People's Cultural Palace,,Cultural Tourism Zone,,39.918736,116.406195,,06:30,19:00,,2.0,3.5,0.0,,,,
+Beijing,Chaoyang Theatre Acrobatics,,Amusement Park/Sports & Entertainment,,39.928194,116.468861,4.7,16:00,20:00,,0.5,2.0,108,,,,
+Beijing,Olympic Forest Park,,Park,,40.025231,116.3968,,06:00,21:00,,0.5,1.5,0.0,,,,
+Beijing,Zhoukoudian Peking Man Site Museum,,Museum/Memorial Hall,,39.693589,115.943241,,09:00,16:30,,0.5,1.0,30.0,,,,
+Beijing,"Jinhai Lake, Pinggu, Beijing",,Natural Scenery,,40.187348,117.310896,,08:30,17:30,,3.0,4.0,38.0,,,,
+Beijing,Seventeen-Arch Bridge,,Historical Sites,,39.997,116.283926,,06:30,18:00,,1.0,1.5,0.0,classic_hotspot;viral;photo_spot,high,medium,weekend;holiday
+Beijing,National Museum of Chinese Writing,,Museum/Memorial Hall,,39.948853,116.330581,,09:00,17:00,,2.5,3.0,0.0,,,,
+Beijing,Chengshi Avenue,,Commercial District,,39.855987,116.683649,,08:00,23:00,,0.5,2.0,0.0,,,,
+Beijing,Yudu Mountain Scenic Area,,Natural Scenery,,40.55826,115.895804,,08:30,15:30,,1.0,2.0,60.0,classic_hotspot;photo_spot;nature_hotspot,medium,medium,weekend;holiday;summer
+Beijing,Beijing Xishan National Forest Park,,Park,,39.982469,116.201277,,08:00,18:00,,2.5,3.0,10.0,,,,
+Beijing,Yandai Xiejie,,Commercial District,,39.945443,116.400974,,00:00,24:00,,2.0,2.5,0.0,photo_spot;shopping_hotspot,medium,low,weekend;holiday
+Beijing,Zhongshan Park,,Park,,39.916729,116.400516,,06:00,21:00,,3.0,4.0,0.0,,,,
+Beijing,Huguo Temple,,Historical Sites,,39.941127,116.381757,4.4,00:00,24:00,,2.0,2.5,16,classic_hotspot,high,,weekend;holiday
+Beijing,Leduogang Kale Planet,,Amusement Park/Sports & Entertainment,,40.241035,116.196994,,09:30,18:00,,0.5,1.0,179.0,,,,
+Beijing,Beijing Jinhai Lake Bibo Island Resort,,Amusement Park/Sports & Entertainment,,40.173688,117.336098,,09:00,17:00,,1.5,3.0,158.0,,,,
+Beijing,Ziyuwan Pier,,Cultural Landscape,,39.950809,116.323237,,09:00,16:00,,2.0,3.5,0.0,,,,
+Beijing,SOLANA Blue Harbor,,Commercial District,,39.955084,116.482406,,00:00,24:00,,0.5,2.0,0.0,nature_hotspot,low,medium,weekend;holiday;summer
+Beijing,Old Beijing Hutou Tour,,Cultural Landscape,,39.940188,116.396212,,07:00,16:00,,1.0,2.0,0.0,,,,
+Beijing,Yeyahu National Wetland Park,,Park,,40.414865,115.864833,,09:00,17:00,,0.5,2.0,50.0,,,,
+Beijing,Jiankou Great Wall,,Historical Sites,,40.449159,116.541112,,00:00,24:00,,0.5,1.0,0.0,,,,
+Beijing,Galaxy SOHO,,Commercial District,,39.92661,116.439685,,00:00,24:00,,2.0,3.5,0.0,,,,
+Beijing,Van Gogh Starry Sky Art Museum (Wangfujing Flagship Store),,Art Museum/Gallery,,39.916613,116.418247,,10:00,21:00,,1.0,1.5,39.9,,,,
+Beijing,Corner Tower,,Historical Sites,,39.928846,116.407488,,08:30,17:00,,3.0,4.0,0.0,,,,
+Beijing,Heping Guju,,Commercial District,,39.920345,116.416782,,10:00,22:00,,2.0,3.0,0.0,,,,
+Beijing,Shidu Scenic Area,,Natural Scenery,,39.644148,115.606473,,08:00,17:00,,2.0,3.0,0.0,,,,
+Beijing,Beijing International Flower Port,,Park,,40.187688,116.803564,,09:00,17:00,,1.0,2.0,30.0,,,,
+Beijing,Heilongtan Scenic Area,,Natural Scenery,,40.569355,116.793737,,09:00,17:00,,1.5,3.0,58.0,,,,
+Beijing,Beijing Art Museum,,Museum/Memorial Hall,,39.952595,116.317868,,09:00,17:00,,1.5,3.0,20.0,,,,
+Beijing,Chang'an Avenue,,Commercial District,,39.914246,116.415894,,00:00,24:00,,1.5,2.0,0.0,classic_hotspot,high,,weekend;holiday
+Beijing,Great Wall Man Viewing Platform,,Cultural Landscape,,40.36194,116.01666,,06:00,22:30,,3.0,4.0,0.0,,,,
+Beijing,Beijing Folklore Museum,,Museum/Memorial Hall,,39.929847,116.450503,,08:30,16:30,,1.5,2.0,10.0,,,,
+Beijing,Beijing Lu Xun Museum (Beijing New Culture Movement Memorial Hall),,Museum/Memorial Hall,,39.931264,116.36503,,09:00,16:00,,0.5,2.0,0.0,,,,
+Beijing,Tower of Buddhist Incense,,Cultural Landscape,,40.005295,116.280371,,09:00,16:00,,2.0,2.5,0.0,classic_hotspot,high,,weekend;holiday
+Beijing,Beijing Fang,,Commercial District,,39.904283,116.402433,,10:00,22:00,,2.0,3.0,0.0,shopping_hotspot,low,medium,weekend;holiday
+Beijing,"Marble Boat, Summer Palace, Beijing",,Cultural Landscape,,40.004311,116.276081,,06:30,18:00,,1.0,2.5,0.0,,,,
+Beijing,Circular Mound Altar,,Historical Sites,,39.883274,116.419657,,08:00,17:30,,3.0,4.0,0.0,,,,
+Beijing,Hall of Preserving Harmony,,Historical Sites,,39.924779,116.403357,,08:30,17:00,,2.5,4.0,0.0,,,,
+Beijing,Beijing Liyuan Theatre,,Cultural Landscape,,39.892911,116.392263,,00:00,24:00,,1.5,2.0,88.0,,,,
+Beijing,Beijing Ancient Architecture Museum,,Museum/Memorial Hall,,39.883595,116.398506,,09:00,17:00,,1.0,2.5,0.0,,,,
+Beijing,Bell Tower,,Historical Sites,,39.948395,116.402205,,09:30,17:30,,2.0,3.0,10.0,classic_hotspot,high,,weekend;holiday
+Beijing,Zizhuyuan Park,,Park,,39.948517,116.326003,,06:00,21:30,,1.5,2.0,0.0,,,,
+Beijing,Baipu Temple,,Historical Sites,,40.124144,115.927283,,08:00,17:00,,1.5,3.0,0.0,,,,
+Beijing,Temple of the Emperors,,Historical Sites,,39.930766,116.373959,,00:00,24:00,,1.0,1.5,0.0,,,,
+Beijing,Yinshan Pagoda Forest,,Historical Sites,,40.320994,116.335118,,08:00,16:00,,0.5,1.5,20.0,,,,
+Beijing,COFCO Xiangyun Town,,Commercial District,,40.095847,116.543123,,10:00,21:00,,2.5,4.0,0.0,,,,
+Beijing,Gate of the Imperial Ancestral Temple,,Historical Sites,,39.916065,116.404527,,09:00,17:00,,0.5,1.0,0.0,,,,
+Beijing,Hall of Central Harmony,,Historical Sites,,39.924221,116.403387,,08:30,17:00,,1.0,2.5,0.0,,,,
+Beijing,Shenlu Scenic Area,,Historical Sites,,40.260807,116.23018,,08:30,18:00,,2.5,3.0,30.0,,,,
+Beijing,Nangong Tourism Resort,,Amusement Park/Sports & Entertainment,,39.81265,116.161143,,09:00,21:00,,1.0,1.5,0.0,,,,
+Beijing,Jietai Temple,,Historical Sites,,39.87673,116.092996,,08:30,16:45,,3.0,4.0,45.0,culture_hotspot,low,medium,weekend;holiday
+Beijing,Imperial Garden,,Park,,39.927608,116.403161,,08:30,15:30,,1.5,2.0,0.0,,,,
+Beijing,National Botanical Garden South Garden,,Park,,39.996967,116.217629,,08:00,18:00,,1.5,3.0,0.0,,,,
+Beijing,Tongzhou Canal Park,,Park,,39.8824,116.748887,,00:00,21:00,,1.0,1.5,0.0,,,,
+Beijing,Tongzhou Canal Cruise,,Amusement Park/Sports & Entertainment,,39.913558,116.693871,,09:30,10:30,,1.0,2.5,0.0,,,,
+Beijing,China Customs Museum,,Museum/Memorial Hall,,39.913052,116.43929,,09:00,16:30,,2.0,3.0,0.0,,,,
+Beijing,Shilin Gorge,,Natural Scenery,,40.268794,117.24851,,08:30,17:00,,2.0,3.0,68.0,,,,
+Beijing,Beijing Wenyu River Park,,Park,,40.081409,116.471027,,06:00,21:00,,0.5,1.0,0.0,,,,
+Beijing,Ming City Wall Ruins Park,,Park,,39.907202,116.434388,,08:30,19:30,,1.5,2.0,0.0,,,,
+Beijing,Beijing (Tongzhou) Grand Canal Cultural Tourism Scenic Area,,Cultural Tourism Zone,,39.920126,116.67408,,09:00,17:00,,0.5,2.0,0.0,,,,
+Beijing,Qinglianggu Scenic Area,,Natural Scenery,,40.639741,116.760481,,08:00,17:30,,2.5,4.0,48.9,,,,
+Beijing,Zhoukoudian Peking Man Site Park,,Historical Sites,,39.696128,115.937405,,09:00,16:30,,2.0,3.0,30.0,,,,
+Beijing,Beijing Exhibition Center,,Museum/Memorial Hall,,39.946119,116.350668,,08:30,18:00,,0.5,1.0,0.0,,,,
+Beijing,Yalugu Tropical Botanical Garden,,Amusement Park/Sports & Entertainment,,39.664878,116.60049,,08:30,17:30,,1.5,2.0,60.0,,,,
+Beijing,Beijing City Library,,Museum/Memorial Hall,,39.889043,116.721152,,10:00,20:00,,1.0,2.0,0.0,,,,
+Beijing,Nangong Wuzhou Botanical Garden,,Amusement Park/Sports & Entertainment,,39.799936,116.160942,,09:30,17:30,,1.0,2.5,68.0,,,,
+Beijing,Sanlitun Bar Street,,Commercial District,,39.939886,116.462197,,09:00,23:00,,0.5,2.0,0.0,,,,
+Beijing,Longtan Park,,Park,,39.884624,116.446425,,06:00,22:00,,1.5,3.0,0.0,classic_hotspot;photo_spot;nature_hotspot,medium,low,weekend;holiday;summer
+Beijing,Decepticons Roller Coaster,,Amusement Park/Sports & Entertainment,,39.863491,116.686724,,10:00,19:00,,1.0,2.5,0.0,,,,
+Beijing,751 Alive 3D Museum,,Amusement Park/Sports & Entertainment,,39.99011,116.507681,,10:30,18:30,,2.5,3.0,64.8,,,,
+Beijing,Wangjing SOHO,,Commercial District,,40.002211,116.487288,,00:00,24:00,,0.5,2.0,0.0,,,,
+Beijing,Lishugou Leisure Valley,,Amusement Park/Sports & Entertainment,,40.295044,117.257046,,09:00,17:00,,1.5,3.0,0.0,,,,
+Beijing,Eight Great Hutongs,,Cultural Landscape,,39.898892,116.398954,,00:00,24:00,,1.5,2.0,0.0,,,,
+Beijing,Peking University,,University Campus,,39.997899,116.316801,,06:30,22:30,,1.5,2.0,0.0,classic_hotspot,medium,medium,weekend;holiday
+Beijing,Beijing Confucius Temple,,Historical Sites,,39.952772,116.420854,,09:00,17:00,,2.0,3.5,0.0,,,,
+Beijing,China National Convention Center,,Commercial District,,40.006295,116.396466,,00:00,17:00,,1.5,3.0,0.0,,,,
+Beijing,Beijing Blue Note Manor,,Cultural Landscape,,39.97179,116.617844,,08:30,18:00,,1.0,2.0,0.0,,,,
+Beijing,Shougang Industrial Heritage Park,,Park,,39.915904,116.170035,,00:00,20:00,,2.0,3.0,0.0,,,,
+Beijing,Jingdong Grand Cave,,Natural Scenery,,40.218624,117.260596,,08:00,16:45,,2.5,3.0,80.0,,,,
+Beijing,Shichahai Cruise,,Cultural Landscape,,39.941419,116.399258,,09:00,18:00,,1.0,1.5,0.0,,,,
+Beijing,Wangfujing Catholic Church,,Cultural Landscape,,39.923646,116.418472,,08:00,11:00,,1.0,2.5,0.0,,,,
+Beijing,Palace of Heavenly Purity,,Historical Sites,,39.926469,116.403275,,08:30,17:00,,2.0,3.5,0.0,,,,
+Beijing,Stone Carving Art Museum,,Museum/Memorial Hall,,39.950594,116.336751,,00:00,24:00,,2.0,3.0,0.0,,,,
+Beijing,Huaxi Live · Wukesong,,Commercial District,,39.916725,116.283811,,10:00,22:00,,3.0,4.0,0.0,,,,
+Beijing,Baili Landscape Gallery,,Natural Scenery,,40.666026,116.257788,,00:00,24:00,,3.0,4.0,60.0,,,,
+Beijing,Millennium Monument of the People's Republic of China,,Cultural Tourism Zone,,39.917371,116.327863,,09:00,17:00,,0.5,1.5,0.0,,,,
+Beijing,Changyu Aifeibao Winery,,Cultural Tourism Zone,,40.382065,116.90818,,08:00,17:00,,1.0,2.5,78.0,,,,
+Beijing,Lao She Memorial Hall,,Museum/Memorial Hall,,39.924948,116.414815,,09:00,17:00,,2.0,2.5,0.0,,,,
+Beijing,Jurassic World Adventure,,Amusement Park/Sports & Entertainment,,39.862291,116.689723,,10:00,19:00,,1.0,2.0,0.0,,,,
+Beijing,Aipailang Creativity Park,,Amusement Park/Sports & Entertainment,,39.876917,116.745985,,09:30,18:00,,1.0,2.0,0.0,,,,
+Beijing,Yunju Temple,,Historical Sites,,39.615247,115.780384,,09:00,16:00,,2.0,3.0,40.0,,,,
+Beijing,China Numismatic Museum,,Museum/Memorial Hall,,39.908529,116.401379,,09:00,17:00,,0.5,1.5,0.0,,,,
+Beijing,Nanchizi Art Museum,,Art Museum/Gallery,,39.919969,116.409785,,10:00,13:00,,2.5,4.0,0.0,,,,
+Beijing,Shijia Hutong,,Historical Sites,,39.924567,116.43074,,00:00,24:00,,1.0,2.0,0.0,,,,
+Beijing,Mirage Space Super Metaverse (Beijing Store),,Amusement Park/Sports & Entertainment,,39.905859,116.424056,,10:00,22:00,,1.0,2.0,59.8,,,,
+Beijing,Beijing Fenghuangling Scenic Area,,Natural Scenery,,40.111966,116.091763,,07:00,17:00,,1.0,1.5,25.0,,,,
+Beijing,Jingdong Grand Canyon,,Natural Scenery,,40.251256,117.180659,,07:30,17:00,,0.5,2.0,75.0,,,,
+Beijing,Palace of Perpetual Bliss,,Historical Sites,,39.92673,116.405073,,08:30,17:00,,0.5,1.0,0.0,classic_hotspot,high,medium,weekend;holiday
+Beijing,Beijing Zoo Cruise Pier,,Amusement Park/Sports & Entertainment,,39.948889,116.346669,,10:30,15:30,,1.0,2.5,79.0,,,,
+Beijing,China Railway Museum Dongjiao Branch,,Museum/Memorial Hall,,40.004012,116.522737,,09:00,16:00,,0.5,1.0,0.0,,,,
+Beijing,China Railway Museum Zhengyangmen Branch,,Museum/Memorial Hall,,39.90611,116.406489,,09:00,17:00,,2.5,4.0,0.0,,,,
+Beijing,Xishiku Catholic Church,,Historical Sites,,39.931328,116.385221,,08:00,11:00,,1.0,1.5,0.0,,,,
+Beijing,Beijing Police Museum,,Museum/Memorial Hall,,39.908366,116.411541,,09:00,16:00,,2.0,3.0,0.0,,,,
+Beijing,Beiding Niangniang Temple,,Historical Sites,,39.99648,116.396595,,08:30,16:30,,1.5,3.0,0.0,,,,
+Beijing,Gate of Divine Prowess,,Historical Sites,,39.92869,116.40324,,00:00,24:00,,1.5,2.0,0.0,,,,
+Beijing,Qinglong Lake Park,,Park,,39.802592,116.094874,,09:00,17:30,,2.0,2.5,39.9,,,,
+Beijing,China Paleontological Museum,,Museum/Memorial Hall,,39.943187,116.340639,,09:00,16:30,,3.0,3.5,0.0,,,,
+Beijing,Beijing Qibo Snow World,,Amusement Park/Sports & Entertainment,,40.206053,116.667894,,10:00,21:00,,2.0,2.5,138.0,,,,
+Beijing,Poly Art Center,,Art Museum/Gallery,,39.930097,116.416887,,10:00,18:00,,2.0,3.0,0.0,,,,
+Beijing,Tianning Temple Pagoda,,Historical Sites,,39.900389,116.352581,,00:00,16:00,,1.5,3.0,0.0,,,,
+Beijing,Manchester United Dream Theater,,Cultural Landscape,,39.903746,116.401072,,10:00,22:00,,2.0,3.0,0.0,,,,
+Beijing,Memorial Hall of the Chinese People's War of Resistance Against Japanese Aggression,,Museum/Memorial Hall,,39.857778,116.232491,,09:00,16:30,,0.5,1.5,0.0,,,,
+Beijing,Beijing International Convention Center,,Others,,39.995704,116.408757,,08:30,17:30,,3.0,3.5,0.0,,,,
+Beijing,Beijing-Hangzhou Grand Canal,,Cultural Landscape,,39.911309,116.695847,,00:00,24:00,,2.5,3.0,0.0,,,,
+Beijing,Palace of Earthly Tranquility,,Historical Sites,,39.927103,116.403248,,08:30,17:00,,2.5,4.0,0.0,,,,
+Beijing,Cable Car,,Amusement Park/Sports & Entertainment,,40.363162,116.022042,,06:30,16:30,,1.5,3.0,0.0,,,,
+Beijing,Yangmeizhuxie Street,,Commercial District,,39.902577,116.400637,,00:00,24:00,,1.0,2.0,0.0,,,,
+Beijing,Hongci Guangji Temple,,Historical Sites,,39.930786,116.378703,,07:00,16:30,,1.0,2.0,0.0,,,,
+Beijing,Beijing Arts and Crafts Museum (Beitou Sinoma Shopping Center Store),,Museum/Memorial Hall,,40.00572,116.400322,,10:00,17:00,,0.5,1.0,0.0,,,,
+Beijing,Tank Museum,,Museum/Memorial Hall,,40.169422,116.13868,,09:00,16:00,,2.5,4.0,0.0,,,,
+Beijing,Yexian Pagoda Scenic Area,,Cultural Tourism Zone,,40.407722,116.873395,,08:30,17:30,,2.5,4.0,47.9,,,,
+Beijing,Suzhou Street,,Commercial District,,39.991011,116.312016,,00:00,24:00,,1.5,3.0,0.0,,,,
+Beijing,Summer Palace Ice and Snow Carnival,,Amusement Park/Sports & Entertainment,,39.99334,116.270413,,00:00,24:00,,0.5,2.0,0.0,,,,
+Beijing,Luo Hong Photography Art Museum,,Art Museum/Gallery,,40.048705,116.58091,,09:00,21:00,,2.5,3.0,0.0,,,,
+Beijing,Five Pagoda Temple Pagoda,,Historical Sites,,39.950627,116.336963,,09:00,17:00,,1.0,2.0,0.0,,,,
+Beijing,Beijing Yanqing Olympic Sports Park,,Amusement Park/Sports & Entertainment,,40.528801,115.797049,,09:00,17:00,,1.5,2.0,0.0,,,,
+Beijing,Wanshou Temple,,Historical Sites,,39.953365,116.3186,,09:00,17:00,,2.0,2.5,0.0,,,,
+Beijing,Imperial Vault of Heaven,,Historical Sites,,39.884764,116.419545,,08:00,16:30,,2.0,3.5,0.0,,,,
+Beijing,Yunmeng Mountain Scenic Area,,Natural Scenery,,40.552925,116.824994,,09:00,17:00,,2.5,4.0,78.0,,,,
+Beijing,Summer Palace Museum,,Museum/Memorial Hall,,40.003191,116.28714,,08:00,18:00,,2.5,3.0,0.0,,,,
+Beijing,China Children's Center - Children's Exploration Hall,,Amusement Park/Sports & Entertainment,,39.939742,116.368001,,09:00,11:30,,0.5,1.0,0.0,,,,
+Beijing,Shijia Hutong Museum,,Museum/Memorial Hall,,39.924292,116.428906,,09:30,16:30,,0.5,1.5,0.0,,,,
+Beijing,Guyaju Scenic Area,,Cultural Landscape,,40.468621,115.78223,,09:00,16:30,,3.0,3.5,54.0,,,,
+Beijing,Beijing Yanqi Lake Xishan Trail,,Park,,40.389306,116.653154,,08:00,17:00,,0.5,2.0,0.0,,,,
+Beijing,Baili Landscape Gallery - Dishuihu,,Natural Scenery,,40.689476,116.471173,,09:00,17:00,,2.0,3.0,25.0,,,,
+Beijing,Dangdang Car Tour of Beijing Central Axis,,Cultural Tourism Zone,,39.904787,116.403994,,09:00,20:20,,0.5,1.0,0.0,,,,
+Beijing,Sanqing Garden,,Cultural Landscape,,39.902184,116.403236,,19:30,22:00,,0.5,1.0,0.0,,,,
+Beijing,Western Mansions Ruins Scenic Area,,Historical Sites,,40.019733,116.319112,,07:00,20:00,,0.5,1.0,0.0,,,,
+Beijing,Yuetan Park,,Park,,39.922319,116.358846,,06:00,21:00,,1.0,2.0,0.0,,,,
+Beijing,Legu Yintan Scenic Area,,Natural Scenery,,39.623508,115.674467,,08:30,17:00,,3.0,4.0,29.0,,,,
+Beijing,Beijing Tongzhou District Museum,,Museum/Memorial Hall,,39.91411,116.673882,,09:00,17:00,,3.0,3.5,0.0,,,,
+Beijing,Dashufa,,Historical Sites,,40.019363,116.319222,,00:00,24:00,,0.5,1.0,0.0,,,,
+Beijing,Beijing Science Center,,Museum/Memorial Hall,,39.976432,116.399187,,00:00,24:00,,1.0,2.0,0.0,,,,
+Beijing,China Garden Museum,,Museum/Memorial Hall,,39.885345,116.183848,,00:00,24:00,,3.0,4.0,0.0,classic_hotspot;family_hotspot;culture_hotspot,medium,medium,weekend;holiday;school_holiday
+Beijing,Beijing Erguotou Liquor Museum,,Museum/Memorial Hall,,40.332082,116.671525,,08:30,16:00,,3.0,3.5,48.0,,,,
+Beijing,Ritan Park,,Park,,39.921337,116.45044,,06:00,21:30,,2.0,3.5,0.0,,,,
+Beijing,Today Art Museum,,Art Museum/Gallery,,39.905621,116.474333,,10:00,18:00,,1.0,2.0,0.0,,,,
+Beijing,Beijing Back Garden (Baihu Jian) Scenic Area,,Natural Scenery,,40.133592,116.105074,,07:00,17:30,,0.5,1.0,60.0,,,,
+Beijing,Crazy Ma Ji,,Amusement Park/Sports & Entertainment,,39.805882,116.522533,,13:00,22:00,,3.0,4.0,0.0,,,,
+Beijing,China Civil Aviation Museum,,Museum/Memorial Hall,,40.024077,116.54451,,09:00,16:30,,0.5,1.0,0.0,,,,
+Beijing,Shougang Blast Furnace 1 · SoReal Sci-Fi Park,,Amusement Park/Sports & Entertainment,,39.926632,116.163968,,00:00,24:00,,1.0,2.0,139.0,,,,
+Beijing,CITIC Securities Tower,,Commercial District,,39.956053,116.474504,,00:00,24:00,,0.5,1.0,0.0,,,,
+Beijing,Tsinghua University,,University Campus,,40.005106,116.342192,,06:30,19:00,,0.5,1.0,0.0,classic_hotspot,medium,medium,weekend;holiday
+Beijing,Shenlueshu,,Historical Sites,,39.885159,116.411096,,06:00,22:00,,2.0,3.0,0.0,,,,
+Beijing,Exhibition Hall of the History of the Communist Party of China,,Museum/Memorial Hall,,40.01018,116.405844,,09:00,17:00,,1.0,1.5,0.0,,,,
+Beijing,Beijing Workers' Stadium,,Amusement Park/Sports & Entertainment,,39.937016,116.453576,,10:00,22:00,,0.5,2.0,0.0,,,,
+Beijing,Nanhaizi Park,,Park,,39.779483,116.47561,,06:00,21:00,,2.0,3.5,0.0,,,,
+Beijing,Badaling National Forest Park,,Natural Scenery,,40.350587,116.035858,,09:00,16:00,,0.5,2.0,33.0,,,,
+Beijing,The Road to Revival Exhibition Hall,,Museum/Memorial Hall,,39.911358,116.407945,,09:00,17:00,,2.0,2.5,0.0,,,,
+Beijing,Shenghuatun Night Market,,Commercial District,,39.883025,116.545695,,00:00,24:00,,2.0,3.0,0.0,,,,
+Beijing,Children's Science Park (China Science and Technology Museum Branch),,Amusement Park/Sports & Entertainment,,40.012682,116.404705,,09:30,12:50,,1.0,2.0,0.0,,,,
+Beijing,Taihe Gate,,Historical Sites,,39.921716,116.403553,,08:30,16:30,,1.0,2.0,0.0,,,,
+Beijing,Old Beijing Style Street,,Commercial District,,39.91813,116.415665,,00:00,24:00,,2.0,2.5,0.0,,,,
+Beijing,Beijing Huode Zhenjun Temple,,Historical Sites,,39.943353,116.401949,,09:00,17:00,,1.5,3.0,0.0,,,,
+Beijing,Yuan Dynasty Capital City Wall Ruins Park,,Park,,39.98241,116.41595,,06:30,22:00,,3.0,4.0,0.0,,,,
+Beijing,Meet the Museum · Beijing 798 Branch,,Museum/Memorial Hall,,39.990209,116.501157,,10:00,18:30,,2.0,3.0,0.0,,,,
+Beijing,Renshou Hall,,Cultural Landscape,,40.004104,116.286464,,00:00,24:00,,2.0,2.5,0.0,,,,
+Beijing,China Soong Ching Ling Youth Science and Technology Cultural Exchange Center,,Amusement Park/Sports & Entertainment,,39.917764,116.32223,,00:00,24:00,,0.5,1.0,0.0,,,,
+Beijing,Shidu Juma Paradise,,Amusement Park/Sports & Entertainment,,39.640744,115.601207,,08:00,18:00,,1.0,2.0,0.0,,,,
+Beijing,Dajue Temple,,Historical Sites,,40.058632,116.113289,,09:00,17:00,,1.0,2.0,0.0,,,,
+Beijing,Academy of Fine Arts Museum,,Art Museum/Gallery,,39.989839,116.471944,,09:30,17:00,,0.5,1.0,0.0,,,,
+Beijing,Longmenjian Scenic Area,,Natural Scenery,,40.028529,115.567102,,08:30,16:00,,1.0,2.0,0.0,,,,
+Beijing,China Puppet Theatre,,Cultural Landscape,,39.974486,116.407764,,09:30,19:30,,2.5,4.0,0.0,,,,
+Beijing,Zhaoling,,Historical Sites,,40.296831,116.224533,,08:30,18:00,,2.0,3.5,30.0,,,,
+Beijing,Ruien Town,,Amusement Park/Sports & Entertainment,,40.103957,116.564571,,10:00,17:00,,1.0,2.5,0.0,,,,
+Beijing,Xihuang Temple,,Historical Sites,,39.969642,116.396846,,00:00,24:00,,1.0,2.0,0.0,,,,
+Beijing,Fahai Chan Temple,,Historical Sites,,39.947874,116.165922,,09:00,16:30,,0.5,1.0,0.0,,,,
+Beijing,Linglong Tower,,Historical Sites,,40.003685,116.400415,,11:00,20:00,,2.0,3.0,0.0,,,,
+Beijing,Guixiaoshi,,Cultural Landscape,,39.985291,116.193966,,00:00,24:00,,1.0,2.0,0.0,,,,
+Beijing,Cining Palace,,Historical Sites,,39.925346,116.400888,,08:30,17:00,,2.0,3.5,0.0,,,,
+Beijing,China Overseas Chinese History Museum,,Museum/Memorial Hall,,39.949017,116.431562,,00:00,17:00,,1.0,2.0,0.0,,,,
+Beijing,Haituo Mountain,,Natural Scenery,,40.565448,115.826677,,00:00,24:00,,0.5,2.0,25.0,,,,
+Beijing,Nine-Dragon Wall,,Historical Sites,,39.938134,116.393984,,06:00,21:00,,2.0,2.5,0.0,,,,
+Beijing,Miyun Reservoir,,Natural Scenery,,40.523288,116.920432,,00:00,24:00,,2.5,3.0,0.0,,,,
+Beijing,Junwang Mansion,,Historical Sites,,39.939857,116.492899,,00:00,24:00,,3.0,4.0,0.0,,,,
+Beijing,Aojia Art Museum,,Art Museum/Gallery,,39.946317,116.454673,,10:00,17:00,,1.5,2.0,0.0,,,,
+Beijing,Dajiang Hutong,,Commercial District,,39.901462,116.406067,,00:00,24:00,,0.5,1.0,0.0,,,,
+Beijing,Grand Canal Forest Park,,Park,,39.882386,116.748895,,00:00,24:00,,2.0,3.5,0.0,,,,
+Beijing,Beijing Drama Carnival,,Amusement Park/Sports & Entertainment,,39.991143,116.503402,,00:00,24:00,,1.0,2.5,0.0,,,,
+Beijing,Taoranting Park Ice Rink,,Amusement Park/Sports & Entertainment,,39.880067,116.39007,,09:00,17:00,,2.5,3.0,0.0,,,,
+Beijing,Olympic Water Park,,Amusement Park/Sports & Entertainment,,40.187846,116.699695,,09:00,17:15,,0.5,2.0,20.0,,,,
+Beijing,Baoyan Paradise (Dahongmen Branch),,Amusement Park/Sports & Entertainment,,39.840015,116.394945,,10:30,19:30,,1.0,2.0,95.0,,,,
+Beijing,Qingyan Boat,,Cultural Landscape,,40.004307,116.276083,,06:00,20:00,,2.5,3.0,0.0,,,,
+Beijing,Yaji Mountain,,Natural Scenery,,40.279898,116.975711,,08:00,16:00,,2.0,3.0,50.0,,,,
+Beijing,Beijing Ancient Observatory,,Historical Sites,,39.913502,116.441237,,09:00,16:30,,2.0,2.5,20.0,,,,
+Beijing,Huguang Guild Hall,,Historical Sites,,39.894984,116.390322,,09:00,22:00,,2.0,2.5,0.0,,,,
+Beijing,Lianhuachi Park,,Park,,39.8983,116.319451,,06:00,22:00,,2.0,3.0,0.0,,,,
+Beijing,Baoguo Temple,,Historical Sites,,39.89683,116.366124,,00:00,16:30,,2.0,3.5,0.0,,,,
+Beijing,Xiushui Street,,Commercial District,,39.917614,116.445496,,09:30,21:00,,3.0,4.0,0.0,,,,
+Beijing,Beihai Park Cruise,,Park,,39.933685,116.397817,,09:00,17:00,,2.0,2.5,0.0,,,,
+Beijing,HI-Fun Competitive Theme Park,,Amusement Park/Sports & Entertainment,,39.915878,116.285845,,10:00,21:00,,2.0,3.5,0.0,,,,
+Beijing,Lotus Market,,Commercial District,,39.940668,116.398041,,00:00,24:00,,2.0,3.5,0.0,,,,
+Beijing,Grand Canal Source Ruins Park,,Park,,40.200992,116.26415,,09:00,18:00,,1.5,2.0,0.0,,,,
+Beijing,Summer Palace - Shipyard,,Park,,40.00626,116.275397,,00:00,24:00,,0.5,1.0,0.0,,,,
+Beijing,CCTV Headquarters,,Cultural Landscape,,39.923542,116.471357,,00:00,24:00,,0.5,2.0,0.0,,,,
+Beijing,Beiwu Park,,Park,,39.993037,116.263064,,00:00,24:00,,2.0,3.0,0.0,,,,
+Beijing,Dinosaur Park,,Amusement Park/Sports & Entertainment,,39.889602,116.406452,,09:00,17:00,,1.5,3.0,40.0,,,,
+Beijing,Zhan Tianyou Memorial Hall,,Museum/Memorial Hall,,40.364345,116.013297,,09:00,16:30,,1.0,2.0,20.0,,,,
+Beijing,Qianqing Gate,,Historical Sites,,39.925575,116.403468,,00:00,24:00,,0.5,1.0,0.0,,,,
+Beijing,Dongsi Hutong Museum,,Museum/Memorial Hall,,39.933555,116.426715,,09:00,12:00,,2.0,3.5,0.0,,,,

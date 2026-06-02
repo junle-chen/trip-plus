@@ -1,0 +1,18 @@
+﻿alias,canonical_name,entity_type,source
+BJQ,Shenzhen East,poi,route_station_name
+Futian,Shenzhen Futian,subway_station,route_station_name
+Futian Railway Station,Shenzhen Futian,subway_station,route_station_name
+Futian Station,Shenzhen Futian,subway_station,route_station_name
+IOQ,Shenzhen North,poi,route_station_name
+NZQ,Shenzhen Futian,subway_station,route_station_name
+SZQ,Shenzhen Station,poi,route_station_name
+SZX,Bao'an International Airport,poi,route_station_name
+Shenzhen,Shenzhen Station,poi,route_station_name
+Shenzhen Bao'an International Airport,Bao'an International Airport,poi,route_station_name
+Shenzhen East Railway Station,Shenzhen East,poi,route_station_name
+Shenzhen East Station,Shenzhen East,poi,route_station_name
+Shenzhen Futian Railway Station,Shenzhen Futian,subway_station,transport_hub
+Shenzhen Futian Station,Shenzhen Futian,subway_station,transport_hub
+Shenzhen North Railway Station,Shenzhen North,poi,route_station_name
+Shenzhen North Station,Shenzhen North,poi,route_station_name
+Shenzhen Railway Station,Shenzhen Station,poi,route_station_name

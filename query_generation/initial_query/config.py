@@ -8,6 +8,8 @@ from query_generation.common import BASE_DIR
 DEFAULT_OUTPUT = BASE_DIR / "query" / "query_en" / "single" / "query.json"
 DEFAULT_DB_ROOT = BASE_DIR / "database" / "sample"
 DEFAULT_QUERY_ROOT = BASE_DIR / "query" / "query_en" / "single"
+DEFAULT_INITIAL_RENDER_TEMPERATURE = 0.85
+DEFAULT_INITIAL_RENDER_MAX_TOKENS = 320
 INTERACTION_ARCHETYPES = {
     "user_state_evolution": {
         "short_id": "A",

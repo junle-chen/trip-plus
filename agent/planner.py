@@ -1,6 +1,7 @@
-"""
-Custom Agent implementation - Framework-independent
-Uses universal LLM calling for multiple providers
+"""Tool-using travel planner agent.
+
+The agent calls an OpenAI-compatible chat model, executes registered travel
+tools, and returns a wrapped plan, clarification, or no-solution response.
 """
 import json
 import os
@@ -31,12 +32,7 @@ FINAL_ANSWER_PSEUDO_TOOLS = {"plan", "clarification", "no_solution"}
 
 
 class TravelPlannerAgent:
-    """
-    Lightweight function-calling Agent (framework-independent):
-    - Loads tool schemas from tools/tool_schema_{language}.json
-    - Dynamically loads tool classes (BaseTravelTool subclasses)
-    - Iteratively calls LLM and executes tool_calls until final answer
-    """
+    """Lightweight function-calling planner over the Trip-Plus tools."""
 
     def __init__(self,
                  model: str,

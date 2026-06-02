@@ -66,8 +66,8 @@ def parse_args():
     parser.add_argument(
         "--max-llm-calls",
         type=int,
-        default=150,
-        help="Maximum LLM calls per sample (default: 150)",
+        default=100,
+        help="Maximum LLM calls per sample (default: 100)",
     )
     parser.add_argument(
         "--output-dir",

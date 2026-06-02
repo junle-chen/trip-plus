@@ -1,19 +1,5 @@
 {
   "models": {
-    "qwen-plus": {
-      "model_name": "qwen-plus",
-      "model_type": "openai",
-      "base_url": "${QWEN_LLM_BASE_URL}",
-      "api_key_env": "QWEN_LLM_API_KEY",
-      "temperature": 0.0
-    },
-    "qwen3.5-plus": {
-      "model_name": "qwen3.5-plus",
-      "model_type": "openai",
-      "base_url": "${QWEN_LLM_BASE_URL}",
-      "api_key_env": "QWEN_LLM_API_KEY",
-      "temperature": 0.0
-    },
     "kimi-k2.6": {
       "model_name": "kimi-k2.6",
       "model_type": "openai",

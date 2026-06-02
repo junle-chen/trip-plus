@@ -88,7 +88,13 @@ def build_initial_render_prompt(payload: dict[str, Any]) -> str:
     )
 
 
-def llm_render_initial_query(record: dict[str, Any], *, model: str) -> str:
+def llm_render_initial_query(
+    record: dict[str, Any],
+    *,
+    model: str,
+    temperature: float,
+    max_tokens: int,
+) -> str:
     """Render one visible initial query with the configured LLM."""
     payload = build_initial_render_payload(record)
     system_prompt = build_user_roleplay_system_prompt(payload) + (
@@ -104,13 +110,24 @@ def llm_render_initial_query(record: dict[str, Any], *, model: str) -> str:
             {"role": "system", "content": system_prompt},
             {"role": "user", "content": prompt},
         ],
-        request_overrides={"temperature": 0.85, "max_tokens": 320},
+        request_overrides={"temperature": float(temperature), "max_tokens": int(max_tokens)},
     )
     return str(response.choices[0].message.content).strip()
 
 
-def _llm_render_or_fallback_initial_query(record: dict[str, Any], *, model: str) -> str:
-    query = llm_render_initial_query(record, model=model)
+def _llm_render_or_fallback_initial_query(
+    record: dict[str, Any],
+    *,
+    model: str,
+    temperature: float,
+    max_tokens: int,
+) -> str:
+    query = llm_render_initial_query(
+        record,
+        model=model,
+        temperature=temperature,
+        max_tokens=max_tokens,
+    )
     if query_passes_render_sanity(query, record["meta_info"]):
         return query
     return fallback_render_initial_query(record)
@@ -122,6 +139,8 @@ def render_initial_query_candidates(
     model: str,
     skip_llm: bool,
     workers: int,
+    temperature: float,
+    max_tokens: int,
 ) -> None:
     """Render candidate records in place, using deterministic fallback when needed."""
     if skip_llm:
@@ -132,13 +151,24 @@ def render_initial_query_candidates(
     workers = max(1, min(int(workers or 1), len(candidates)))
     if workers == 1:
         for candidate in candidates:
-            candidate["record"]["query"] = _llm_render_or_fallback_initial_query(candidate["record"], model=model)
+            candidate["record"]["query"] = _llm_render_or_fallback_initial_query(
+                candidate["record"],
+                model=model,
+                temperature=temperature,
+                max_tokens=max_tokens,
+            )
         return
 
     future_to_candidate: dict[Any, dict[str, Any]] = {}
     with ThreadPoolExecutor(max_workers=workers) as executor:
         for candidate in candidates:
-            future = executor.submit(_llm_render_or_fallback_initial_query, candidate["record"], model=model)
+            future = executor.submit(
+                _llm_render_or_fallback_initial_query,
+                candidate["record"],
+                model=model,
+                temperature=temperature,
+                max_tokens=max_tokens,
+            )
             future_to_candidate[future] = candidate
 
         for future in as_completed(future_to_candidate):

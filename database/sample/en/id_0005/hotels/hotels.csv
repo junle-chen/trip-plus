@@ -1,0 +1,181 @@
+city,name,address,latitude,longitude,decoration_time,hotel_star,price,score,brand,services
+Shenzhen,Nanyang Inn (OCT Gankeng Ancient Town Branch),,22.65457,114.105951,,,231,,,Mountain View Room
+Shenzhen,Shenzhen Yi Duoduo Hotel (Bao'an Gymnasium Branch),,22.563369,113.876837,,,502,,,Parking Lot
+Shenzhen,Tomorrow Hotel (Shenzhen Bao'an International Airport Huangtian Metro Station Branch),,22.624025,113.849305,,,242,,,Free Parking
+Shenzhen,Shenzhen Meijing Yayue Hotel,"Shenzhen Meijing Yayue Hotel (Shenzhen North Station Branch), Longhua District, Shenzhen, Guangdong Province",22.615968,114.025099,,,250,,,Free Parking
+Shenzhen,Yaste International Hotel (Shenzhen Bao'an International Airport Branch),"No. 8 Shengtai Road, Sanwei Community, Hangcheng Street, Bao'an District, Shenzhen, Guangdong Province",22.613827,113.841877,,,257,4.5,,Free Parking
+Shenzhen,Tingbo Hotel (Shenzhen Bao'an Airport Gushu Metro Station Branch),"Zheng Ri Hao Commercial Building, Hangkong Road, Hangcheng Street, Bao'an District, Shenzhen, Guangdong Province",22.604176,113.835692,,,263,4.9,,Free Parking
+Shenzhen,Shenzhen Yuehai Hotel (Nanshan Science and Technology Park Branch),,22.538872,113.923637,,,265,,,Free Parking
+Shenzhen,Kyriad Hotel (Shenzhen Longhua Dalang Commercial Center Branch),"No. 70 Longguan Expressway, Longhua District, Shenzhen, Guangdong Province",22.66764,114.003522,,,273,4.8,,Free Parking
+Shenzhen,Meiqiu M Hotel (Nantou Ancient City Daxin Metro Station Branch),"No. 134 Nantou Street, Nanshan District, Shenzhen, Guangdong Province",22.537145,113.916478,,,276,4.7,,Butler Service
+Shenzhen,Zhonghui Youya Hotel (Shenzhen Nanshan Science and Technology Park Branch),,22.531952,113.929786,,,277,,,Free Parking
+Shenzhen,Li Yi Hotel (Shenzhen International Convention and Exhibition Center Tangwei Metro Station Branch),"Floors 8-12, Xintian Building, No. 6 Fengtang Avenue, Fuyong Street, Bao'an District, Shenzhen, Guangdong Province",22.695798,113.828856,,,278,4.3,,Free Parking
+Shenzhen,Vienna International Hotel (Shenzhen Qianhai Happy Harbor Branch),"No. 8 Xingye Road, Bao'an District, Shenzhen, Guangdong Province",22.559939,113.865324,,,278,4.5,Vienna,Gym
+Shenzhen,Fei Hotel (Shenzhen North Station Renmin Road Branch),,22.635814,114.025951,,,279,,,EV Charging Station
+Shenzhen,Shenzhen Pengwei Hotel,"1st Floor, Pengwei Building, No. 15 Hongbao Road, Luohu District, Shenzhen, Guangdong Province",22.546289,114.109344,,,286,4.1,,Free Parking
+Shenzhen,Vienna Good Sleep International Hotel (Shenzhen New Airport Flagship Store),,22.622796,113.836519,,,288,,,Multi-function Hall
+Shenzhen,Dongguan Wange Hotel (Chang'an Wanda Plaza Branch),,22.810798,113.81288,,,289,,,Free Parking
+Shenzhen,Shenzhen Ruifana Hotel (Bao'an Pingzhou Metro Station Branch),"No. 185 Xinhu Road, Bao'an District, Shenzhen, Guangdong Province (210 meters walk from Exit C of Pingzhou Metro Station)",22.570399,113.868388,,,289,4.2,,Free Parking
+Shenzhen,Green East Hotel (Shenzhen Pinghu China South City Hetao Metro Station Branch),"No. 1 Huanna Avenue, Hetao Community, Pinghu Street, Longgang District, Shenzhen, Guangdong Province",22.682892,114.121834,,,293,4.7,,Free Parking
+Shenzhen,Shenzhen Nanshan Daxin Metro Station Hanhao Hotel,"No. 160 Taoyuan Road, Nanshan District, Shenzhen, Guangdong Province (50 meters walk from Exit A of Daxin Metro Station)",22.532639,113.916449,,,293,4.8,,Audio-Visual Room
+Shenzhen,Qiuguo Hotel (Shenzhen Nanshan Nanxin Road Branch),,22.530565,113.919105,,,294,,,Family Room
+Shenzhen,Hisea Hotel (Shenzhen Luohu Dongmen Branch),"Hisea Hotel (Shenzhen Luohu Dongmen Yitian Holiday Plaza Branch), No. 2001 Wenjin Middle Road, Luohu District, Shenzhen, Guangdong Province",22.550278,114.130316,,,295,,,Free Parking
+Shenzhen,Youfan Hotel (Shenzhen Bao'an Center Fanshen Metro Station Branch),,22.55947,113.89607,,,298,,,Butler Service
+Shenzhen,Shenzhen Futian Huaqiangbei Qiuguo Hotel,,22.563777,114.099844,,,298,,,Family Room
+Shenzhen,Elong Hotel (Shenzhen China South City Branch),"300 meters northwest of the intersection of Ping'an Avenue and Liangbai Road, Longgang District, Shenzhen, Guangdong Province",22.667588,114.144133,,,302,,,Audio-Visual Room
+Shenzhen,Chengguo Hotel (Qianhai Bao'an Center Branch),,22.556861,113.898294,,,303,,,Family Room
+Shenzhen,Dunhill Hotel (Shekou Huaguoshan Metro Station Branch),,22.495659,113.918383,,,309,,,Free Parking
+Shenzhen,Zhonghao Yueji Hotel (Shenzhen Bao'an Center Xixiang Branch),"No. 228 Xixiang Avenue, Bao'an District, Shenzhen, Guangdong Province",22.582756,113.874119,,,310,4.7,,Free Parking
+Shenzhen,Shenzhen Bao'an Fanshen Road Qiuguo Hotel,,22.556326,113.900691,,,312,,,Free Parking
+Shenzhen,Jinjiang Metropolo Hotel (Shenzhen Longgang Central City Longcheng Square Branch),"No. 1 Changxing North Road, Longgang District, Shenzhen, Guangdong Province (290 meters walk from Exit D of Shangjing Metro Station)",22.730705,114.243158,,,314,4.3,Jinjiang,Free Parking
+Shenzhen,Vienna International Hotel (Shenzhen Baolong Metro Station Branch),,22.695312,114.290971,,,318,,,Robot Service
+Shenzhen,Pengke Boutique Hotel (Shenzhen Coast City Technology Park Branch),,22.514029,113.934497,,,318,,,Free Parking
+Shenzhen,Shenzhen Century Garden Hotel (Nanshan Technology Park Branch),"No. 118-5 Shahe East Road, Shahe Street, Nanshan District, Shenzhen, Guangdong Province",22.534199,113.964544,,,325,4.3,,Gym
+Shenzhen,Nanxianglou Art Hotel (OCT Gankeng Ancient Town Branch),,22.657457,114.103391,,,328,,,Multi-function Hall
+Shenzhen,Amigo Mige Sleep Hotel (Longhua Guanlan Branch),,22.721847,114.034594,,,331,,,Free Parking
+Shenzhen,Bodden Meijin Hotel (Shenzhen Nanshan Xili Metro Station Branch),"Intersection of Liuxian Avenue and Shahe Xili Road, Nanshan District, Shenzhen, Guangdong Province",22.581022,113.953854,,,331,4.7,,Parking Lot
+Shenzhen,Licheng Langyu Hotel (Shenzhen Longgang Central Dayun New City Branch),"1st Floor, Building A, Mingde Building, Building 9, Jixiangli Haoting, Longgang District, Shenzhen, Guangdong Province",22.722441,114.221198,,,335,4.6,,Free Parking
+Shenzhen,Yingshe Light Luxury S Hotel (Shenzhen Shekou Sea World Metro Station Branch),"North Gate, New Era Plaza, No. 1 Taizi Road, Zhaoshang Street, Nanshan District, Shenzhen, Guangdong Province",22.482591,113.91326,,,336,4.4,,Mountain View Room
+Shenzhen,Huayi Hotel (Shenzhen Bao'an Pingzhou Metro Station Branch),"No. 3075 Bao'an Avenue, Bao'an District, Shenzhen, Guangdong Province",22.573949,113.871677,,,338,4.6,,Free Parking
+Shenzhen,Orange Hotel (Shenzhen Bao'an Haiya Bin Fen City Branch),"No. 250-1 Jian'an 1st Road, Bao'an District, Shenzhen, Guangdong Province",22.564172,113.904325,,,338,4.7,Orange Hotel,Parking Lot
+Shenzhen,Meiyu Hotel Apartment (Shenzhen Sungang Art Exhibition Center Branch),,22.566292,114.103465,,,339,,,Free Parking
+Shenzhen,Hampton by Hilton Dongguan Fenggang,"No. 6 Senhu 2nd Road, Fenggang Town, Dongguan City, Guangdong Province",22.727464,114.146468,,,341,4.7,Hilton,Free Parking
+Shenzhen,Huayi Hotel (Shenzhen North Station Branch),"40 meters north of the intersection of Mintang Road and Hongmu Street, Longhua District, Shenzhen, Guangdong Province",22.623724,114.029255,,,343,,,Robot Service
+Shenzhen,Yasite Hotel (Shenzhen International Convention and Exhibition Center Bao'an Airport Branch),,22.683595,113.806479,,,343,,,EV Charging Station
+Shenzhen,Shenzhen Great Wall Hotel,"No. 2086 Honggui Road, Luohu District, Shenzhen, Guangdong Province",22.550064,114.106903,,,346,4.4,,Free Parking
+Shenzhen,Junde Holiday Hotel (Shenzhen OCT Branch),,22.540267,113.995765,,,349,,,Free Parking
+Shenzhen,Shenzhen Zhongchen International Hotel (Shenzhen Pingshan High-Speed Railway Station Baolong Metro Station Branch),,22.693443,114.291826,,,349,,,Audio-Visual Room
+Shenzhen,Xana Hotel (Shenzhen Convention and Exhibition Center Gangxia Metro Exit Branch),"Next to Exit A of Gangxia Metro Station, Futian District, Shenzhen, Guangdong Province",22.535457,114.068794,,,354,4.4,,Butler Service
+Shenzhen,Orange Hotel (Shenzhen Nanshan Xili Metro Station Branch),"No. 20 Tongsha Road, Xili, Nanshan District, Shenzhen, Guangdong Province",22.58428,113.950351,,,354,4.8,Orange Hotel,Parking Lot
+Shenzhen,Huaxuanli Hotel (Shenzhen Dayun Center Branch),"Huaxun Commercial Building, Ailian Community, Longcheng Street, Longgang District, Shenzhen, Guangdong Province",22.702747,114.218969,,,357,4.7,,Free Parking
+Shenzhen,Shenzhen T Hotel Apartment (Nanshan Technology Park Branch),"60 meters east of the intersection of Gaoxin South 10th Road and Haijing Road, Nanshan District, Shenzhen, Guangdong Province",22.524625,113.936903,,,358,,,Kitchen
+Shenzhen,Shenzhen Songgang Manjinghua Lepin Hotel,"101, Yizhan Business Building, Shapu Community, Songgang Street, Bao'an District, Shenzhen, Guangdong Province",22.785441,113.833846,,,358,4.8,,Free Parking
+Shenzhen,Vienna International Hotel (Shenzhen North Station Yuanfen Metro Station Branch),,22.652186,114.007395,,,358,,,Free Parking
+Shenzhen,Garden Binshe Hotel (Shenzhen Futian Convention and Exhibition Center Gangxia Metro Station Branch),"4A, Podium, Building A, United Plaza, No. 5022 Binhe Avenue, Futian District, Shenzhen, Guangdong Province",22.529507,114.068734,,,361,4.6,,Sunbathing Area
+Shenzhen,Vienna Hotel (Shenzhen International Convention and Exhibition Center Fuyong Xintian Branch),"Boye Building, No. 101 Xintian Avenue, Fuyong, Bao'an District, Shenzhen, Guangdong Province",22.687898,113.83058,,,364,4.6,Vienna,Free Parking
+Shenzhen,Holiday Inn Express Shenzhen North Station,"100 meters from the intersection of Jinlong Road and Gexin Street, Minzhi Street, Longhua District, Shenzhen, Guangdong Province, Shuxiang Mendì Building",22.596667,114.044066,,,367,4.1,,SPA
+Shenzhen,Shenzhen Yueru Hotel,"6th Floor, East Wing, Times Technology Building, No. 7028 Shennan Avenue, Futian District, Shenzhen, Guangdong Province (Check-in at Exit B of Chegongmiao Metro Station)",22.53679,114.023844,,,367,4.3,,Tea Room
+Shenzhen,Shenzhen Futian Zhuzilin Boyuan Qiuguo Hotel,,22.53385,114.005939,,,369,,,Free Parking
+Shenzhen,Holiday Inn Express Shenzhen Longhua (Dalang Commercial Center Branch),"No. 16 Huaning Road, Dalang Street, Longhua District, Shenzhen, Guangdong Province",22.69027,113.989206,,,369,4.6,,Free Parking
+Shenzhen,Shenzhen Dongmen Yitang Service Apartment,"No. 7 Xinyuan Road, Luohu District, Shenzhen, Guangdong Province (120 meters walk from Laojie Metro Station Entrance/Exit)",22.546261,114.117279,,,370,4.6,,EV Charging Station
+Shenzhen,Shenzhen Sea World Junlan Bailu Hotel,"No. 142, 1st Floor, Yili Jiefang Mall, Shuiwan 1979 Plaza, Taizi Road, Nanshan District, Shenzhen, Guangdong Province",22.489031,113.919136,,,373,4.6,,Mountain View Room
+Shenzhen,XW Hotel Xicheng Design Hotel (Shenzhen OCT Creative Park Branch),"Xicheng Hotel, Building C7, OCT Creative Culture Park, No. 4 Wenchang Street, Xiangshan Street Community, Shahe Street, Nanshan District, Shenzhen, Guangdong Province",22.54051,113.994187,,,376,4.7,,Robot Service
+Shenzhen,Lavande Hotel (Shenzhen Dongmen Shuibei Cuizhu Metro Station Branch),"1st Floor Lobby, Junyuan Building, No. 1001 Aiguo Road, Luohu District, Shenzhen, Guangdong Province",22.551301,114.131021,,,378,4.5,,Multi-function Hall
+Shenzhen,Tianhe Hotel (Shenzhen Bao'an Airport Branch),"No. 1 Xinghua Road, Bao'an District, Shenzhen, Guangdong Province (Intersection of Bao'an Avenue and Airport 3rd Road)",22.638995,113.826829,,,379,4.6,,Chess and Card Room
+Shenzhen,Shenzhen Shanhai Langhua Hotel (Nanshan Technology Park Branch),"Langhua Jiayuan, No. 68 Pingji Avenue, Longgang District, Shenzhen, Guangdong Province",22.529107,113.910552,,,379,3.7,,Butler Service
+Shenzhen,Shenzhen VON Hotel Wanhe Hotel (Nanshan MixC World Branch),"1F, South Wing, Wande Lai Building, Yuehai Street, Nanshan District, Shenzhen, Guangdong Province",22.537785,113.948164,,,380,4.4,,Free Parking
+Shenzhen,Jinlong Fuhua Hotel (Pingshan High-Speed Railway Station Branch),,22.680678,114.324089,,,382,,,Free Parking
+Shenzhen,Shenzhen Fangge Yashi Hotel (Nanshan Technology Park Branch),,22.510525,113.932089,,,383,,,Free Parking
+Shenzhen,Wan'ao Hotel (Shenzhen Baoneng Center Branch),,22.567589,114.110159,,,384,,,Free Parking
+Shenzhen,Meihao Lizhi Hotel Shenzhen Bao'an Airport (Huaide Metro Station Branch),,22.672004,113.826334,,,384,,,Free Parking
+Shenzhen,Shenzhen Kingkey Crystal Hotel,"South Wing, Financial Center Building, No. 8 Jinhua Street, Luohu District, Shenzhen, Guangdong Province",22.539423,114.105825,,,386,4.4,,Free Parking
+Shenzhen,Qingneng Chutian Grand Hotel (Shenzhen Futian Port Convention and Exhibition Center Branch),"Hubei Building, No. 9003 Binhe Avenue, Futian District, Shenzhen, Guangdong Province",22.52777,114.047436,,,386,4.6,,Free Parking
+Shenzhen,Shenzhen Metropolo Hotel,"No. 2088 Dongmen Middle Road, Luohu District, Shenzhen, Guangdong Province",22.549074,114.123002,,,387,4.7,,Free Parking
+Shenzhen,Shenzhen Linian Hotel,"F1 Floor, Liwan Building, No. 101 Qianhai Road, Nanshan District, Shenzhen, Guangdong Province",22.49569,113.891695,,,388,4.5,,Free Parking
+Shenzhen,Xana Deluxe Hotel (Shenzhen Guomao Metro Station Branch),,22.541797,114.117054,,,389,,,Butler Service
+Shenzhen,Shenzhen Fulland Grand Hotel,"No. 1085 Heping Road, Luohu District, Shenzhen, Guangdong Province (300 meters walk from Exit D of Luohu Metro Station)",22.530801,114.115246,,,389,4.2,,Swimming Pool
+Shenzhen,Zhonghao Yueji Hotel (Shenzhen Qianhai Branch),"No. 10 Xin'an 3rd Road, Dalang Community, Xin'an Street, Bao'an District, Shenzhen, Guangdong Province",22.574553,113.911282,,,391,4.6,,Free Parking
+Shenzhen,Shenzhen Futian Huanggang Port Qiuguo Hotel,"No. 32 Futian South Road, Futian District, Shenzhen, Guangdong Province",22.52762,114.07765,,,391,4.7,,Free Parking
+Shenzhen,Qiyue International Hotel (Longgang Dayun Branch),"No. 391 Ainan Road, Longgang District, Shenzhen, Guangdong Province",22.697457,114.246344,,,392,4.8,,Free Parking
+Shenzhen,Hejian S Hotel (Shenzhen Technology Park Branch),,22.522171,113.936948,,,392,,,Free Parking
+Shenzhen,FunGee X Huanzhi Hotel (Shenzhen Futian Bagualu Branch),,22.564868,114.099417,,,393,,,Audio-Visual Room
+Shenzhen,"Pingshan Hotel, Shenzhen Pingshan High-Speed Railway Station","Intersection of Tiyu 1st Road and Xinhe Road, Pingshan District, Shenzhen, Guangdong Province",22.677575,114.341409,,,394,4.4,,Free Parking
+Shenzhen,"Licheng Huating Hotel, Dongguan Jiahui Club","No. 12 Jiahui Road, Dongguan City, Guangdong Province",22.715136,114.190861,,,398,4.6,,Family Room
+Shenzhen,"Century Tower, Shenzhen Zhongzhou Saintyuan Hotel",,22.550849,114.087442,,,398,,,Free Parking
+Shenzhen,Shenzhen Xiaoliangmao Home Hotel (Gankeng Ancient Town Branch),,22.657927,114.100676,,,398,,,Free Parking
+Shenzhen,Shenzhen Meijing Hotel,"Shenzhen Lijing Hotel (Shenzhen North Station Branch), No. 356 Xinqu Avenue, Longhua District, Shenzhen, Guangdong Province",22.617051,114.022997,,,398,,,Free Parking
+Shenzhen,Shenzhen Shekou Sea World Kaiyuan Mingting Hotel,"No. 1-1 Kangle Road, Shekou, Nanshan District, Shenzhen, Guangdong Province (240 meters walk from Exit D of Shuiwan Metro Station)",22.487485,113.919016,,,398,4.8,,Beautiful View Outside the Window
+Shenzhen,Hejian S Hotel (Shenzhen High-Tech Park Branch),,22.53841,113.95156,,,398,,,Free Parking
+Shenzhen,Hejing Hotel (Shenzhen Futian Port Convention and Exhibition Center Branch),,22.520063,114.04538,,,398,,,Free Parking
+Shenzhen,Lavande Hotel (Shenzhen Bay Houhai Avenue Branch),"No. 1017-7 Houhai Avenue, Shekou Street, Nanshan District, Shenzhen, Guangdong Province",22.487375,113.935535,,,398,4.7,,Free Parking
+Shenzhen,Amigo Migge Sleep Hotel (Shenzhen North Station Branch),"South of the Intersection of Minzhi Avenue and Minfeng Road, Longhua District, Shenzhen, Guangdong Province",22.610573,114.044913,,,399,4.7,,Free Parking
+Shenzhen,De Rucci Health Sleep Hotel (Shenzhen East Station Buji Metro Station Branch),,22.607734,114.124544,,,399,,,Free Parking
+Shenzhen,Shenzhen Yueji Hotel (Nanshan Science and Technology Park Branch),,22.535899,113.95249,,,399,,,Free Parking
+Shenzhen,Akanala · Shenzhen Orange Sea Vacation B&B,"Building 40, Yangchouwan Garden, No. 3 Yangchou Road, Nanao Street, Longgang District, Shenzhen, Guangdong Province",22.508807,114.482142,,,399,4.7,,Self-operated Family Room
+Shenzhen,Vienna International Hotel (Shenzhen Nanshan Science and Technology Park Kexing Branch),"No. 1 Songpingshan Road, Nanshan District, Shenzhen, Guangdong Province",22.553855,113.951654,,,401,4.8,Vienna,Audio-Visual Room
+Shenzhen,Ji Hotel (Shenzhen Nanshan Langshan Road Branch),"4th Floor, Dongjiang Environmental Protection Building, No. 9 Langshan Road, Songpingshan Community, Xili Street, Nanshan District, Shenzhen, Guangdong Province",22.555649,113.9499,,,403,4.7,Ji Hotel,Parking Lot
+Shenzhen,Shenzhen Luohu Dongmen Atour X Hotel,"15th Floor, No. 2002 Dongmen Middle Road, Luohu District, Shenzhen, Guangdong Province",22.546214,114.121982,,,403,4.2,Atour,Robot Service
+Shenzhen,Orange Hotel (Shenzhen North Station Branch),"No. 302-3 Minzhi Avenue, Longhua District, Shenzhen, Guangdong Province",22.62233,114.039925,,,404,4.6,Orange Hotel,Free Parking
+Shenzhen,WESU Weisu Design Apartment (Shenzhen Futian Bagualing Branch),"23rd Floor, Qingfeng Rongsheng Venture Capital Building, No. 88 Bagua 3rd Road, Futian District, Shenzhen, Guangdong Province",22.563117,114.100883,,,405,4.7,,24-Hour Front Desk
+Shenzhen,Shenzhen D House Dreamer Hotel Apartment (Futian Shangmeilin Metro Station Branch),"1st Floor, Ideal Mansion, No. 6 Meikang Road, Futian District, Shenzhen, Guangdong Province",22.570233,114.061462,,,406,4.2,,Hotel Apartment
+Shenzhen,Vienna Good Sleep International Hotel (Shenzhen University Town Tanglang Metro Station Branch),"Tanglang, Liuxian Avenue, Nanshan District, Shenzhen, Guangdong Province",22.585924,113.993138,,,408,4.6,Vienna,Free Parking
+Shenzhen,Naiwei S Hotel (Shenzhen Coast City Nanyou Branch),,22.512721,113.929052,,,409,,,Free Parking
+Shenzhen,Shenzhen Sea World Dianying Hotel,"Building A, Eastern Ocean Oil Building, No. 1 Gongye 2nd Road, Shuiwan District, Zhaoshang Street, Nanshan District, Shenzhen, Guangdong Province",22.48336,113.913271,,,409,4.4,,Free Parking
+Shenzhen,Shenzhen Bay Qiuguo S1979 Hotel,,22.49072,113.935232,,,409,,,Free Parking
+Shenzhen,Lavande Hotel (Shenzhen Nanshan Science and Technology Park Vanke Cloud City Branch),"Building A, Phase II, Burton Science and Technology Park, No. 1044 Chaguang Road, Shuguang Community, Xili Street, Nanshan District, Shenzhen, Guangdong Province",22.567384,113.939582,,,409,4.8,,Multi-function Hall
+Shenzhen,Qiuguo S Hotel (Shenzhen Nanshan Nantou Ancient City Branch),,22.537757,113.917768,,,411,,,Parking Lot
+Shenzhen,Vienna Hotel (Shenzhen Nanshan Science and Technology Park Branch),,22.544912,113.950955,,,412,,,Free Parking
+Shenzhen,Shenzhen Zhongzhou Saintyuan Hotel,"Ground Parking Lot, Shenzhen Zhongzhou Saintyuan Hotel, No. 4002 Huaqiang North Road, Futian District, Shenzhen, Guangdong Province",22.549404,114.087387,,,416,3.3,,Swimming Pool
+Shenzhen,Shenzhen Naiwei S Hotel (Xili Metro Station Branch),,22.581875,113.957484,,,418,,,Free Parking
+Shenzhen,Shenzhen Longgang Shiyaling Metro Station Atour Hotel,"101, Building B, Building 2, Dongjiu Science and Technology Park, No. 76 Bulan Road, Longgang District, Shenzhen, Guangdong Province",22.631847,114.133138,,,419,4.6,Atour,Free Parking
+Shenzhen,Licheng Donggu Hotel (Shenzhen Huaqiangbei Branch),"No. 5 Fuhong Road, Futian District, Shenzhen, Guangdong Province (230 meters walk from Exit C of Huaqiang Road Metro Station)",22.538304,114.083587,,,420,4.5,,Free Parking
+Shenzhen,Shenzhen Dapeng Jiaochangwei Atour X Hotel,"No. 8 Yintan Road, Jiaochangwei, Dapeng New Area, Longgang District, Shenzhen, Guangdong Province",22.58943,114.508101,,,420,4.7,Atour,Free Parking
+Shenzhen,Shenzhen Technology University International Academic Exchange Center 1034 Hotel,"440 meters Northwest of the Intersection of Lantian Road and Jiijing Road, Pingshan District, Shenzhen, Guangdong Province",22.701393,114.394804,,,420,4.0,,Free Parking
+Shenzhen,Ji Hotel (Shenzhen Nanshan Science and Technology Park Changyuan Hotel),"1F-61012, Building 9, Liudong, No. 2 Gaoxin Zhongyi Dao, Nanshan District, Shenzhen, Guangdong Province",22.550832,113.943003,,,421,4.7,Ji Hotel,Free Parking
+Shenzhen,Yasifeier Hotel (Shenzhen Bao'an International Airport Branch),"101, Jianxin Building, Intersection of Bao'an Avenue and Hangcheng Avenue, Sanwei Community, Hangcheng Street, Bao'an District, Shenzhen, Guangdong Province",22.605912,113.843877,,,421,4.3,,Free Parking
+Shenzhen,Shenzhen Longgang Manxin Hotel,"101, Dormitory Building, No. 1 Longcheng Industrial Park, Qinglin Road, Huanggeken Community, Longcheng Street, Longgang District, Shenzhen, Guangdong Province",22.720425,114.214168,,,422,4.8,,Free Parking
+Shenzhen,Kaisa Keyu Selected Hotel (Shenzhen Dapeng Branch),"Building 2, Building 4, Kaisa Plaza, Yingbin North Road, Dapeng Street, Longgang District, Shenzhen, Guangdong Province",22.594966,114.474029,,,425,4.6,,Free Parking
+Shenzhen,Shenzhen Nanyue Smart Hotel (Nanshan Vanke Cloud City Branch),"No. 2002 Shigu Road, Nanshan District, Shenzhen, Guangdong Province",22.569103,113.948897,,,426,4.5,,Free Parking
+Shenzhen,Shenzhen Anban Eco-Hotel (Nanshan OCT Science and Technology Park Branch),,22.556197,113.974259,,,427,,,Free Parking
+Shenzhen,Jingming Yagu Hotel,"No. 99 Tiyu Park Road, Guangming Street, Guangming District, Shenzhen, Guangdong Province",22.751444,113.962872,,,428,4.6,,Free Parking
+Shenzhen,Yishang PLUS Hotel (Shenzhen Futian Convention and Exhibition Center Branch),,22.529877,114.070628,,,429,,,Free Parking
+Shenzhen,Shenzhen Jingfeng Hotel (Xili University Town Branch),"Building B, Zhongguan Times Square, No. 4168 Liuxian Avenue, Nanshan District, Shenzhen, Guangdong Province",22.58316,113.964444,,,429,4.6,,Free Parking
+Shenzhen,Shenzhen Guanlan High-Tech Park Atour Hotel,,22.687773,114.060208,,,429,,,Free Parking
+Shenzhen,Shenzhen Nanshan Shenzhen Bay Mercure Hotel,"Qianjin Building, No. 4 Houhai Road, Nanshan District, Shenzhen, Guangdong Province",22.494115,113.932006,,,431,4.4,,Free Parking
+Shenzhen,Shenzhen Dameisha Zhongxing Hetai Sea View Hotel,"No. 268 Yanmei Road, Yantian District, Shenzhen, Guangdong Province",22.584779,114.294375,,,432,4.6,,Swimming Pool
+Shenzhen,Bolunton Apartment (Shenzhen International Convention and Exhibition Center Branch),"Customer Service Center, 1st Floor, Apartment Building 2, Huihuangwan Zhonggang Plaza, Baichuan Road, Fuhai Street, Bao'an District, Shenzhen, Guangdong Province",22.70676,113.778316,,,433,4.8,,Hotel Apartment
+Shenzhen,Orange Hotel (Shenzhen Nanshan Lili Metro Station Branch),"1st Floor, Building 2, Yuanyang Binhai Building, No. 4359 Dongbin Road, Nanshan District, Shenzhen, Guangdong Province",22.511442,113.910238,,,434,4.6,Orange Hotel,Parking Lot
+Shenzhen,Shenzhen Futian Shangsha Metro Station Qiuguo Hotel,,22.523392,114.039096,,,434,,,Free Parking
+Shenzhen,Venus Royal Hotel (Shenzhen International Convention and Exhibition Center Haishang Tianyuan Branch),,22.741572,113.787062,,,435,,,Free Parking
+Shenzhen,Shenzhen Xiwan Hotel,,22.526123,113.939768,,,436,,,EV Charging Station
+Shenzhen,Shenzhen Nanshan Science and Technology Park Changyuan Qingju Hotel,"Building 7, Changyuan New Material Port, Gaoxin Zhongyi Dao, Yuehai Street, Nanshan District, Shenzhen, Guangdong Province",22.551098,113.944138,,,438,4.7,,Parking Lot
+Shenzhen,Shenzhen Longgang Zhonghaixin Atour S Hotel,"Shenzhen Longgang Gankeng Ancient Town Atour Hotel, Longgang District, Shenzhen, Guangdong Province",22.648401,114.118867,,,439,,Atour,Free Parking
+Shenzhen,Grand Skylight Hotel · Yue (Shenzhen Central Park Branch),,22.539471,114.078528,,,440,,,Free Parking
+Shenzhen,Yuan · Cultural Dynasty Hotel (Shenzhen Bao'an International Convention and Exhibition Center Branch),"209, Comprehensive Building 2, Minzhu 99 Industrial City, Shajing West Ring Road, Shatou Community, Shajing Street, Bao'an District, Shenzhen, Guangdong Province",22.721355,113.799581,,,440,4.6,,Free Parking
+Shenzhen,Lantu Meiji Hotel (Shenzhen International Convention and Exhibition Center Branch),"No. 165-2 Yongfu Road, Tangwei Community, Fuhai Street, Bao'an District, Shenzhen, Guangdong Province",22.700604,113.799604,,,440,4.6,,Free Parking
+Shenzhen,Shenzhen Guanlan Atour Hotel,,22.70737,114.043967,,,442,,,Free Parking
+Shenzhen,Shenzhen Bao'an Qianhai Pagoda Junting Design Hotel,"14F, Pagoda Junting Design Hotel, West Tower, Hengmingzhu International Financial Center, No. 9 Jian'an 1st Road, Bao'an District, Shenzhen, Guangdong Province",22.557232,113.909531,,,443,4.4,,Butler Service
+Shenzhen,Yingman Sea View Resort Homestay (Dameisha Branch),,22.598849,114.311274,,,445,,,Sunbathing Area
+Shenzhen,Ji Hotel (Shenzhen North Railway Station Metro Station Branch),"Intersection of Xinqu Avenue and Minfeng Road, Longhua District, Shenzhen, Guangdong Province",22.605356,114.034682,,,446,3.1,Ji Hotel,Parking Lot
+Shenzhen,Greenland Jinglin Convention and Exhibition Executive Apartment (Shenzhen International Convention and Exhibition Center Branch),"No. 1 Zhancheng Road, Heping Community, Fuhai Street, Bao'an District, Shenzhen, Guangdong Province",22.701165,113.781046,,,446,,,Parking Lot
+Shenzhen,Shenzhen Auden International Hotel,"No. 12 Kuinan Road, Dapeng Street, Dapeng New District, Longgang District, Shenzhen, Guangdong Province",22.584331,114.482576,,,448,4.5,,Free Parking
+Shenzhen,Qiuguo Hotel (Shenzhen Convention and Exhibition Center Fumin Metro Station Branch),"No. 2004 Jintian Road, Futian District, Shenzhen, Guangdong Province (50 meters walk from Exit B of Fumin Metro Station)",22.524363,114.064996,,,448,4.6,,Butler Service
+Shenzhen,Vienna Hotel (Shenzhen International Convention and Exhibition Center Fuyong Fenghuangshan Branch),"Buildings 8-9, Food Street, Fenghuangshan Avenue, Fenghuang Community, Fuyong Street, Bao'an District, Shenzhen, Guangdong Province",22.683999,113.846024,,,448,4.6,Vienna,Free Parking
+Shenzhen,Shenzhen Hua Banlong Homestay,,22.610503,114.416772,,,455,,,Charming Sea View
+Shenzhen,Vienna International Hotel (Shenzhen International Convention and Exhibition Center Ma'anshan Metro Station Branch),"No. 343-345 Nanhuan Road, Shajing, Bao'an District, Shenzhen, Guangdong Province",22.716198,113.807795,,,455,4.6,Vienna,Free Parking
+Shenzhen,Atour X Hotel Shenzhen Luohu Sungang,,22.555514,114.109961,,,456,,,Family Room
+Shenzhen,Atour Hotel Shenzhen Bao'an Xixiang,"Building A, Qiaohongsheng Cultural and Creative Park, Yintian Industrial Zone, Yantian Community, Xixiang Street, Bao'an District, Shenzhen, Guangdong Province",22.58681,113.8608,,,458,4.4,Atour,Free Parking
+Shenzhen,City Celebrity Hotel Apartment (Hui Zhan Wan Shui An Branch),"Street-facing shop at the southwest intersection of Fengtang Avenue and Jincheng Road, Bao'an District, Shenzhen, Guangdong Province",22.700984,113.782428,,,464,4.6,,EV Charging Station
+Shenzhen,CitiGO Hotel Shenzhen Nanshan Science and Technology Park,"Floors 21-28, Block A, Building 2, Software Industry Base, Nanshan District, Shenzhen, Guangdong Province",22.524857,113.936746,,,465,4.5,,EV Charging Station
+Shenzhen,Wutong Hotel Apartment (Bao'an Center Branch),"Building 1, Taihua Wutong Village, Intersection of Xinhu Road and Xinghua 1st Road, Bao'an District, Shenzhen, Guangdong Province",22.550305,113.890213,,,467,4.6,,Sauna
+Shenzhen,"Qiuguo Hotel, Shixia Metro Station, Shenzhen Convention and Exhibition Center",,22.520964,114.052621,,,469,,,Robot Service
+Shenzhen,Homewood Suites by Hilton Shenzhen Bao'an,,22.557851,113.866167,,,469,,,Butler Service
+Shenzhen,Wyndham Garden Shenzhen Longhua,"No. 1321 Guanguang Road, Longhua District, Shenzhen, Guangdong Province",22.723554,114.033017,,,469,4.6,,Free Parking
+Shenzhen,Shenzhen Jiaochangwei Yishe Boutique Hotel,,22.58728,114.50991,,,470,,,Parking Lot
+Shenzhen,HydePark International Apartment Hotel (Nanshan Houhai Metro Station Branch),"Floor 13, Pengrund Commercial Plaza, No. 3368 Houhaibin Road, Nanshan District, Shenzhen, Guangdong Province",22.51838,113.941484,,,471,4.3,,Free Parking
+Shenzhen,Holiday Inn Express Shenzhen Guangming Tian'an Cloud Valley,"Block B, Building 1, Guangming Tian'an Cloud Valley Industrial Park, No. 98 Zhenyuan Road, Guangming District, Shenzhen, Guangdong Province",22.792167,113.965456,,,471,4.5,,Free Parking
+Shenzhen,Hampton by Hilton Shenzhen Longgang Yonghu,"Block C, Building 1, Zhuohong Xingchen Garden, No. 6366 Longgang Avenue (Henggang Section), Longgang District, Shenzhen, Guangdong Province (6th Floor)",22.66076,114.219689,,,471,4.8,Hilton,Free Parking
+Shenzhen,Bosden Executive Apartment (Shenzhen Excellence Qianhai One Branch),"West of Guiwan 5th Road, Nanshan District, Shenzhen, Guangdong Province (370 meters walk from Exit A2 of Guiwan Metro Station)",22.52891,113.89907,,,471,4.4,,Hotel Apartment
+Shenzhen,Kezan Apartment (Shenzhen International Convention and Exhibition Center Branch),,22.706685,113.777654,,,473,,,Smart Room Control
+Shenzhen,Novotel Shenzhen Futian (Kexueguan Metro Station Branch),"No. 1019 Shennan Middle Road, Futian District, Shenzhen, Guangdong Province",22.540382,114.102621,,,474,4.3,,Gym
+Shenzhen,Homewood Suites by Hilton Shenzhen Dalang,"Xuan Yi Building, No. 2 Langjing Road, Dalang Street, Longhua District, Shenzhen, Guangdong Province",22.696714,113.991054,,,475,4.8,Hilton,Swimming Pool
+Shenzhen,Jianguo Puyin Hotel (Shenzhen Huaqiang Branch),"Xili Building, No. 2081-1 Shennan Middle Road, Futian District, Shenzhen, Guangdong Province",22.540059,114.088595,,,477,4.6,,Parking Lot
+Shenzhen,Youran Guanxia Hotel (Shenzhen Jiaochangwei Branch),"No. 6, Jiao Yi Dong Yi Alley, Jiaochangwei Residential Area, Pengfei Road, Dapeng Street, Longgang District, Shenzhen, Guangdong Province",22.590392,114.512215,,,477,4.7,,Beautiful View Outside the Window
+Shenzhen,Shenzhen Dameisha Yalan Hotel,"No. 1 Caitao Road, Yantian District, Shenzhen, Guangdong Province",22.595553,114.308265,,,477,4.4,,Free Parking
+Shenzhen,INNOGYM Hotel Shenzhen Nanshan Science and Technology Park,,22.542496,113.933734,,,478,,,Parking Lot
+Shenzhen,Shenzhen Yunhai Hotel,"Lobby, 1st Floor, Yunhai Hotel, No. 1 Jinsha Road, Dapeng Street, Longgang District, Shenzhen, Guangdong Province",22.556288,114.46867,,,479,4.5,,Free Parking
+Shenzhen,Shenzhen Yuelin Hotel,"No. 77 Haishan Road, Yantian District, Shenzhen, Guangdong Province",22.55962,114.236039,,,480,4.8,,Free Parking
+Shenzhen,Guiyin Hotel (Shenzhen Futian Xiangmihu Branch),,22.547179,114.00995,,,482,,,Free Parking
+Shenzhen,Shenzhen Ingiston Hotel,"Room 101, Building 3, Phase II, Yinxing Zhijie, No. 1301-80 Guanguang Road, Xinlan Community, Guanlan Street, Longhua District, Shenzhen, Guangdong Province",22.726152,114.046273,,,484,4.9,,Free Parking
+Shenzhen,Honghai Grand Hotel (Shenzhen International Convention and Exhibition Center Guozhan South Metro Station Branch),"Bao'an District, Shenzhen, Guangdong Province",22.683104,113.784459,,,486,4.7,,Audio-Visual Room
+Shenzhen,Vienna International Hotel (Shenzhen North Railway Station Branch),,22.606627,114.027738,,,486,,,Free Parking
+Shenzhen,Huiyu Hotel (Shenzhen Futian Port Convention and Exhibition Center Branch),"No. 199 Fumin Road, Futian District, Shenzhen, Guangdong Province (250 meters walk from Exit E of Shixia Metro Station)",22.522552,114.05032,,,486,4.7,,Sunbathing Area
+Shenzhen,Yan Ye's Narrow Hotel,,22.542239,113.920948,,,487,,,Designer Hotel
+Shenzhen,Manxin Hotel Shenzhen Nanshan Science and Technology Park,,22.5466,113.925768,,,487,,,Family Room
+Shenzhen,JunyiKaidi Hotel (Shenzhen International Convention and Exhibition Center Branch),,22.713415,113.804774,,,487,,,Free Parking
+Shenzhen,Jiujianfang Homestay (Nantou Ancient City Branch),"Room 102, No. 6, Second Fang, Chunjing Street, Nantou City Community, Nanshan District, Shenzhen, Guangdong Province",22.543345,113.920528,,,488,4.7,,Smart Room Control
+Shenzhen,Shenzhen Sentosa Hotel (Nanshan Taoyuan Branch),,22.533047,113.927509,,,488,,,Robot Service
+Shenzhen,"Qiuguo Hotel, Gangxia Metro Station, Shenzhen Convention and Exhibition Center",,22.537511,114.068481,,,489,,,Butler Service
+Shenzhen,Jinsen Hotel (Shenzhen International Convention and Exhibition Center Branch),,22.706634,113.800105,,,489,,,Free Parking
+Shenzhen,Atour Light Hotel Shenzhen Nanshan Shenzhen Bay,,22.488652,113.938906,,,491,,,Butler Service
+Shenzhen,Atour X Hotel Shenzhen Bao'an Airport Xiwang Mangrove,"Room 101, No. 1, Alley 1, Haibin New Village, Gushu Community, Xixiang Street, Bao'an District, Shenzhen, Guangdong Province",22.585614,113.843347,,,491,4.6,Atour,Free Parking

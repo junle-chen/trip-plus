@@ -47,8 +47,25 @@ temp/
 *.tar.gz
 *.tgz
 
-# Full local benchmark database. The repository keeps database_mini/ instead.
-database/
+# Local release notes not needed in the public upload
+OPEN_SOURCE_RELEASE.md
+
+# Full local benchmark database. Keep the bundled smoke-test samples and one
+# city-level Beijing example for reviewer inspection.
+database/*
+!database/README.md
+!database/en/
+database/en/*
+!database/en/beijing/
+!database/en/beijing/**
+!database/sample/
+database/sample/*
+!database/sample/en/
+database/sample/en/*
+!database/sample/en/id_0005/
+!database/sample/en/id_0005/**
+!database/sample/en/id_0006/
+!database/sample/en/id_0006/**
 
 # Human-readable query exports
 query/query_en/multiturn/query_570_turns.txt
@@ -63,11 +80,3 @@ query/query_en/multiturn/user_state_evolution/
 
 # Optional single-turn benchmark data (not needed for multi-turn-only release)
 query/query_en/single/
-
-# User-simulation run artifacts
-simulation/**/manifest.json
-simulation/**/user_simulation_summary.json
-simulation/**/reports/
-simulation/**/results/
-simulation/**/logs/
-simulation/**/tmp/

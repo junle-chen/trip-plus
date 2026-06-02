@@ -1,20 +1,14 @@
-"""
-Trip-Plus integrated runner
+"""Integrated Trip-Plus runner for inference, conversion, and evaluation.
 
-This script integrates three steps into a single pipeline:
-1. Agent inference (generate trajectories)
-2. Plan parsing/conversion
-3. Evaluation
-
-Usage:
-    python run.py --model qwen-plus --workers 40
+Example:
+    python run.py --model qwen3.6-27b-vllm --workers 2
 """
 
 import sys
 import time
 from pathlib import Path
 
-# Add parent directory to path for imports
+# Allow direct `python run.py` execution from the repository root.
 sys.path.insert(0, str(Path(__file__).parent))
 
 from evaluation.conversion import convert_reports

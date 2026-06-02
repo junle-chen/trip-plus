@@ -11,7 +11,9 @@ from query_generation.multiturn_query.config import (
     DEFAULT_INPUT,
     DEFAULT_OUTPUT,
     DEFAULT_QUERY_ROOT,
+    DEFAULT_TURN_RENDER_MAX_TOKENS,
     DEFAULT_TURN_RENDER_MODEL,
+    DEFAULT_TURN_RENDER_TEMPERATURE,
 )
 from query_generation.multiturn_query.output import write_outputs
 from query_generation.multiturn_query.records import (
@@ -35,8 +37,8 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--llm-render-turns", action="store_true")
     parser.add_argument("--turn-render-model", default=DEFAULT_TURN_RENDER_MODEL)
     parser.add_argument("--turn-render-language", choices=["en"], default="en")
-    parser.add_argument("--turn-render-temperature", type=float, default=1.0)
-    parser.add_argument("--turn-render-max-tokens", type=int, default=260)
+    parser.add_argument("--turn-render-temperature", type=float, default=DEFAULT_TURN_RENDER_TEMPERATURE)
+    parser.add_argument("--turn-render-max-tokens", type=int, default=DEFAULT_TURN_RENDER_MAX_TOKENS)
     parser.add_argument("--turn-render-workers", type=int, default=1)
     return parser.parse_args()
 

@@ -1,7 +1,4 @@
-"""
-Prompts for Travel Planning Agent
-English-only prompt set
-"""
+"""English system and conversion prompts for the Trip-Plus planner."""
 
 import json
 

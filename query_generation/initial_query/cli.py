@@ -7,7 +7,13 @@ from pathlib import Path
 
 from query_generation.city_database import DEFAULT_CITY_DB_ROOT
 from query_generation.common import BASE_DIR, load_env_file, write_json
-from query_generation.initial_query.config import DEFAULT_DB_ROOT, DEFAULT_OUTPUT, DEFAULT_QUERY_ROOT
+from query_generation.initial_query.config import (
+    DEFAULT_DB_ROOT,
+    DEFAULT_INITIAL_RENDER_MAX_TOKENS,
+    DEFAULT_INITIAL_RENDER_TEMPERATURE,
+    DEFAULT_OUTPUT,
+    DEFAULT_QUERY_ROOT,
+)
 from query_generation.initial_query.output import write_grouped_queries
 from query_generation.initial_query.pipeline import generate_initial_queries
 
@@ -53,6 +59,8 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument("--skip-llm", action="store_true")
     parser.add_argument("--render-workers", type=int, default=1, help="Concurrent LLM render requests.")
+    parser.add_argument("--render-temperature", type=float, default=DEFAULT_INITIAL_RENDER_TEMPERATURE)
+    parser.add_argument("--render-max-tokens", type=int, default=DEFAULT_INITIAL_RENDER_MAX_TOKENS)
     return parser.parse_args()
 
 

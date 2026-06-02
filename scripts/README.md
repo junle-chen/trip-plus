@@ -1,6 +1,6 @@
 # Scripts
 
-`scripts/` contains reviewer-facing shell entry points and vLLM parser helpers.
+`scripts/` contains shell entry points and vLLM parser helpers.
 
 ## Runtime
 

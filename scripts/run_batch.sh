@@ -6,9 +6,9 @@ PROJECT_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
 cd "$PROJECT_ROOT"
 
 # ============================================================================
-# Simple experiment launcher
+# Default English multi-turn benchmark launcher
 # ============================================================================
-# English multi-turn benchmark launcher. Usage:
+# Usage:
 #   bash scripts/run_batch.sh qwen3.6-27b-vllm
 #   bash scripts/run_batch.sh kimi
 #   bash scripts/run_batch.sh "kimi deepseek doubao minimax"
@@ -123,7 +123,7 @@ fi
 MODEL="${NORMALIZED_MODELS[*]}"
 FIRST_MODEL="${NORMALIZED_MODELS[0]}"
 INFERENCE_MODEL="$MODEL"
-CONVERSION_MODEL="${CONVERSION_MODEL:-qwen3.6-27b-vllm}"
+CONVERSION_MODEL="${CONVERSION_MODEL:-}"
 EVALUATION_MODEL="${EVALUATION_MODEL:-$FIRST_MODEL}"
 LLM_USER_SIMULATOR_MODEL=""
 
@@ -163,7 +163,7 @@ else
 fi
 
 WORKERS="${WORKERS:-10}"
-LOCAL_VLLM_WORKER_CAP="${LOCAL_VLLM_WORKER_CAP:-16}"
+LOCAL_VLLM_WORKER_CAP="${LOCAL_VLLM_WORKER_CAP:-4}"
 MAX_LLM_CALLS="${MAX_LLM_CALLS:-100}"
 
 # Optional controls.
@@ -198,8 +198,12 @@ PY
 
 export BENCHMARK_MODEL="$MODEL"
 export BENCHMARK_INFERENCE_MODEL="$INFERENCE_MODEL"
-export BENCHMARK_CONVERSION_MODEL="$CONVERSION_MODEL"
 export BENCHMARK_EVALUATION_MODEL="$EVALUATION_MODEL"
+if [[ -n "$CONVERSION_MODEL" ]]; then
+  export BENCHMARK_CONVERSION_MODEL="$CONVERSION_MODEL"
+else
+  unset BENCHMARK_CONVERSION_MODEL
+fi
 unset BENCHMARK_LLM_USER_SIMULATOR_MODEL
 unset BENCHMARK_DISABLE_LLM_USER_SIMULATOR
 unset BENCHMARK_REQUIRE_LLM_USER_SIMULATOR
@@ -243,7 +247,7 @@ echo "================================"
 echo "Trip-Plus run"
 echo "Model:                    $MODEL"
 echo "Inference model(s):       $INFERENCE_MODEL"
-echo "Conversion model:         $CONVERSION_MODEL"
+echo "Conversion model:         ${CONVERSION_MODEL:-per inference model}"
 echo "Evaluation model:         $EVALUATION_MODEL"
 echo "LLM user simulator:       standalone only"
 if [[ ${#OUTPUT_DIR_ROOTS[@]} -eq 1 ]]; then

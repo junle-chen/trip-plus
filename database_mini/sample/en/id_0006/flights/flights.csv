@@ -1,7 +1,0 @@
-﻿origin_city,destination_city,dep_date,dep_station_code,dep_station_name,arr_station_code,arr_station_name,dep_datetime,arr_datetime,duration,flight_no,airline,seat_class,equip_type,equip_size,manufacturer,price,segment_index,route_index,sample_id
-Guangzhou,Zhuhai,2025-11-13,CAN,Baiyun International Airport,FOC,Changle International Airport,2025-11-13 13:05:00,2025-11-13 14:40:00,95,MF8324,Xiamen Airlines,Economy,737,Medium Aircraft,Boeing,2090,1,64,"8,9"
-Guangzhou,Zhuhai,2025-11-13,FOC,Changle International Airport,ZUH,Jinwan Airport,2025-11-13 15:55:00,2025-11-13 17:45:00,110,MF8841,Xiamen Airlines,Economy,737,Medium Aircraft,Boeing,2090,2,64,"8,9"
-Guangzhou,Zhuhai,2025-11-16,CAN,Baiyun International Airport,FOC,Changle International Airport,2025-11-16 13:05:00,2025-11-16 14:40:00,95,MF8324,Xiamen Airlines,Economy,737,Medium Aircraft,Boeing,2090,1,64,76
-Guangzhou,Zhuhai,2025-11-16,FOC,Changle International Airport,ZUH,Jinwan Airport,2025-11-16 15:55:00,2025-11-16 17:45:00,110,MF8841,Xiamen Airlines,Economy,737,Medium Aircraft,Boeing,2090,2,64,76
-Zhuhai,Guangzhou,2025-11-12,HAK,Meilan International Airport,CAN,Baiyun International Airport,2025-11-12 12:50:00,2025-11-12 14:10:00,80,AQ1024,9 Air,Economy,737,Medium Aircraft,Boeing,1289,2,60,"8,9,76"
-Zhuhai,Guangzhou,2025-11-12,ZUH,Jinwan Airport,HAK,Meilan International Airport,2025-11-12 08:50:00,2025-11-12 09:55:00,65,SC2288,Shandong Airlines,Economy,737,Medium Aircraft,Boeing,1289,1,60,"8,9,76"

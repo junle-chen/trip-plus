@@ -7,6 +7,7 @@ from pathlib import Path
 
 
 DEFAULT_SIMULATOR_MODEL = "qwen3.6-27b-vllm"
+SIMULATION_OUTPUT_ROOT = Path("result") / "user_simulation"
 
 SIMULATOR_ALIASES: dict[str, str] = {
     "gpt": "gpt-5.4-nano",
@@ -26,6 +27,10 @@ SIMULATOR_ALIASES: dict[str, str] = {
     "gemini-31-flash-lite": "gemini-3.1-flash-lite",
     "gemini31flashlite": "gemini-3.1-flash-lite",
     "gemini3.1flashlite": "gemini-3.1-flash-lite",
+    "gemini-3-flash-preview": "gemini-3-flash-preview",
+    "gemini-3-flash": "gemini-3-flash-preview",
+    "gemini3flashpreview": "gemini-3-flash-preview",
+    "gemini3flash": "gemini-3-flash-preview",
     "qwen": "qwen3.6-27b-vllm",
     "qwen36": "qwen3.6-27b-vllm",
     "qwen3.6": "qwen3.6-27b-vllm",
@@ -48,4 +53,4 @@ def normalize_simulator_model(value: object) -> str:
 
 
 def default_output_root(simulator_model: str) -> Path:
-    return Path("simulation") / simulator_model
+    return SIMULATION_OUTPUT_ROOT / simulator_model

@@ -11,7 +11,11 @@ from typing import Any
 from query_generation.city_database import (
     build_city_sample_database,
 )
-from query_generation.initial_query.config import interaction_targets
+from query_generation.initial_query.config import (
+    DEFAULT_INITIAL_RENDER_MAX_TOKENS,
+    DEFAULT_INITIAL_RENDER_TEMPERATURE,
+    interaction_targets,
+)
 from query_generation.initial_query.records import build_initial_query_record, query_signature
 from query_generation.initial_query.rendering import render_initial_query_candidates
 from query_generation.sample_database import materialize_generated_sample_database
@@ -160,6 +164,8 @@ def generate_initial_queries(args: Any) -> list[dict[str, Any]]:
             model=args.model,
             skip_llm=args.skip_llm,
             workers=render_workers,
+            temperature=getattr(args, "render_temperature", DEFAULT_INITIAL_RENDER_TEMPERATURE),
+            max_tokens=getattr(args, "render_max_tokens", DEFAULT_INITIAL_RENDER_MAX_TOKENS),
         )
 
         for candidate in candidates:

@@ -1,6 +1,6 @@
-"""
-Universal LLM calling module
-Supports multiple providers: OpenAI, Anthropic (Claude), Google (Gemini), etc.
+"""OpenAI-compatible chat-completion client helpers.
+
+Model aliases and request defaults are loaded from `models_config.json`.
 """
 import json
 import os

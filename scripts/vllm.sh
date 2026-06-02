@@ -1,5 +1,4 @@
 #!/bin/bash
-# cSpell:ignore qwen
 
 MODE=${1:-qwen}
 DEFAULT_MAX_MODEL_LEN=${DEFAULT_MAX_MODEL_LEN:-32768}

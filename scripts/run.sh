@@ -1,7 +1,6 @@
 #!/bin/bash
 
-# Advanced runner. For routine experiments, edit scripts/run_batch.sh and let it
-# pass the small set of important controls into this script.
+# Lower-level benchmark runner used by scripts/run_batch.sh.
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 PROJECT_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
@@ -10,7 +9,7 @@ cd "$PROJECT_ROOT"
 # Model settings. Routine runs should set these through scripts/run_batch.sh.
 MODEL="${BENCHMARK_MODEL:-qwen3.6-27b-vllm}"
 INFERENCE_MODEL="${BENCHMARK_INFERENCE_MODEL:-$MODEL}"
-CONVERSION_MODEL="${BENCHMARK_CONVERSION_MODEL:-$INFERENCE_MODEL}"
+CONVERSION_MODEL="${BENCHMARK_CONVERSION_MODEL:-}"
 EVALUATION_MODEL="${BENCHMARK_EVALUATION_MODEL:-$INFERENCE_MODEL}"
 LLM_USER_SIMULATOR_MODEL=""
 
@@ -22,13 +21,13 @@ WORKERS="${BENCHMARK_WORKERS:-10}"
 
 # Local vLLM worker cap for inference/conversion. Set to 0 to disable.
 # Can be overridden by BENCHMARK_LOCAL_VLLM_WORKER_CAP environment variable
-LOCAL_VLLM_WORKER_CAP="${BENCHMARK_LOCAL_VLLM_WORKER_CAP:-10}"
+LOCAL_VLLM_WORKER_CAP="${BENCHMARK_LOCAL_VLLM_WORKER_CAP:-4}"
 
 # Max LLM calls per task
 # Can be overridden by BENCHMARK_MAX_LLM_CALLS environment variable
 MAX_LLM_CALLS="${BENCHMARK_MAX_LLM_CALLS:-100}"
 
-# ReAct tool budget. These remain overridable for short debugging runs.
+# Tool-call budget. These remain overridable for short debugging runs.
 export TOOL_CALL_HARD_LIMIT="${TOOL_CALL_HARD_LIMIT:-64}"
 export TOOL_BUDGET_WARNING_THRESHOLD="${TOOL_BUDGET_WARNING_THRESHOLD:-45}"
 
@@ -97,16 +96,16 @@ TOTAL=${#MODELS[@]}
 # Minimal vLLM health checks for models that the requested start stage can call.
 case "$START_FROM" in
     inference)
-        HEALTH_CHECK_MODELS="$INFERENCE_MODEL $CONVERSION_MODEL"
+        HEALTH_CHECK_MODELS="$INFERENCE_MODEL ${CONVERSION_MODEL:-$INFERENCE_MODEL}"
         ;;
     conversion)
-        HEALTH_CHECK_MODELS="$CONVERSION_MODEL"
+        HEALTH_CHECK_MODELS="${CONVERSION_MODEL:-$INFERENCE_MODEL}"
         ;;
     evaluation)
         HEALTH_CHECK_MODELS=""
         ;;
     *)
-        HEALTH_CHECK_MODELS="$INFERENCE_MODEL $CONVERSION_MODEL"
+        HEALTH_CHECK_MODELS="$INFERENCE_MODEL ${CONVERSION_MODEL:-$INFERENCE_MODEL}"
         ;;
 esac
 
@@ -189,7 +188,7 @@ echo "================================"
 echo "🚀 Starting Concurrent Evaluation"
 echo "Total Inference Models: ${#MODELS[@]}"
 echo "Inference Model(s): $INFERENCE_MODEL"
-echo "Conversion Model:   $CONVERSION_MODEL"
+echo "Conversion Model:   ${CONVERSION_MODEL:-per inference model}"
 echo "Evaluation Model:   $EVALUATION_MODEL"
 echo "LLM User Simulator: standalone only"
 echo "Language: $LANGUAGE_DISPLAY"
@@ -411,10 +410,7 @@ echo ""
 
 # ---------------- Auto-fix permissions (simple method) ----------------
 if [ -n "$OUTPUT_DIR" ] && [ -d "$OUTPUT_DIR" ]; then
-    echo "🔧 Fixing permissions for output directory..."
     chmod -R u+rwX "$OUTPUT_DIR" 2>/dev/null || true
-    echo "   ✅ Permissions fixed"
-    echo ""
 elif [ -n "$OUTPUT_DIR_TEMPLATE" ]; then
     for MODEL_NAME in "${MODELS_TO_RUN[@]}"; do
         MODEL_OUTPUT_DIR="$(model_output_root "$MODEL_NAME")"
@@ -434,9 +430,11 @@ for i in "${!MODELS_TO_RUN[@]}"; do
     # Get the starting step for this model
     MODEL_START="${MODEL_START_FROM[$MODEL_NAME]:-$START_FROM}"
     MODEL_OUTPUT_DIR="$(model_output_root "$MODEL_NAME")"
+    MODEL_CONVERSION_MODEL="${CONVERSION_MODEL:-$MODEL_NAME}"
     
     echo "[STARTED] $MODEL_NAME (start-from: $MODEL_START) ($(date '+%Y-%m-%d %H:%M:%S'))"
     echo "   📝 Log: $LOG_FILE"
+    echo "   🔁 Conversion model: $MODEL_CONVERSION_MODEL"
     if [ -n "$MODEL_OUTPUT_DIR" ]; then
         echo "   📁 Output root: $MODEL_OUTPUT_DIR"
     fi
@@ -445,7 +443,7 @@ for i in "${!MODELS_TO_RUN[@]}"; do
         python run.py \
             --model "$MODEL_NAME" \
             --inference-model "$MODEL_NAME" \
-            --conversion-model "$CONVERSION_MODEL" \
+            --conversion-model "$MODEL_CONVERSION_MODEL" \
             --evaluation-model "$EVALUATION_MODEL" \
             --workers $WORKERS \
             --local-vllm-worker-cap $LOCAL_VLLM_WORKER_CAP \

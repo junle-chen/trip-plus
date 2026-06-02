@@ -1,0 +1,2766 @@
+{
+  "city": "Beijing",
+  "source": "amap_subway",
+  "lines": [
+    {
+      "name": "Line S1",
+      "stations": [
+        {
+          "name": "Pingguoyuan",
+          "longitude": "116.178945",
+          "latitude": "39.925686"
+        },
+        {
+          "name": "Jin'anqiao",
+          "longitude": "116.162586",
+          "latitude": "39.923298"
+        },
+        {
+          "name": "Sidaqiao",
+          "longitude": "116.134010",
+          "latitude": "39.916030"
+        },
+        {
+          "name": "Qiaohuying",
+          "longitude": "116.125809",
+          "latitude": "39.912383"
+        },
+        {
+          "name": "Shang'an",
+          "longitude": "116.122225",
+          "latitude": "39.905138"
+        },
+        {
+          "name": "Liyuanzhuang",
+          "longitude": "116.123254",
+          "latitude": "39.895780"
+        },
+        {
+          "name": "Xiaoyuan",
+          "longitude": "116.114443",
+          "latitude": "39.890465"
+        },
+        {
+          "name": "Shichang",
+          "longitude": "116.100334",
+          "latitude": "39.889378"
+        }
+      ]
+    },
+    {
+      "name": "Line 1 / Batong Line",
+      "stations": [
+        {
+          "name": "Gucheng",
+          "longitude": "116.190337",
+          "latitude": "39.907450"
+        },
+        {
+          "name": "Bajiao Youyuan",
+          "longitude": "116.212684",
+          "latitude": "39.907442"
+        },
+        {
+          "name": "Babaoshan",
+          "longitude": "116.235948",
+          "latitude": "39.907440"
+        },
+        {
+          "name": "Yuquanlu",
+          "longitude": "116.252888",
+          "latitude": "39.907433"
+        },
+        {
+          "name": "Wukesong",
+          "longitude": "116.273987",
+          "latitude": "39.907456"
+        },
+        {
+          "name": "Wanshoulu",
+          "longitude": "116.294765",
+          "latitude": "39.907474"
+        },
+        {
+          "name": "Gongzhu Fen",
+          "longitude": "116.309919",
+          "latitude": "39.907469"
+        },
+        {
+          "name": "Military Museum",
+          "longitude": "116.321459",
+          "latitude": "39.907422"
+        },
+        {
+          "name": "Muxidi",
+          "longitude": "116.337583",
+          "latitude": "39.907379"
+        },
+        {
+          "name": "Nanlishilu",
+          "longitude": "116.352583",
+          "latitude": "39.907234"
+        },
+        {
+          "name": "Fuxingmen",
+          "longitude": "116.356866",
+          "latitude": "39.907242"
+        },
+        {
+          "name": "Xidan",
+          "longitude": "116.374072",
+          "latitude": "39.907383"
+        },
+        {
+          "name": "Tiananmen West",
+          "longitude": "116.391278",
+          "latitude": "39.907472"
+        },
+        {
+          "name": "Tiananmen East",
+          "longitude": "116.401216",
+          "latitude": "39.907780"
+        },
+        {
+          "name": "Wangfujing",
+          "longitude": "116.411571",
+          "latitude": "39.908069"
+        },
+        {
+          "name": "Dongdan",
+          "longitude": "116.418480",
+          "latitude": "39.908325"
+        },
+        {
+          "name": "Jianguomen",
+          "longitude": "116.435806",
+          "latitude": "39.908501"
+        },
+        {
+          "name": "Yong'anli",
+          "longitude": "116.450305",
+          "latitude": "39.909823"
+        },
+        {
+          "name": "Guomao",
+          "longitude": "116.461841",
+          "latitude": "39.909104"
+        },
+        {
+          "name": "Dawanglu",
+          "longitude": "116.475783",
+          "latitude": "39.908287"
+        },
+        {
+          "name": "Si Hui",
+          "longitude": "116.495456",
+          "latitude": "39.908749"
+        },
+        {
+          "name": "Si Hui East",
+          "longitude": "116.515664",
+          "latitude": "39.908495"
+        },
+        {
+          "name": "Gaobeidian",
+          "longitude": "116.531421",
+          "latitude": "39.909448"
+        },
+        {
+          "name": "Communication University of China",
+          "longitude": "116.554639",
+          "latitude": "39.909215"
+        },
+        {
+          "name": "Shuangqiao",
+          "longitude": "116.576760",
+          "latitude": "39.910140"
+        },
+        {
+          "name": "Guanzhuang",
+          "longitude": "116.599002",
+          "latitude": "39.909090"
+        },
+        {
+          "name": "Baligiao",
+          "longitude": "116.618658",
+          "latitude": "39.906121"
+        },
+        {
+          "name": "Tongzhou Beiyuan",
+          "longitude": "116.637252",
+          "latitude": "39.903864"
+        },
+        {
+          "name": "Guoyuan",
+          "longitude": "116.646621",
+          "latitude": "39.893329"
+        },
+        {
+          "name": "Jiukeshu",
+          "longitude": "116.657533",
+          "latitude": "39.890278"
+        },
+        {
+          "name": "Liyuan",
+          "longitude": "116.668720",
+          "latitude": "39.883677"
+        },
+        {
+          "name": "Linhe Li",
+          "longitude": "116.678811",
+          "latitude": "39.875496"
+        },
+        {
+          "name": "Tuqiao",
+          "longitude": "116.686349",
+          "latitude": "39.871926"
+        },
+        {
+          "name": "Huazhuang",
+          "longitude": "116.695495",
+          "latitude": "39.856722"
+        },
+        {
+          "name": "Universal Resort",
+          "longitude": "116.679099",
+          "latitude": "39.849152"
+        }
+      ]
+    },
+    {
+      "name": "Line 2",
+      "stations": [
+        {
+          "name": "Jishuitan",
+          "longitude": "116.373126",
+          "latitude": "39.948653"
+        },
+        {
+          "name": "Gulou Dajie",
+          "longitude": "116.393776",
+          "latitude": "39.948972"
+        },
+        {
+          "name": "Andingmen",
+          "longitude": "116.408240",
+          "latitude": "39.949180"
+        },
+        {
+          "name": "Yonghe Temple",
+          "longitude": "116.417069",
+          "latitude": "39.949336"
+        },
+        {
+          "name": "Dongzhimen",
+          "longitude": "116.435842",
+          "latitude": "39.941626"
+        },
+        {
+          "name": "Dongsi Shitiao",
+          "longitude": "116.434137",
+          "latitude": "39.933704"
+        },
+        {
+          "name": "Chaoyangmen",
+          "longitude": "116.434584",
+          "latitude": "39.924499"
+        },
+        {
+          "name": "Jianguomen",
+          "longitude": "116.435806",
+          "latitude": "39.908501"
+        },
+        {
+          "name": "Beijing Railway Station",
+          "longitude": "116.427287",
+          "latitude": "39.904983"
+        },
+        {
+          "name": "Chongwenmen",
+          "longitude": "116.417093",
+          "latitude": "39.901063"
+        },
+        {
+          "name": "Qianmen",
+          "longitude": "116.397937",
+          "latitude": "39.900192"
+        },
+        {
+          "name": "Hepingmen",
+          "longitude": "116.384209",
+          "latitude": "39.900098"
+        },
+        {
+          "name": "Xuanwumen",
+          "longitude": "116.374314",
+          "latitude": "39.899765"
+        },
+        {
+          "name": "Changchunjie",
+          "longitude": "116.363355",
+          "latitude": "39.899433"
+        },
+        {
+          "name": "Fuxingmen",
+          "longitude": "116.356866",
+          "latitude": "39.907242"
+        },
+        {
+          "name": "Fuchengmen",
+          "longitude": "116.356009",
+          "latitude": "39.923686"
+        },
+        {
+          "name": "Chegongzhuang",
+          "longitude": "116.354357",
+          "latitude": "39.932397"
+        },
+        {
+          "name": "Xizhimen",
+          "longitude": "116.355426",
+          "latitude": "39.940474"
+        }
+      ]
+    },
+    {
+      "name": "Line 3",
+      "stations": [
+        {
+          "name": "Dongsi Shitiao",
+          "longitude": "116.434137",
+          "latitude": "39.933704"
+        },
+        {
+          "name": "Workers' Stadium",
+          "longitude": "116.450448",
+          "latitude": "39.934058"
+        },
+        {
+          "name": "Tuanjiehu",
+          "longitude": "116.460186",
+          "latitude": "39.933734"
+        },
+        {
+          "name": "Chaoyang Park",
+          "longitude": "116.478291",
+          "latitude": "39.933492"
+        },
+        {
+          "name": "Shifoying",
+          "longitude": "116.498874",
+          "latitude": "39.935224"
+        },
+        {
+          "name": "Chaoyang Station",
+          "longitude": "116.505761",
+          "latitude": "39.943773"
+        },
+        {
+          "name": "Yaojiayuan",
+          "longitude": "116.527282",
+          "latitude": "39.947749"
+        },
+        {
+          "name": "Dongba South",
+          "longitude": "116.547131",
+          "latitude": "39.952140"
+        },
+        {
+          "name": "Dongba",
+          "longitude": "116.547126",
+          "latitude": "39.965732"
+        },
+        {
+          "name": "Dongba North",
+          "longitude": "116.557065",
+          "latitude": "39.975633"
+        }
+      ]
+    },
+    {
+      "name": "Line 4 / Daxing Line",
+      "stations": [
+        {
+          "name": "Tiangongyuan",
+          "longitude": "116.319932",
+          "latitude": "39.670342"
+        },
+        {
+          "name": "Biomedical Base",
+          "longitude": "116.321662",
+          "latitude": "39.686510"
+        },
+        {
+          "name": "Yihe Zhuang",
+          "longitude": "116.319079",
+          "latitude": "39.712387"
+        },
+        {
+          "name": "Huangcun Railway Station",
+          "longitude": "116.332611",
+          "latitude": "39.722966"
+        },
+        {
+          "name": "Huangcun West Street",
+          "longitude": "116.332631",
+          "latitude": "39.731769"
+        },
+        {
+          "name": "Qingyuan Road",
+          "longitude": "116.332513",
+          "latitude": "39.742724"
+        },
+        {
+          "name": "Zaoyuan",
+          "longitude": "116.332204",
+          "latitude": "39.753458"
+        },
+        {
+          "name": "Gaomidian South",
+          "longitude": "116.331605",
+          "latitude": "39.763489"
+        },
+        {
+          "name": "Gaomidian North",
+          "longitude": "116.330787",
+          "latitude": "39.773547"
+        },
+        {
+          "name": "Xihongmen",
+          "longitude": "116.328689",
+          "latitude": "39.789800"
+        },
+        {
+          "name": "Xingong",
+          "longitude": "116.365549",
+          "latitude": "39.812592"
+        },
+        {
+          "name": "Gongyi West Bridge",
+          "longitude": "116.370796",
+          "latitude": "39.836135"
+        },
+        {
+          "name": "Jiaomen West",
+          "longitude": "116.371154",
+          "latitude": "39.845850"
+        },
+        {
+          "name": "Majiabao",
+          "longitude": "116.371361",
+          "latitude": "39.853109"
+        },
+        {
+          "name": "Beijing South Railway Station",
+          "longitude": "116.378963",
+          "latitude": "39.865029"
+        },
+        {
+          "name": "Taoranting",
+          "longitude": "116.374383",
+          "latitude": "39.878470"
+        },
+        {
+          "name": "Caishikou",
+          "longitude": "116.374425",
+          "latitude": "39.889296"
+        },
+        {
+          "name": "Xuanwumen",
+          "longitude": "116.374314",
+          "latitude": "39.899765"
+        },
+        {
+          "name": "Xidan",
+          "longitude": "116.374072",
+          "latitude": "39.907383"
+        },
+        {
+          "name": "Lingjing Hutong",
+          "longitude": "116.373746",
+          "latitude": "39.915912"
+        },
+        {
+          "name": "Xisi",
+          "longitude": "116.373332",
+          "latitude": "39.924206"
+        },
+        {
+          "name": "Ping'anli",
+          "longitude": "116.372883",
+          "latitude": "39.933949"
+        },
+        {
+          "name": "Xinjiekou",
+          "longitude": "116.367742",
+          "latitude": "39.940667"
+        },
+        {
+          "name": "Xizhimen",
+          "longitude": "116.355426",
+          "latitude": "39.940474"
+        },
+        {
+          "name": "Zoo",
+          "longitude": "116.339031",
+          "latitude": "39.938250"
+        },
+        {
+          "name": "National Library of China",
+          "longitude": "116.325190",
+          "latitude": "39.943114"
+        },
+        {
+          "name": "Weigongcun",
+          "longitude": "116.323220",
+          "latitude": "39.957904"
+        },
+        {
+          "name": "Renmin University",
+          "longitude": "116.321367",
+          "latitude": "39.966956"
+        },
+        {
+          "name": "Haidian Huangzhuang",
+          "longitude": "116.317564",
+          "latitude": "39.975996"
+        },
+        {
+          "name": "Zhongguancun",
+          "longitude": "116.316467",
+          "latitude": "39.983991"
+        },
+        {
+          "name": "Peking University East Gate",
+          "longitude": "116.315842",
+          "latitude": "39.992212"
+        },
+        {
+          "name": "Old Summer Palace",
+          "longitude": "116.310186",
+          "latitude": "39.999662"
+        },
+        {
+          "name": "Xiyuan",
+          "longitude": "116.290908",
+          "latitude": "39.998258"
+        },
+        {
+          "name": "Beigongmen",
+          "longitude": "116.277647",
+          "latitude": "40.002373"
+        },
+        {
+          "name": "Anheqiao North",
+          "longitude": "116.269956",
+          "latitude": "40.012195"
+        }
+      ]
+    },
+    {
+      "name": "Line 5",
+      "stations": [
+        {
+          "name": "Songjiazhuang",
+          "longitude": "116.428368",
+          "latitude": "39.845849"
+        },
+        {
+          "name": "Liujiayao",
+          "longitude": "116.422119",
+          "latitude": "39.857521"
+        },
+        {
+          "name": "Puhuangyu",
+          "longitude": "116.423087",
+          "latitude": "39.865584"
+        },
+        {
+          "name": "Temple of Heaven East Gate",
+          "longitude": "116.420833",
+          "latitude": "39.882558"
+        },
+        {
+          "name": "Ciqikou",
+          "longitude": "116.419940",
+          "latitude": "39.893172"
+        },
+        {
+          "name": "Chongwenmen",
+          "longitude": "116.417093",
+          "latitude": "39.901063"
+        },
+        {
+          "name": "Dongdan",
+          "longitude": "116.418480",
+          "latitude": "39.908325"
+        },
+        {
+          "name": "Dengshikou",
+          "longitude": "116.417783",
+          "latitude": "39.917113"
+        },
+        {
+          "name": "Dongsi",
+          "longitude": "116.417493",
+          "latitude": "39.924370"
+        },
+        {
+          "name": "Zhang Zizhong Road",
+          "longitude": "116.417156",
+          "latitude": "39.933592"
+        },
+        {
+          "name": "Beixinqiao",
+          "longitude": "116.416884",
+          "latitude": "39.940782"
+        },
+        {
+          "name": "Yonghe Temple",
+          "longitude": "116.417069",
+          "latitude": "39.949336"
+        },
+        {
+          "name": "Hepingli North Street",
+          "longitude": "116.418504",
+          "latitude": "39.958734"
+        },
+        {
+          "name": "Heping West Bridge",
+          "longitude": "116.417970",
+          "latitude": "39.968258"
+        },
+        {
+          "name": "Huixin West Street South Gate",
+          "longitude": "116.417537",
+          "latitude": "39.977121"
+        },
+        {
+          "name": "Huixin West Street North Gate",
+          "longitude": "116.417028",
+          "latitude": "39.987836"
+        },
+        {
+          "name": "Datun East Road",
+          "longitude": "116.417377",
+          "latitude": "40.003841"
+        },
+        {
+          "name": "Beiyuan North Road",
+          "longitude": "116.418089",
+          "latitude": "40.030436"
+        },
+        {
+          "name": "Lishuiqiao South",
+          "longitude": "116.414496",
+          "latitude": "40.041956"
+        },
+        {
+          "name": "Lishuiqiao",
+          "longitude": "116.412350",
+          "latitude": "40.053032"
+        },
+        {
+          "name": "Tiantongyuan South",
+          "longitude": "116.412661",
+          "latitude": "40.066458"
+        },
+        {
+          "name": "Tiantongyuan",
+          "longitude": "116.412890",
+          "latitude": "40.075248"
+        },
+        {
+          "name": "Tiantongyuan North",
+          "longitude": "116.412888",
+          "latitude": "40.083668"
+        }
+      ]
+    },
+    {
+      "name": "Line 6",
+      "stations": [
+        {
+          "name": "Luyang",
+          "longitude": "116.757063",
+          "latitude": "39.890059"
+        },
+        {
+          "name": "Lucheng",
+          "longitude": "116.747434",
+          "latitude": "39.902652"
+        },
+        {
+          "name": "Dongxiayuan",
+          "longitude": "116.733850",
+          "latitude": "39.903147"
+        },
+        {
+          "name": "Haojiafu",
+          "longitude": "116.717826",
+          "latitude": "39.903195"
+        },
+        {
+          "name": "North Canal East",
+          "longitude": "116.707056",
+          "latitude": "39.903268"
+        },
+        {
+          "name": "North Canal West",
+          "longitude": "116.688358",
+          "latitude": "39.903024"
+        },
+        {
+          "name": "Tongzhou North Gate",
+          "longitude": "116.661131",
+          "latitude": "39.917962"
+        },
+        {
+          "name": "Wuzi Xueyuan Road",
+          "longitude": "116.639316",
+          "latitude": "39.926801"
+        },
+        {
+          "name": "Caofang",
+          "longitude": "116.615574",
+          "latitude": "39.924477"
+        },
+        {
+          "name": "Changying",
+          "longitude": "116.599722",
+          "latitude": "39.925696"
+        },
+        {
+          "name": "Huangqu",
+          "longitude": "116.578266",
+          "latitude": "39.924201"
+        },
+        {
+          "name": "Dalianpo",
+          "longitude": "116.563961",
+          "latitude": "39.924021"
+        },
+        {
+          "name": "Qingnian Road",
+          "longitude": "116.517429",
+          "latitude": "39.923168"
+        },
+        {
+          "name": "Shilipu",
+          "longitude": "116.502045",
+          "latitude": "39.923076"
+        },
+        {
+          "name": "Jintai Road",
+          "longitude": "116.478115",
+          "latitude": "39.923556"
+        },
+        {
+          "name": "Hujialou",
+          "longitude": "116.461618",
+          "latitude": "39.923337"
+        },
+        {
+          "name": "Dongdaqiao",
+          "longitude": "116.450379",
+          "latitude": "39.922852"
+        },
+        {
+          "name": "Chaoyangmen",
+          "longitude": "116.434584",
+          "latitude": "39.924499"
+        },
+        {
+          "name": "Dongsi",
+          "longitude": "116.417493",
+          "latitude": "39.924370"
+        },
+        {
+          "name": "Nanluoguxiang",
+          "longitude": "116.404192",
+          "latitude": "39.933848"
+        },
+        {
+          "name": "Beihai North",
+          "longitude": "116.386829",
+          "latitude": "39.933247"
+        },
+        {
+          "name": "Ping'anli",
+          "longitude": "116.372883",
+          "latitude": "39.933949"
+        },
+        {
+          "name": "Chegongzhuang",
+          "longitude": "116.354357",
+          "latitude": "39.932397"
+        },
+        {
+          "name": "Chegongzhuang West",
+          "longitude": "116.344082",
+          "latitude": "39.932466"
+        },
+        {
+          "name": "Erligou",
+          "longitude": "116.333701",
+          "latitude": "39.932410"
+        },
+        {
+          "name": "Baishiqiao South",
+          "longitude": "116.325680",
+          "latitude": "39.933022"
+        },
+        {
+          "name": "Huayuan Bridge",
+          "longitude": "116.310683",
+          "latitude": "39.932340"
+        },
+        {
+          "name": "Cishousi",
+          "longitude": "116.295467",
+          "latitude": "39.933268"
+        },
+        {
+          "name": "Haidian Wuluju",
+          "longitude": "116.276531",
+          "latitude": "39.932584"
+        },
+        {
+          "name": "Tiancun",
+          "longitude": "116.252914",
+          "latitude": "39.929503"
+        },
+        {
+          "name": "Liaogongzhuang",
+          "longitude": "116.227292",
+          "latitude": "39.932422"
+        },
+        {
+          "name": "Xihuangcun",
+          "longitude": "116.206932",
+          "latitude": "39.933605"
+        },
+        {
+          "name": "Yangzhuang",
+          "longitude": "116.187004",
+          "latitude": "39.927850"
+        },
+        {
+          "name": "Pingguoyuan",
+          "longitude": "116.178945",
+          "latitude": "39.925686"
+        },
+        {
+          "name": "Jin'anqiao",
+          "longitude": "116.162586",
+          "latitude": "39.923298"
+        }
+      ]
+    },
+    {
+      "name": "Line 7",
+      "stations": [
+        {
+          "name": "Universal Resort",
+          "longitude": "116.679099",
+          "latitude": "39.849152"
+        },
+        {
+          "name": "Huazhuang",
+          "longitude": "116.695495",
+          "latitude": "39.856722"
+        },
+        {
+          "name": "Gaoloujin",
+          "longitude": "116.684340",
+          "latitude": "39.863154"
+        },
+        {
+          "name": "Qunfang",
+          "longitude": "116.670792",
+          "latitude": "39.863515"
+        },
+        {
+          "name": "Wansheng East",
+          "longitude": "116.657379",
+          "latitude": "39.863491"
+        },
+        {
+          "name": "Wansheng West",
+          "longitude": "116.632160",
+          "latitude": "39.863328"
+        },
+        {
+          "name": "Heizhuanghu",
+          "longitude": "116.599119",
+          "latitude": "39.858725"
+        },
+        {
+          "name": "Langxinzhuang",
+          "longitude": "116.569826",
+          "latitude": "39.856496"
+        },
+        {
+          "name": "Huangchang",
+          "longitude": "116.553759",
+          "latitude": "39.848979"
+        },
+        {
+          "name": "Coking Plant",
+          "longitude": "116.537247",
+          "latitude": "39.855488"
+        },
+        {
+          "name": "Shuanghe",
+          "longitude": "116.526836",
+          "latitude": "39.859691"
+        },
+        {
+          "name": "Fatou",
+          "longitude": "116.511821",
+          "latitude": "39.860728"
+        },
+        {
+          "name": "Happy Valley Scenic Area",
+          "longitude": "116.500067",
+          "latitude": "39.866505"
+        },
+        {
+          "name": "Nanlouzizhuang",
+          "longitude": "116.501084",
+          "latitude": "39.874578"
+        },
+        {
+          "name": "Hua Gong",
+          "longitude": "116.503439",
+          "latitude": "39.887369"
+        },
+        {
+          "name": "Baiziwan",
+          "longitude": "116.497768",
+          "latitude": "39.892530"
+        },
+        {
+          "name": "Dajiaoting",
+          "longitude": "116.487935",
+          "latitude": "39.893183"
+        },
+        {
+          "name": "Jiulongshan",
+          "longitude": "116.478879",
+          "latitude": "39.893210"
+        },
+        {
+          "name": "Shuangjing",
+          "longitude": "116.461834",
+          "latitude": "39.893512"
+        },
+        {
+          "name": "Guangqumenwai",
+          "longitude": "116.448998",
+          "latitude": "39.893648"
+        },
+        {
+          "name": "Guangqumennei",
+          "longitude": "116.433877",
+          "latitude": "39.893673"
+        },
+        {
+          "name": "Ciqikou",
+          "longitude": "116.419940",
+          "latitude": "39.893172"
+        },
+        {
+          "name": "Qiaowan",
+          "longitude": "116.408464",
+          "latitude": "39.892725"
+        },
+        {
+          "name": "Zhushikou",
+          "longitude": "116.398372",
+          "latitude": "39.891334"
+        },
+        {
+          "name": "Hufangqiao",
+          "longitude": "116.384596",
+          "latitude": "39.889486"
+        },
+        {
+          "name": "Caishikou",
+          "longitude": "116.374425",
+          "latitude": "39.889296"
+        },
+        {
+          "name": "Guanganmennei",
+          "longitude": "116.358239",
+          "latitude": "39.889418"
+        },
+        {
+          "name": "Daguanying",
+          "longitude": "116.335608",
+          "latitude": "39.889898"
+        },
+        {
+          "name": "Wanzi",
+          "longitude": "116.327753",
+          "latitude": "39.889954"
+        },
+        {
+          "name": "Beijing West Railway Station",
+          "longitude": "116.321218",
+          "latitude": "39.894706"
+        }
+      ]
+    },
+    {
+      "name": "Line 8",
+      "stations": [
+        {
+          "name": "Yinghai",
+          "longitude": "116.448982",
+          "latitude": "39.760713"
+        },
+        {
+          "name": "Dema",
+          "longitude": "116.441467",
+          "latitude": "39.772649"
+        },
+        {
+          "name": "Wufutang",
+          "longitude": "116.423903",
+          "latitude": "39.785046"
+        },
+        {
+          "name": "Huojian Wanyuan",
+          "longitude": "116.418627",
+          "latitude": "39.799287"
+        },
+        {
+          "name": "Donggaodi",
+          "longitude": "116.409427",
+          "latitude": "39.805074"
+        },
+        {
+          "name": "Heyi",
+          "longitude": "116.402073",
+          "latitude": "39.814838"
+        },
+        {
+          "name": "Dahongmen South",
+          "longitude": "116.401045",
+          "latitude": "39.836715"
+        },
+        {
+          "name": "Dahongmen",
+          "longitude": "116.399154",
+          "latitude": "39.845383"
+        },
+        {
+          "name": "Haihutun",
+          "longitude": "116.400301",
+          "latitude": "39.851805"
+        },
+        {
+          "name": "Muxiyuan",
+          "longitude": "116.399839",
+          "latitude": "39.859262"
+        },
+        {
+          "name": "Yongdingmenwai",
+          "longitude": "116.399369",
+          "latitude": "39.867435"
+        },
+        {
+          "name": "Tianqiao",
+          "longitude": "116.398712",
+          "latitude": "39.881920"
+        },
+        {
+          "name": "Zhushikou",
+          "longitude": "116.398372",
+          "latitude": "39.891334"
+        },
+        {
+          "name": "Qianmen",
+          "longitude": "116.397937",
+          "latitude": "39.900192"
+        },
+        {
+          "name": "Wangfujing",
+          "longitude": "116.411571",
+          "latitude": "39.908069"
+        },
+        {
+          "name": "Jinyu Hutong",
+          "longitude": "116.411178",
+          "latitude": "39.915387"
+        },
+        {
+          "name": "National Art Museum of China",
+          "longitude": "116.410803",
+          "latitude": "39.923705"
+        },
+        {
+          "name": "Nanluoguxiang",
+          "longitude": "116.404192",
+          "latitude": "39.933848"
+        },
+        {
+          "name": "Shichahai",
+          "longitude": "116.396219",
+          "latitude": "39.937583"
+        },
+        {
+          "name": "Gulou Dajie",
+          "longitude": "116.393776",
+          "latitude": "39.948972"
+        },
+        {
+          "name": "Andeli North Street",
+          "longitude": "116.395145",
+          "latitude": "39.957227"
+        },
+        {
+          "name": "Anhuaqiao",
+          "longitude": "116.394159",
+          "latitude": "39.968653"
+        },
+        {
+          "name": "Beitucheng",
+          "longitude": "116.394193",
+          "latitude": "39.976953"
+        },
+        {
+          "name": "Olympic Sports Center",
+          "longitude": "116.393759",
+          "latitude": "39.985837"
+        },
+        {
+          "name": "Olympic Park",
+          "longitude": "116.391758",
+          "latitude": "40.002207"
+        },
+        {
+          "name": "Forest Park South Gate",
+          "longitude": "116.392600",
+          "latitude": "40.010122"
+        },
+        {
+          "name": "Lin cuiqiao",
+          "longitude": "116.372998",
+          "latitude": "40.021906"
+        },
+        {
+          "name": "Yongtaizhuang",
+          "longitude": "116.354580",
+          "latitude": "40.037728"
+        },
+        {
+          "name": "Xiaoxikou",
+          "longitude": "116.351644",
+          "latitude": "40.046873"
+        },
+        {
+          "name": "Yuxin",
+          "longitude": "116.347328",
+          "latitude": "40.060039"
+        },
+        {
+          "name": "Huoying",
+          "longitude": "116.360286",
+          "latitude": "40.071857"
+        },
+        {
+          "name": "Huilongguan East Street",
+          "longitude": "116.363027",
+          "latitude": "40.081194"
+        },
+        {
+          "name": "Pingxifu",
+          "longitude": "116.350425",
+          "latitude": "40.090607"
+        },
+        {
+          "name": "Yuzhi Road",
+          "longitude": "116.326992",
+          "latitude": "40.087863"
+        },
+        {
+          "name": "Zhuxinzhuang",
+          "longitude": "116.313698",
+          "latitude": "40.104297"
+        }
+      ]
+    },
+    {
+      "name": "Line 9",
+      "stations": [
+        {
+          "name": "Guogongzhuang",
+          "longitude": "116.301889",
+          "latitude": "39.814322"
+        },
+        {
+          "name": "Fengtai Science Park",
+          "longitude": "116.297176",
+          "latitude": "39.825233"
+        },
+        {
+          "name": "Keyi Road",
+          "longitude": "116.297432",
+          "latitude": "39.832480"
+        },
+        {
+          "name": "Fengtai South Road",
+          "longitude": "116.296552",
+          "latitude": "39.841106"
+        },
+        {
+          "name": "Fengtai East Street",
+          "longitude": "116.293857",
+          "latitude": "39.855111"
+        },
+        {
+          "name": "Qilizhuang",
+          "longitude": "116.294293",
+          "latitude": "39.866981"
+        },
+        {
+          "name": "Liuliqiao",
+          "longitude": "116.302808",
+          "latitude": "39.880239"
+        },
+        {
+          "name": "Liuliqiao East",
+          "longitude": "116.315142",
+          "latitude": "39.886886"
+        },
+        {
+          "name": "Beijing West Railway Station",
+          "longitude": "116.321218",
+          "latitude": "39.894706"
+        },
+        {
+          "name": "Military Museum",
+          "longitude": "116.321459",
+          "latitude": "39.907422"
+        },
+        {
+          "name": "Baiduizi",
+          "longitude": "116.325762",
+          "latitude": "39.923818"
+        },
+        {
+          "name": "Baishiqiao South",
+          "longitude": "116.325680",
+          "latitude": "39.933022"
+        },
+        {
+          "name": "National Library of China",
+          "longitude": "116.325190",
+          "latitude": "39.943114"
+        }
+      ]
+    },
+    {
+      "name": "Line 10",
+      "stations": [
+        {
+          "name": "Bagou",
+          "longitude": "116.293357",
+          "latitude": "39.974414"
+        },
+        {
+          "name": "Suzhou Street",
+          "longitude": "116.306332",
+          "latitude": "39.975642"
+        },
+        {
+          "name": "Haidian Huangzhuang",
+          "longitude": "116.317564",
+          "latitude": "39.975996"
+        },
+        {
+          "name": "Zhichunli",
+          "longitude": "116.328709",
+          "latitude": "39.976334"
+        },
+        {
+          "name": "Zhichun Road",
+          "longitude": "116.339960",
+          "latitude": "39.976476"
+        },
+        {
+          "name": "Xitucheng",
+          "longitude": "116.354314",
+          "latitude": "39.976372"
+        },
+        {
+          "name": "Mudanyuan",
+          "longitude": "116.369844",
+          "latitude": "39.976603"
+        },
+        {
+          "name": "Jiandemen",
+          "longitude": "116.381353",
+          "latitude": "39.976723"
+        },
+        {
+          "name": "Beitucheng",
+          "longitude": "116.394193",
+          "latitude": "39.976953"
+        },
+        {
+          "name": "Anzhenmen",
+          "longitude": "116.405954",
+          "latitude": "39.977005"
+        },
+        {
+          "name": "Huixin West Street South Gate",
+          "longitude": "116.417537",
+          "latitude": "39.977121"
+        },
+        {
+          "name": "Shaoyaoju",
+          "longitude": "116.435914",
+          "latitude": "39.977636"
+        },
+        {
+          "name": "Taiyanggong",
+          "longitude": "116.448213",
+          "latitude": "39.973816"
+        },
+        {
+          "name": "Sanyuanqiao",
+          "longitude": "116.456997",
+          "latitude": "39.961508"
+        },
+        {
+          "name": "Liangmaqiao",
+          "longitude": "116.461794",
+          "latitude": "39.949415"
+        },
+        {
+          "name": "Agricultural Exhibition Center",
+          "longitude": "116.461724",
+          "latitude": "39.941344"
+        },
+        {
+          "name": "Tuanjiehu",
+          "longitude": "116.460186",
+          "latitude": "39.933734"
+        },
+        {
+          "name": "Hujialou",
+          "longitude": "116.461618",
+          "latitude": "39.923337"
+        },
+        {
+          "name": "Jintai Xizhao",
+          "longitude": "116.461743",
+          "latitude": "39.916838"
+        },
+        {
+          "name": "Guomao",
+          "longitude": "116.461841",
+          "latitude": "39.909104"
+        },
+        {
+          "name": "Shuangjing",
+          "longitude": "116.461834",
+          "latitude": "39.893512"
+        },
+        {
+          "name": "Jinsong",
+          "longitude": "116.461325",
+          "latitude": "39.884387"
+        },
+        {
+          "name": "Panjiayuan",
+          "longitude": "116.460926",
+          "latitude": "39.875387"
+        },
+        {
+          "name": "Shilihe",
+          "longitude": "116.458103",
+          "latitude": "39.866135"
+        },
+        {
+          "name": "Fenzhousi",
+          "longitude": "116.453976",
+          "latitude": "39.852227"
+        },
+        {
+          "name": "Chengshousi",
+          "longitude": "116.447531",
+          "latitude": "39.845874"
+        },
+        {
+          "name": "Songjiazhuang",
+          "longitude": "116.428368",
+          "latitude": "39.845849"
+        },
+        {
+          "name": "Shiliuzhuang",
+          "longitude": "116.414103",
+          "latitude": "39.845905"
+        },
+        {
+          "name": "Dahongmen",
+          "longitude": "116.399154",
+          "latitude": "39.845383"
+        },
+        {
+          "name": "Jiaomen East",
+          "longitude": "116.385649",
+          "latitude": "39.845135"
+        },
+        {
+          "name": "Jiaomen West",
+          "longitude": "116.371154",
+          "latitude": "39.845850"
+        },
+        {
+          "name": "Caoqiao",
+          "longitude": "116.351387",
+          "latitude": "39.845869"
+        },
+        {
+          "name": "Jijiamiao",
+          "longitude": "116.333381",
+          "latitude": "39.844433"
+        },
+        {
+          "name": "Shoujingmao",
+          "longitude": "116.320202",
+          "latitude": "39.844463"
+        },
+        {
+          "name": "Fengtai Railway Station",
+          "longitude": "116.304501",
+          "latitude": "39.850249"
+        },
+        {
+          "name": "Niwa",
+          "longitude": "116.304173",
+          "latitude": "39.858609"
+        },
+        {
+          "name": "Xiju",
+          "longitude": "116.304106",
+          "latitude": "39.866676"
+        },
+        {
+          "name": "Liuliqiao",
+          "longitude": "116.302808",
+          "latitude": "39.880239"
+        },
+        {
+          "name": "Lianhuaqiao",
+          "longitude": "116.310347",
+          "latitude": "39.897867"
+        },
+        {
+          "name": "Gongzhu Fen",
+          "longitude": "116.309919",
+          "latitude": "39.907469"
+        },
+        {
+          "name": "Xiaodyutai",
+          "longitude": "116.298064",
+          "latitude": "39.923481"
+        },
+        {
+          "name": "Cishousi",
+          "longitude": "116.295467",
+          "latitude": "39.933268"
+        },
+        {
+          "name": "Chedaogou",
+          "longitude": "116.293818",
+          "latitude": "39.947923"
+        },
+        {
+          "name": "Changchunqiao",
+          "longitude": "116.294255",
+          "latitude": "39.958527"
+        },
+        {
+          "name": "Huqiying",
+          "longitude": "116.289058",
+          "latitude": "39.965938"
+        }
+      ]
+    },
+    {
+      "name": "Line 11",
+      "stations": [
+        {
+          "name": "Moshikou",
+          "longitude": "116.156148",
+          "latitude": "39.933369"
+        },
+        {
+          "name": "Jin'anqiao",
+          "longitude": "116.162586",
+          "latitude": "39.923298"
+        },
+        {
+          "name": "Beixin'an",
+          "longitude": "116.164755",
+          "latitude": "39.915456"
+        },
+        {
+          "name": "Xinshougang",
+          "longitude": "116.164806",
+          "latitude": "39.909610"
+        }
+      ]
+    },
+    {
+      "name": "Line 12",
+      "stations": [
+        {
+          "name": "Dongba North",
+          "longitude": "116.557065",
+          "latitude": "39.975633"
+        },
+        {
+          "name": "Dongba West",
+          "longitude": "116.534671",
+          "latitude": "39.974270"
+        },
+        {
+          "name": "Tuofangying",
+          "longitude": "116.505628",
+          "latitude": "39.980439"
+        },
+        {
+          "name": "Gaojiayuan",
+          "longitude": "116.491552",
+          "latitude": "39.980373"
+        },
+        {
+          "name": "Jiangtai West",
+          "longitude": "116.480045",
+          "latitude": "39.972663"
+        },
+        {
+          "name": "Sanyuanqiao",
+          "longitude": "116.456997",
+          "latitude": "39.961508"
+        },
+        {
+          "name": "Xibahe",
+          "longitude": "116.442254",
+          "latitude": "39.965710"
+        },
+        {
+          "name": "Guangximen",
+          "longitude": "116.431761",
+          "latitude": "39.968337"
+        },
+        {
+          "name": "Heping West Bridge",
+          "longitude": "116.417970",
+          "latitude": "39.968258"
+        },
+        {
+          "name": "Anzhenqiao",
+          "longitude": "116.407219",
+          "latitude": "39.968912"
+        },
+        {
+          "name": "Anhuaqiao",
+          "longitude": "116.394159",
+          "latitude": "39.968653"
+        },
+        {
+          "name": "Madian Bridge",
+          "longitude": "116.382214",
+          "latitude": "39.968261"
+        },
+        {
+          "name": "Beitaipingzhuang",
+          "longitude": "116.370037",
+          "latitude": "39.967882"
+        },
+        {
+          "name": "Jimen Bridge",
+          "longitude": "116.355970",
+          "latitude": "39.967747"
+        },
+        {
+          "name": "Dazhongsi",
+          "longitude": "116.345139",
+          "latitude": "39.966612"
+        },
+        {
+          "name": "Renmin University",
+          "longitude": "116.321367",
+          "latitude": "39.966956"
+        },
+        {
+          "name": "Suzhou Bridge",
+          "longitude": "116.307831",
+          "latitude": "39.962314"
+        },
+        {
+          "name": "Changchunqiao",
+          "longitude": "116.294255",
+          "latitude": "39.958527"
+        },
+        {
+          "name": "Lan Dian Chang",
+          "longitude": "116.282593",
+          "latitude": "39.957117"
+        },
+        {
+          "name": "Sijiqing Bridge",
+          "longitude": "116.274193",
+          "latitude": "39.942414"
+        }
+      ]
+    },
+    {
+      "name": "Line 13",
+      "stations": [
+        {
+          "name": "Xizhimen",
+          "longitude": "116.355426",
+          "latitude": "39.940474"
+        },
+        {
+          "name": "Dazhongsi",
+          "longitude": "116.345139",
+          "latitude": "39.966612"
+        },
+        {
+          "name": "Zhichun Road",
+          "longitude": "116.339960",
+          "latitude": "39.976476"
+        },
+        {
+          "name": "Wudaokou",
+          "longitude": "116.337742",
+          "latitude": "39.992894"
+        },
+        {
+          "name": "Shangdi",
+          "longitude": "116.320193",
+          "latitude": "40.033007"
+        },
+        {
+          "name": "Qinghe Station",
+          "longitude": "116.314961",
+          "latitude": "40.041164"
+        },
+        {
+          "name": "Xierqi",
+          "longitude": "116.306295",
+          "latitude": "40.053034"
+        },
+        {
+          "name": "Longze",
+          "longitude": "116.319429",
+          "latitude": "40.070882"
+        },
+        {
+          "name": "Huilongguan",
+          "longitude": "116.336116",
+          "latitude": "40.070800"
+        },
+        {
+          "name": "Huoying",
+          "longitude": "116.360286",
+          "latitude": "40.071857"
+        },
+        {
+          "name": "Lishuiqiao",
+          "longitude": "116.412350",
+          "latitude": "40.053032"
+        },
+        {
+          "name": "Beiyuan",
+          "longitude": "116.434518",
+          "latitude": "40.042997"
+        },
+        {
+          "name": "Wangjing West",
+          "longitude": "116.447987",
+          "latitude": "39.994160"
+        },
+        {
+          "name": "Shaoyaoju",
+          "longitude": "116.435914",
+          "latitude": "39.977636"
+        },
+        {
+          "name": "Guangximen",
+          "longitude": "116.431761",
+          "latitude": "39.968337"
+        },
+        {
+          "name": "Liufang",
+          "longitude": "116.432728",
+          "latitude": "39.958157"
+        },
+        {
+          "name": "Dongzhimen",
+          "longitude": "116.435842",
+          "latitude": "39.941626"
+        }
+      ]
+    },
+    {
+      "name": "Line 14",
+      "stations": [
+        {
+          "name": "Shanggezhuang",
+          "longitude": "116.478195",
+          "latitude": "40.027160"
+        },
+        {
+          "name": "Laiguangying",
+          "longitude": "116.466999",
+          "latitude": "40.020430"
+        },
+        {
+          "name": "Donghuqu",
+          "longitude": "116.467415",
+          "latitude": "40.010566"
+        },
+        {
+          "name": "Wangjing",
+          "longitude": "116.469409",
+          "latitude": "39.998521"
+        },
+        {
+          "name": "Futong",
+          "longitude": "116.471544",
+          "latitude": "39.991835"
+        },
+        {
+          "name": "Wangjing South",
+          "longitude": "116.481880",
+          "latitude": "39.984670"
+        },
+        {
+          "name": "Jiangtai",
+          "longitude": "116.490213",
+          "latitude": "39.971026"
+        },
+        {
+          "name": "Dongfeng North Bridge",
+          "longitude": "116.485919",
+          "latitude": "39.958375"
+        },
+        {
+          "name": "Zaoying",
+          "longitude": "116.474947",
+          "latitude": "39.944132"
+        },
+        {
+          "name": "Chaoyang Park",
+          "longitude": "116.478291",
+          "latitude": "39.933492"
+        },
+        {
+          "name": "Jintai Road",
+          "longitude": "116.478115",
+          "latitude": "39.923556"
+        },
+        {
+          "name": "Dawanglu",
+          "longitude": "116.475783",
+          "latitude": "39.908287"
+        },
+        {
+          "name": "Jiulongshan",
+          "longitude": "116.478879",
+          "latitude": "39.893210"
+        },
+        {
+          "name": "Pingleyuan",
+          "longitude": "116.477307",
+          "latitude": "39.885275"
+        },
+        {
+          "name": "Beigongda West Gate",
+          "longitude": "116.477282",
+          "latitude": "39.875294"
+        },
+        {
+          "name": "Shilihe",
+          "longitude": "116.458103",
+          "latitude": "39.866135"
+        },
+        {
+          "name": "Fangzhuang",
+          "longitude": "116.440244",
+          "latitude": "39.865864"
+        },
+        {
+          "name": "Puhuangyu",
+          "longitude": "116.423087",
+          "latitude": "39.865584"
+        },
+        {
+          "name": "Jingtai",
+          "longitude": "116.411026",
+          "latitude": "39.865250"
+        },
+        {
+          "name": "Yongdingmenwai",
+          "longitude": "116.399369",
+          "latitude": "39.867435"
+        },
+        {
+          "name": "Beijing South Railway Station",
+          "longitude": "116.378963",
+          "latitude": "39.865029"
+        },
+        {
+          "name": "Jingfengmen",
+          "longitude": "116.366033",
+          "latitude": "39.862631"
+        },
+        {
+          "name": "Xietieying",
+          "longitude": "116.355953",
+          "latitude": "39.861358"
+        },
+        {
+          "name": "Caihuaying",
+          "longitude": "116.342444",
+          "latitude": "39.867627"
+        },
+        {
+          "name": "Lize Business District",
+          "longitude": "116.331268",
+          "latitude": "39.867718"
+        },
+        {
+          "name": "Dongguantou",
+          "longitude": "116.321197",
+          "latitude": "39.867570"
+        },
+        {
+          "name": "Xiju",
+          "longitude": "116.304106",
+          "latitude": "39.866676"
+        },
+        {
+          "name": "Qilizhuang",
+          "longitude": "116.294293",
+          "latitude": "39.866981"
+        },
+        {
+          "name": "Dajing",
+          "longitude": "116.276061",
+          "latitude": "39.865226"
+        },
+        {
+          "name": "Guozhuangzi",
+          "longitude": "116.253068",
+          "latitude": "39.864841"
+        },
+        {
+          "name": "Dawayao",
+          "longitude": "116.240480",
+          "latitude": "39.859470"
+        },
+        {
+          "name": "Garden Expo Park",
+          "longitude": "116.201643",
+          "latitude": "39.861328"
+        },
+        {
+          "name": "Zhangguozhuang",
+          "longitude": "116.187193",
+          "latitude": "39.858100"
+        }
+      ]
+    },
+    {
+      "name": "Line 15",
+      "stations": [
+        {
+          "name": "Fengbo",
+          "longitude": "116.684732",
+          "latitude": "40.132573"
+        },
+        {
+          "name": "Shunyi",
+          "longitude": "116.657023",
+          "latitude": "40.129994"
+        },
+        {
+          "name": "Shimen",
+          "longitude": "116.641117",
+          "latitude": "40.129802"
+        },
+        {
+          "name": "Nanfaxin",
+          "longitude": "116.609535",
+          "latitude": "40.128478"
+        },
+        {
+          "name": "Houshayu",
+          "longitude": "116.564211",
+          "latitude": "40.114127"
+        },
+        {
+          "name": "Hualikan",
+          "longitude": "116.557593",
+          "latitude": "40.084436"
+        },
+        {
+          "name": "National Exhibition Center",
+          "longitude": "116.555127",
+          "latitude": "40.070030"
+        },
+        {
+          "name": "Sunhe",
+          "longitude": "116.534700",
+          "latitude": "40.045113"
+        },
+        {
+          "name": "Maquanying",
+          "longitude": "116.503480",
+          "latitude": "40.033721"
+        },
+        {
+          "name": "Cuigezhuang",
+          "longitude": "116.492968",
+          "latitude": "40.022201"
+        },
+        {
+          "name": "Wangjing East",
+          "longitude": "116.487105",
+          "latitude": "40.003200"
+        },
+        {
+          "name": "Wangjing",
+          "longitude": "116.469409",
+          "latitude": "39.998521"
+        },
+        {
+          "name": "Wangjing West",
+          "longitude": "116.447987",
+          "latitude": "39.994160"
+        },
+        {
+          "name": "Guanzhuang",
+          "longitude": "116.430947",
+          "latitude": "40.001134"
+        },
+        {
+          "name": "Datun East Road",
+          "longitude": "116.417377",
+          "latitude": "40.003841"
+        },
+        {
+          "name": "Anli Road",
+          "longitude": "116.407845",
+          "latitude": "40.002619"
+        },
+        {
+          "name": "Olympic Park",
+          "longitude": "116.391758",
+          "latitude": "40.002207"
+        },
+        {
+          "name": "Beishatan",
+          "longitude": "116.368143",
+          "latitude": "40.001492"
+        },
+        {
+          "name": "Liudaokou",
+          "longitude": "116.352750",
+          "latitude": "40.000044"
+        },
+        {
+          "name": "Tsinghua East Road West Exit",
+          "longitude": "116.339530",
+          "latitude": "40.000673"
+        }
+      ]
+    },
+    {
+      "name": "Line 16",
+      "stations": [
+        {
+          "name": "Beianhe",
+          "longitude": "116.130428",
+          "latitude": "40.068128"
+        },
+        {
+          "name": "Wenyang Road",
+          "longitude": "116.161361",
+          "latitude": "40.068516"
+        },
+        {
+          "name": "Daoxianghu Road",
+          "longitude": "116.188145",
+          "latitude": "40.068936"
+        },
+        {
+          "name": "Tun Dian",
+          "longitude": "116.215850",
+          "latitude": "40.068454"
+        },
+        {
+          "name": "Yongfeng",
+          "longitude": "116.238481",
+          "latitude": "40.071868"
+        },
+        {
+          "name": "Yongfeng South",
+          "longitude": "116.248154",
+          "latitude": "40.065575"
+        },
+        {
+          "name": "Xibeiwang",
+          "longitude": "116.257923",
+          "latitude": "40.048703"
+        },
+        {
+          "name": "Malianwa",
+          "longitude": "116.274280",
+          "latitude": "40.032713"
+        },
+        {
+          "name": "Agricultural University South Road",
+          "longitude": "116.282272",
+          "latitude": "40.021398"
+        },
+        {
+          "name": "Xiyuan",
+          "longitude": "116.290908",
+          "latitude": "39.998258"
+        },
+        {
+          "name": "Wanquanhe Bridge",
+          "longitude": "116.300157",
+          "latitude": "39.985067"
+        },
+        {
+          "name": "Suzhou Street",
+          "longitude": "116.306332",
+          "latitude": "39.975642"
+        },
+        {
+          "name": "Suzhou Bridge",
+          "longitude": "116.307831",
+          "latitude": "39.962314"
+        },
+        {
+          "name": "Wanshou Temple",
+          "longitude": "116.309904",
+          "latitude": "39.947773"
+        },
+        {
+          "name": "National Library of China",
+          "longitude": "116.325190",
+          "latitude": "39.943114"
+        },
+        {
+          "name": "Erligou",
+          "longitude": "116.333701",
+          "latitude": "39.932410"
+        },
+        {
+          "name": "Ganjia Kou",
+          "longitude": "116.334534",
+          "latitude": "39.923392"
+        },
+        {
+          "name": "Yuyuantan East Gate",
+          "longitude": "116.334546",
+          "latitude": "39.914042"
+        },
+        {
+          "name": "Muxidi",
+          "longitude": "116.337583",
+          "latitude": "39.907379"
+        },
+        {
+          "name": "Daguanying",
+          "longitude": "116.335608",
+          "latitude": "39.889898"
+        },
+        {
+          "name": "Honglian South Road",
+          "longitude": "116.336668",
+          "latitude": "39.877533"
+        },
+        {
+          "name": "Lize Business District",
+          "longitude": "116.331268",
+          "latitude": "39.867718"
+        },
+        {
+          "name": "Dongguantou South",
+          "longitude": "116.323133",
+          "latitude": "39.855638"
+        },
+        {
+          "name": "Fengtai Railway Station",
+          "longitude": "116.304501",
+          "latitude": "39.850249"
+        },
+        {
+          "name": "Fengtai South Road",
+          "longitude": "116.296552",
+          "latitude": "39.841106"
+        },
+        {
+          "name": "Fufeng Bridge",
+          "longitude": "116.287023",
+          "latitude": "39.836228"
+        },
+        {
+          "name": "Kandan",
+          "longitude": "116.272519",
+          "latitude": "39.834910"
+        },
+        {
+          "name": "Yushuzhuang",
+          "longitude": "116.258964",
+          "latitude": "39.838742"
+        },
+        {
+          "name": "Hongtaizhuang",
+          "longitude": "116.249321",
+          "latitude": "39.848538"
+        },
+        {
+          "name": "Wanping City",
+          "longitude": "116.229571",
+          "latitude": "39.849056"
+        }
+      ]
+    },
+    {
+      "name": "Line 17",
+      "stations": [
+        {
+          "name": "Jiahui Lake",
+          "longitude": "116.610369",
+          "latitude": "39.792902"
+        },
+        {
+          "name": "Ciqu",
+          "longitude": "116.591563",
+          "latitude": "39.803550"
+        },
+        {
+          "name": "Ciqu North",
+          "longitude": "116.576670",
+          "latitude": "39.809390"
+        },
+        {
+          "name": "Beishenshu",
+          "longitude": "116.552736",
+          "latitude": "39.818596"
+        },
+        {
+          "name": "Shibalidian",
+          "longitude": "116.495847",
+          "latitude": "39.844300"
+        },
+        {
+          "name": "Zhoujiazhuang",
+          "longitude": "116.476361",
+          "latitude": "39.856706"
+        },
+        {
+          "name": "Shilihe",
+          "longitude": "116.458103",
+          "latitude": "39.866135"
+        },
+        {
+          "name": "Panjiayuan West",
+          "longitude": "116.450869",
+          "latitude": "39.875272"
+        },
+        {
+          "name": "Yong'anli",
+          "longitude": "116.450305",
+          "latitude": "39.909823"
+        },
+        {
+          "name": "Dongdaqiao",
+          "longitude": "116.450379",
+          "latitude": "39.922852"
+        },
+        {
+          "name": "Workers' Stadium",
+          "longitude": "116.450448",
+          "latitude": "39.934058"
+        },
+        {
+          "name": "Zuojiazhuang",
+          "longitude": "116.442720",
+          "latitude": "39.949968"
+        },
+        {
+          "name": "Xibahe",
+          "longitude": "116.442254",
+          "latitude": "39.965710"
+        },
+        {
+          "name": "Taiyanggong",
+          "longitude": "116.448213",
+          "latitude": "39.973816"
+        },
+        {
+          "name": "Wangjing West",
+          "longitude": "116.447987",
+          "latitude": "39.994160"
+        },
+        {
+          "name": "Hongjunying",
+          "longitude": "116.441797",
+          "latitude": "40.033722"
+        },
+        {
+          "name": "Qingheying",
+          "longitude": "116.442102",
+          "latitude": "40.050784"
+        },
+        {
+          "name": "Tiantongyuan East",
+          "longitude": "116.442340",
+          "latitude": "40.068348"
+        },
+        {
+          "name": "Future Science City",
+          "longitude": "116.466838",
+          "latitude": "40.115628"
+        },
+        {
+          "name": "Future Science City North",
+          "longitude": "116.468858",
+          "latitude": "40.130075"
+        }
+      ]
+    },
+    {
+      "name": "Line 18",
+      "stations": [
+        {
+          "name": "Malianwa",
+          "longitude": "116.274280",
+          "latitude": "40.032713"
+        },
+        {
+          "name": "Shangdi Software Park",
+          "longitude": "116.286834",
+          "latitude": "40.043954"
+        },
+        {
+          "name": "Dongbeiwang",
+          "longitude": "116.295038",
+          "latitude": "40.053069"
+        },
+        {
+          "name": "Longze West",
+          "longitude": "116.309473",
+          "latitude": "40.072710"
+        },
+        {
+          "name": "Huilongguan West Street",
+          "longitude": "116.330669",
+          "latitude": "40.078414"
+        },
+        {
+          "name": "Wenhua Road",
+          "longitude": "116.342685",
+          "latitude": "40.080137"
+        },
+        {
+          "name": "Huilongguan East Street",
+          "longitude": "116.363027",
+          "latitude": "40.081194"
+        },
+        {
+          "name": "Huoying East",
+          "longitude": "116.376549",
+          "latitude": "40.082034"
+        },
+        {
+          "name": "Tiantongyuan",
+          "longitude": "116.412890",
+          "latitude": "40.075248"
+        },
+        {
+          "name": "Taipingzhuang",
+          "longitude": "116.426731",
+          "latitude": "40.074126"
+        },
+        {
+          "name": "Tiantongyuan East",
+          "longitude": "116.442340",
+          "latitude": "40.068348"
+        }
+      ]
+    },
+    {
+      "name": "Line 19",
+      "stations": [
+        {
+          "name": "Xingong",
+          "longitude": "116.365549",
+          "latitude": "39.812592"
+        },
+        {
+          "name": "Xinfadi",
+          "longitude": "116.346333",
+          "latitude": "39.823455"
+        },
+        {
+          "name": "Caoqiao",
+          "longitude": "116.351387",
+          "latitude": "39.845869"
+        },
+        {
+          "name": "Jingfengmen",
+          "longitude": "116.366033",
+          "latitude": "39.862631"
+        },
+        {
+          "name": "Niujie",
+          "longitude": "116.363481",
+          "latitude": "39.889605"
+        },
+        {
+          "name": "Taipingqiao",
+          "longitude": "116.363245",
+          "latitude": "39.909755"
+        },
+        {
+          "name": "Ping'anli",
+          "longitude": "116.372883",
+          "latitude": "39.933949"
+        },
+        {
+          "name": "Jishuitan",
+          "longitude": "116.373126",
+          "latitude": "39.948653"
+        },
+        {
+          "name": "Beitaipingzhuang",
+          "longitude": "116.370037",
+          "latitude": "39.967882"
+        },
+        {
+          "name": "Mudanyuan",
+          "longitude": "116.369844",
+          "latitude": "39.976603"
+        }
+      ]
+    },
+    {
+      "name": "Changping Line",
+      "stations": [
+        {
+          "name": "Changping Xishankou",
+          "longitude": "116.195371",
+          "latitude": "40.244624"
+        },
+        {
+          "name": "Thirteen Tombs Scenic Area",
+          "longitude": "116.207729",
+          "latitude": "40.240255"
+        },
+        {
+          "name": "Changping",
+          "longitude": "116.233590",
+          "latitude": "40.220550"
+        },
+        {
+          "name": "Changping Dongguan",
+          "longitude": "116.262059",
+          "latitude": "40.221726"
+        },
+        {
+          "name": "Beishaowa",
+          "longitude": "116.281949",
+          "latitude": "40.222001"
+        },
+        {
+          "name": "Nanshao",
+          "longitude": "116.287534",
+          "latitude": "40.207492"
+        },
+        {
+          "name": "Shahe Higher Education Park",
+          "longitude": "116.280465",
+          "latitude": "40.164666"
+        },
+        {
+          "name": "Shahe",
+          "longitude": "116.288865",
+          "latitude": "40.148278"
+        },
+        {
+          "name": "Gonghuacheng",
+          "longitude": "116.293979",
+          "latitude": "40.130900"
+        },
+        {
+          "name": "Zhuxinzhuang",
+          "longitude": "116.313698",
+          "latitude": "40.104297"
+        },
+        {
+          "name": "Life Science Park",
+          "longitude": "116.294230",
+          "latitude": "40.094790"
+        },
+        {
+          "name": "Xierqi",
+          "longitude": "116.306295",
+          "latitude": "40.053034"
+        },
+        {
+          "name": "Qinghe Station",
+          "longitude": "116.314961",
+          "latitude": "40.041164"
+        },
+        {
+          "name": "Zhufang North",
+          "longitude": "116.331711",
+          "latitude": "40.035954"
+        },
+        {
+          "name": "Qinghe Xiaoying Bridge",
+          "longitude": "116.343739",
+          "latitude": "40.034723"
+        },
+        {
+          "name": "Xuezhiyuan",
+          "longitude": "116.352195",
+          "latitude": "40.015011"
+        },
+        {
+          "name": "Liudaokou",
+          "longitude": "116.352750",
+          "latitude": "40.000044"
+        },
+        {
+          "name": "Xueyuan Bridge",
+          "longitude": "116.353438",
+          "latitude": "39.988206"
+        },
+        {
+          "name": "Xitucheng",
+          "longitude": "116.354314",
+          "latitude": "39.976372"
+        },
+        {
+          "name": "Jimen Bridge",
+          "longitude": "116.355970",
+          "latitude": "39.967747"
+        }
+      ]
+    },
+    {
+      "name": "Daxing Airport Express",
+      "stations": [
+        {
+          "name": "Caoqiao",
+          "longitude": "116.351387",
+          "latitude": "39.845869"
+        },
+        {
+          "name": "Daxing Xincheng",
+          "longitude": "116.365522",
+          "latitude": "39.735583"
+        },
+        {
+          "name": "Daxing Airport",
+          "longitude": "116.416608",
+          "latitude": "39.513289"
+        }
+      ]
+    },
+    {
+      "name": "Fangshan Line",
+      "stations": [
+        {
+          "name": "Yancun East",
+          "longitude": "116.100817",
+          "latitude": "39.729028"
+        },
+        {
+          "name": "Suzhuang",
+          "longitude": "116.125306",
+          "latitude": "39.723188"
+        },
+        {
+          "name": "Liangxiang Nanguan",
+          "longitude": "116.140804",
+          "latitude": "39.723202"
+        },
+        {
+          "name": "Liangxiang University City West",
+          "longitude": "116.156282",
+          "latitude": "39.723157"
+        },
+        {
+          "name": "Liangxiang University City",
+          "longitude": "116.176541",
+          "latitude": "39.723159"
+        },
+        {
+          "name": "Liangxiang University City North",
+          "longitude": "116.183480",
+          "latitude": "39.729906"
+        },
+        {
+          "name": "Guangyangcheng",
+          "longitude": "116.184985",
+          "latitude": "39.747930"
+        },
+        {
+          "name": "Libafang",
+          "longitude": "116.189486",
+          "latitude": "39.760636"
+        },
+        {
+          "name": "Changyang",
+          "longitude": "116.212692",
+          "latitude": "39.763871"
+        },
+        {
+          "name": "Daotian",
+          "longitude": "116.218840",
+          "latitude": "39.794885"
+        },
+        {
+          "name": "Dabaotai",
+          "longitude": "116.291681",
+          "latitude": "39.807810"
+        },
+        {
+          "name": "Guogongzhuang",
+          "longitude": "116.301889",
+          "latitude": "39.814322"
+        },
+        {
+          "name": "Baipenyao",
+          "longitude": "116.313391",
+          "latitude": "39.819590"
+        },
+        {
+          "name": "Huaxiang East Bridge",
+          "longitude": "116.320064",
+          "latitude": "39.829211"
+        },
+        {
+          "name": "Shoujingmao",
+          "longitude": "116.320202",
+          "latitude": "39.844463"
+        },
+        {
+          "name": "Dongguantou South",
+          "longitude": "116.323133",
+          "latitude": "39.855638"
+        }
+      ]
+    },
+    {
+      "name": "Capital Airport Express",
+      "stations": [
+        {
+          "name": "Terminal 3",
+          "longitude": "116.615583",
+          "latitude": "40.052657"
+        },
+        {
+          "name": "Terminal 2",
+          "longitude": "116.592808",
+          "latitude": "40.079311"
+        },
+        {
+          "name": "Sanyuanqiao",
+          "longitude": "116.456997",
+          "latitude": "39.961508"
+        },
+        {
+          "name": "Dongzhimen",
+          "longitude": "116.435842",
+          "latitude": "39.941626"
+        },
+        {
+          "name": "Beixinqiao",
+          "longitude": "116.416884",
+          "latitude": "39.940782"
+        }
+      ]
+    },
+    {
+      "name": "Xijiao Line",
+      "stations": [
+        {
+          "name": "Bagou",
+          "longitude": "116.293357",
+          "latitude": "39.974414"
+        },
+        {
+          "name": "Summer Palace West Gate",
+          "longitude": "116.263248",
+          "latitude": "39.985697"
+        },
+        {
+          "name": "Chapeng",
+          "longitude": "116.248100",
+          "latitude": "39.982113"
+        },
+        {
+          "name": "Wan'an",
+          "longitude": "116.231977",
+          "latitude": "39.984001"
+        },
+        {
+          "name": "National Botanical Garden",
+          "longitude": "116.215722",
+          "latitude": "39.993537"
+        },
+        {
+          "name": "Fragrant Hills",
+          "longitude": "116.204491",
+          "latitude": "39.994056"
+        }
+      ]
+    },
+    {
+      "name": "Yanfang Line",
+      "stations": [
+        {
+          "name": "Yancun East",
+          "longitude": "116.100817",
+          "latitude": "39.729028"
+        },
+        {
+          "name": "Zicaowu",
+          "longitude": "116.086720",
+          "latitude": "39.724606"
+        },
+        {
+          "name": "Yancun",
+          "longitude": "116.080165",
+          "latitude": "39.716731"
+        },
+        {
+          "name": "Xingcheng",
+          "longitude": "116.061370",
+          "latitude": "39.713681"
+        },
+        {
+          "name": "Dashihe East",
+          "longitude": "116.039906",
+          "latitude": "39.709893"
+        },
+        {
+          "name": "Magexiang",
+          "longitude": "116.016606",
+          "latitude": "39.705103"
+        },
+        {
+          "name": "Raolefu",
+          "longitude": "116.006103",
+          "latitude": "39.701471"
+        },
+        {
+          "name": "Fangshan Chengguan",
+          "longitude": "115.989599",
+          "latitude": "39.706061"
+        },
+        {
+          "name": "Yanshan",
+          "longitude": "115.973395",
+          "latitude": "39.719615"
+        }
+      ]
+    },
+    {
+      "name": "Yizhuang Line",
+      "stations": [
+        {
+          "name": "Songjiazhuang",
+          "longitude": "116.428368",
+          "latitude": "39.845849"
+        },
+        {
+          "name": "Xiaocun",
+          "longitude": "116.448364",
+          "latitude": "39.834217"
+        },
+        {
+          "name": "Xiaohongmen",
+          "longitude": "116.459226",
+          "latitude": "39.827951"
+        },
+        {
+          "name": "Jiugong",
+          "longitude": "116.460789",
+          "latitude": "39.806910"
+        },
+        {
+          "name": "Yizhuang Bridge",
+          "longitude": "116.480307",
+          "latitude": "39.803011"
+        },
+        {
+          "name": "Yizhuang Cultural Park",
+          "longitude": "116.490632",
+          "latitude": "39.806890"
+        },
+        {
+          "name": "Wanyuan Street",
+          "longitude": "116.505403",
+          "latitude": "39.802971"
+        },
+        {
+          "name": "Rongjing East Street",
+          "longitude": "116.513321",
+          "latitude": "39.793189"
+        },
+        {
+          "name": "Rongchang East Street",
+          "longitude": "116.521688",
+          "latitude": "39.782832"
+        },
+        {
+          "name": "Tongji North Road",
+          "longitude": "116.539901",
+          "latitude": "39.772962"
+        },
+        {
+          "name": "Jinghai Road",
+          "longitude": "116.562321",
+          "latitude": "39.783673"
+        },
+        {
+          "name": "Ciqu South",
+          "longitude": "116.581357",
+          "latitude": "39.795118"
+        },
+        {
+          "name": "Ciqu",
+          "longitude": "116.591563",
+          "latitude": "39.803550"
+        },
+        {
+          "name": "Yizhuang Railway Station",
+          "longitude": "116.601913",
+          "latitude": "39.812607"
+        }
+      ]
+    }
+  ]
+}

@@ -15,7 +15,7 @@ REPO_ROOT = Path(__file__).resolve().parents[1]
 if str(REPO_ROOT) not in sys.path:
     sys.path.insert(0, str(REPO_ROOT))
 
-from simulation.models import normalize_simulator_model, slug
+from simulation.models import default_output_root, normalize_simulator_model, slug
 
 DEFAULT_JUDGES = (
     "qwen3.6-27b-vllm",
@@ -31,7 +31,9 @@ def _load_json(path: Path) -> Any:
 
 def _score_from_artifact(path: Path) -> tuple[float | None, float | None]:
     payload = _load_json(path)
-    recalculation = payload.get("score_recalculation") if isinstance(payload, dict) else {}
+    recalculation = (
+        payload.get("score_recalculation") if isinstance(payload, dict) else {}
+    )
     if not isinstance(recalculation, dict):
         return None, None
     score = recalculation.get("recomputed_score")
@@ -55,9 +57,9 @@ def _artifact_dirs_for_judge(judge: str, result_dir: Path, run_slug: str) -> lis
     if normalized_judge == "qwen3.6-27b-vllm":
         return [
             result_dir / "evaluation" / "user_simulations",
-            Path("simulation") / normalized_judge / run_slug / "user_simulations",
+            default_output_root(normalized_judge) / run_slug / "user_simulations",
         ]
-    return [Path("simulation") / normalized_judge / run_slug / "user_simulations"]
+    return [default_output_root(normalized_judge) / run_slug / "user_simulations"]
 
 
 def _collect_scores(judge: str, artifact_dir: Path) -> dict[str, dict[str, Any]]:
@@ -94,7 +96,9 @@ def aggregate_median(
             judge_scores.update(_collect_scores(judge, artifact_dir))
         judge_counts[judge] = len(judge_scores)
         for sample_key, item in judge_scores.items():
-            plan_entry = by_plan.setdefault(sample_key, {"sample_key": sample_key, "judge_scores": {}})
+            plan_entry = by_plan.setdefault(
+                sample_key, {"sample_key": sample_key, "judge_scores": {}}
+            )
             plan_entry["judge_scores"][judge] = {
                 "score": item["score"],
                 "score_1_5": item["score_1_5"],
@@ -123,13 +127,15 @@ def aggregate_median(
             median_scores.append(float(median_score))
         if included_in_mean and median_score_1_5 is not None:
             median_scores_1_5.append(float(median_score_1_5))
-        rows.append({
-            **entry,
-            "judge_count": len(scores),
-            "included_in_mean": included_in_mean,
-            "median_score": median_score,
-            "median_score_1_5": median_score_1_5,
-        })
+        rows.append(
+            {
+                **entry,
+                "judge_count": len(scores),
+                "included_in_mean": included_in_mean,
+                "median_score": median_score,
+                "median_score_1_5": median_score_1_5,
+            }
+        )
 
     summary = {
         "mode": "median_user_simulation",
@@ -139,9 +145,17 @@ def aggregate_median(
         "min_judges": min_judges,
         "judge_artifact_counts": judge_counts,
         "plan_count_with_any_score": len(rows),
-        "plan_count_included_in_mean": sum(1 for row in rows if row["included_in_mean"]),
-        "plan_count_with_all_judges": sum(1 for row in rows if row["judge_count"] == len(judges)),
-        "mean_median_score": round(sum(median_scores) / len(median_scores), 6) if median_scores else None,
+        "plan_count_included_in_mean": sum(
+            1 for row in rows if row["included_in_mean"]
+        ),
+        "plan_count_with_all_judges": sum(
+            1 for row in rows if row["judge_count"] == len(judges)
+        ),
+        "mean_median_score": (
+            round(sum(median_scores) / len(median_scores), 6)
+            if median_scores
+            else None
+        ),
         "mean_median_score_1_5": (
             round(sum(median_scores_1_5) / len(median_scores_1_5), 6)
             if median_scores_1_5
@@ -150,14 +164,20 @@ def aggregate_median(
         "results": rows,
     }
     output.parent.mkdir(parents=True, exist_ok=True)
-    output.write_text(json.dumps(summary, ensure_ascii=False, indent=2), encoding="utf-8")
+    output.write_text(
+        json.dumps(summary, ensure_ascii=False, indent=2), encoding="utf-8"
+    )
     return summary
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Aggregate median user-simulation scores across judges.")
+    parser = argparse.ArgumentParser(
+        description="Aggregate median user-simulation scores across judges."
+    )
     parser.add_argument("--result-dir", type=Path, required=True)
-    parser.add_argument("--judge", action="append", default=None, help="Judge model name. Can repeat.")
+    parser.add_argument(
+        "--judge", action="append", default=None, help="Judge model name. Can repeat."
+    )
     parser.add_argument(
         "--min-judges",
         type=int,
@@ -168,12 +188,22 @@ def main() -> None:
         "--output",
         type=Path,
         default=None,
-        help="Defaults to simulation/median/<source-model>/user_simulation_median_summary.json.",
+        help="Defaults to result/user_simulation/median/<source-model>/user_simulation_median_summary.json.",
     )
     args = parser.parse_args()
     run_slug = slug(args.result_dir.name.removesuffix("_en"))
-    output = args.output or Path("simulation") / "median" / run_slug / "user_simulation_median_summary.json"
-    judges = [normalize_simulator_model(judge) for judge in (args.judge or list(DEFAULT_JUDGES))]
+    output = (
+        args.output
+        or Path("result")
+        / "user_simulation"
+        / "median"
+        / run_slug
+        / "user_simulation_median_summary.json"
+    )
+    judges = [
+        normalize_simulator_model(judge)
+        for judge in (args.judge or list(DEFAULT_JUDGES))
+    ]
 
     summary = aggregate_median(
         result_dir=args.result_dir,
