@@ -6,8 +6,6 @@ and LLM-based user simulation.
 
 ![Trip-Plus benchmark overview](Fig/overview.png)
 
-For the vector version, see [Fig/overview.pdf](Fig/overview.pdf).
-
 ## Quick Start
 
 ```bash
