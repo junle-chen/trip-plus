@@ -15,13 +15,13 @@ cp env.example .env
 
 Edit `.env` with the API keys and endpoints used by `models_config.json`.
 
-This anonymous release includes the full query file at
+This release includes the full query file at
 `query/query_en/multiturn/query.json`. The complete database is too large to
 commit, so this repository tracks only two smoke-test sample
 databases under `database/sample/en/` plus the city-level Beijing database
-under `database/en/beijing/` for reviewers to inspect the source data format.
+under `database/en/beijing/` for people to inspect the source data format.
 Due to repository size limits, Beijing is included as one representative city
-from the 40-city source database.
+from the 40-city source database. 
 
 If you need a local OpenAI-compatible vLLM server, start it before running
 samples. The helper script takes the serving preset as its first argument:
