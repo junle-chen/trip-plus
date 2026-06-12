@@ -4,6 +4,10 @@ Trip-Plus is a travel-planning benchmark for evaluating LLM agents with
 database-backed tools, itinerary conversion, deterministic rule-based scoring,
 and LLM-based user simulation.
 
+![Trip-Plus benchmark overview](Fig/overview.png)
+
+For the vector version, see [Fig/overview.pdf](Fig/overview.pdf).
+
 ## Quick Start
 
 ```bash
@@ -22,6 +26,18 @@ databases under `database/sample/en/` plus the city-level Beijing database
 under `database/en/beijing/` for people to inspect the source data format.
 Due to repository size limits, Beijing is included as one representative city
 from the 40-city source database. 
+
+Download the full database package when running the complete benchmark:
+
+```bash
+python -m pip install gdown
+gdown --id 1Xuhu-2zpviw5qtdnkO_8cU8jKFaYxDUT -O database.tar.gz
+echo "8d8dd35c8075ef61c75d125417c9b39753fc2308cb5f463475711aa304df8bf9  database.tar.gz" | sha256sum -c -
+tar -xzf database.tar.gz
+```
+
+The archive expands to `database/` and provides the complete
+`database/sample/en/` and `database/en/` layouts.
 
 If you need a local OpenAI-compatible vLLM server, start it before running
 samples. The helper script takes the serving preset as its first argument:
@@ -320,3 +336,14 @@ result/example_run/qwen3.6-27b-vllm_en/
 
 Most top-level subdirectories include a local `README.md` with module-specific
 notes.
+
+## Acknowledgements
+
+Trip-Plus builds on the long-horizon travel-planning benchmark line introduced
+by Qwen's DeepPlanning project. We thank the Qwen team for releasing
+[DeepPlanning](https://github.com/QwenLM/Qwen-Agent/tree/main/benchmark/deepplanning)
+as part of the Qwen-Agent repository.
+
+## License
+
+This project is released under the Apache License 2.0. See [LICENSE](LICENSE).
