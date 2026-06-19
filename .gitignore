@@ -1,4 +1,5 @@
 # Local environment and secrets
+.gitignore
 .env
 .env.*
 !.env.example
@@ -80,3 +81,4 @@ query/query_en/multiturn/user_state_evolution/
 
 # Optional single-turn benchmark data (not needed for multi-turn-only release)
 query/query_en/single/
+AGENTS.md

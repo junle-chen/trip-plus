@@ -1,5 +1,12 @@
 # Trip-Plus
 
+<table align="center">
+  <tr>
+    <td align="center"><img src="Fig/icon.jpg" alt="Trip-Plus icon" width="40"></td>
+    <td align="center"><a href="https://junle-chen.github.io/trip-plus-site/">https://junle-chen.github.io/trip-plus-site/</a></td>
+  </tr>
+</table>
+
 Trip-Plus is a travel-planning benchmark for evaluating LLM agents with
 database-backed tools, itinerary conversion, deterministic rule-based scoring,
 and LLM-based user simulation.
@@ -25,17 +32,19 @@ under `database/en/beijing/` for people to inspect the source data format.
 Due to repository size limits, Beijing is included as one representative city
 from the 40-city source database. 
 
-Download the full database package when running the complete benchmark:
+Download the full database from Hugging Face when running the complete
+benchmark. Run this command from the repository root:
 
 ```bash
-python -m pip install gdown
-gdown --id 1Xuhu-2zpviw5qtdnkO_8cU8jKFaYxDUT -O database.tar.gz
-echo "8d8dd35c8075ef61c75d125417c9b39753fc2308cb5f463475711aa304df8bf9  database.tar.gz" | sha256sum -c -
-tar -xzf database.tar.gz
+python -m pip install -U huggingface_hub
+hf download Junle-cs/trip-plus-database \
+  --repo-type dataset \
+  --include "database/**" \
+  --local-dir .
 ```
 
-The archive expands to `database/` and provides the complete
-`database/sample/en/` and `database/en/` layouts.
+The download fills `database/` with the complete `database/sample/en/` and
+`database/en/` layouts.
 
 If you need a local OpenAI-compatible vLLM server, start it before running
 samples. The helper script takes the serving preset as its first argument:
