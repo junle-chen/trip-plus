@@ -1,11 +1,9 @@
-# Trip-Plus
+<h1 align="center">Trip-Plus</h1>
 
-<table align="center">
-  <tr>
-    <td align="center"><img src="Fig/icon.jpg" alt="Trip-Plus icon" width="40"></td>
-    <td align="center"><a href="https://junle-chen.github.io/trip-plus-site/">https://junle-chen.github.io/trip-plus-site/</a></td>
-  </tr>
-</table>
+<p align="center">
+  <img src="Fig/icon.jpg" alt="Trip-Plus icon" width="48" style="vertical-align: middle;">
+  <a href="https://junle-chen.github.io/trip-plus-site/" style="vertical-align: middle;">https://junle-chen.github.io/trip-plus-site/</a>
+</p>
 
 Trip-Plus is a travel-planning benchmark for evaluating LLM agents with
 database-backed tools, itinerary conversion, deterministic rule-based scoring,
