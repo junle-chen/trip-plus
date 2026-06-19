@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="Fig/icon.png" alt="Trip-Plus icon" width="48" style="vertical-align: middle;">
-  <a href="https://junle-chen.github.io/trip-plus-site/" style="vertical-align: middle;">https://junle-chen.github.io/trip-plus-site/</a>
+  <a href="https://junle-chen.github.io/trip-plus-site/" style="vertical-align: middle;">Website</a>
 </p>
 
 Trip-Plus is a travel-planning benchmark for evaluating LLM agents with
