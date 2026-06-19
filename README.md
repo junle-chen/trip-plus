@@ -1,7 +1,7 @@
 <h1 align="center">Trip-Plus</h1>
 
 <p align="center">
-  <img src="Fig/icon.jpg" alt="Trip-Plus icon" width="48" style="vertical-align: middle;">
+  <img src="Fig/icon.png" alt="Trip-Plus icon" width="48" style="vertical-align: middle;">
   <a href="https://junle-chen.github.io/trip-plus-site/" style="vertical-align: middle;">https://junle-chen.github.io/trip-plus-site/</a>
 </p>
 
